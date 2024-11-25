@@ -11,21 +11,36 @@ header * {
   background: url('./assets/japaneseMatrix.jpeg') center;
   color: #fff;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+header.scrolled {
+  background-color: #222;
+  padding: 1rem;
 }
 
 
 header h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
 header nav a {
   color: #fff;
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   font-weight: bold;
+  font-size: 0.8rem;
+
 }
 
 header nav a:hover {
@@ -44,30 +59,6 @@ h2 {
   text-transform: uppercase;
 }
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-}
-
-.project {
-  border: 2px solid #333;
-  padding: 2rem;
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  background: #f9f9f9;
-  transition: all 0.3s ease-in-out;
-}
-
-.project:hover {
-  transform: scale(1.05);
-  border-color: #f39c12;
-}
 
 /* Form */
 form {
@@ -100,4 +91,82 @@ form button {
 form button:hover {
   background-color: #f39c12;
   color: #000;
+}
+
+
+
+
+header.scrolled {
+  padding: 0.5rem; /* Noch kompakter, wenn gescrollt */
+  font-size: 0.8rem;
+}
+
+.project {
+  position: relative;
+  overflow: hidden;
+  background: url('./assets/ubuntu.jpg') center/cover no-repeat;
+  color: #fff; /* Beibehalten für guten Kontrast */
+}
+
+.project::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Stärkere Überlagerung */
+  opacity: 1; /* Standardmäßig sichtbar */
+  transition: opacity 0.3s;
+}
+
+.project:hover::after {
+  opacity: 0.5; /* Leicht abschwächen, um Fokus auf den Inhalt zu setzen */
+}
+
+.project h3,
+.project p {
+  z-index: 1;
+  position: relative;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Schatten hinter dem Text */
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  border-color: #f39c12;
+  background-color: rgba(255, 255, 255, 0.1); /* Leichte Hervorhebung */
+}
+
+.project:hover h3,
+.project:hover p {
+  color: #f39c12; /* Textfarbe beim Hovern ändern */
+}
+
+.project {
+  position: relative;
+  overflow: hidden;
+  background: url('./assets/ubuntu.jpg') center/cover no-repeat;
+  color: #fff;
+}
+
+.project::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Standardmäßig etwas sichtbar */
+  opacity: 1; /* Deutliche Überlagerung */
+  transition: opacity 0.3s ease-in-out;
 }
