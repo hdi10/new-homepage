@@ -1,17 +1,19 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 function Home() {
+    const { t } = useTranslation();
+
     return (
         <section id="home" style={{ padding: '2rem', textAlign: 'center' }}>
             <Helmet>
-                <title>Home - My Portfolio</title>
-                <meta name="description" content="Welcome to my portfolio website. Discover my skills and projects." />
-                <meta name="keywords" content="Portfolio, Home, Welcome" />
+                <title>{t('home.title')}</title>
+                <meta name="description" content={t('home.description')} />
             </Helmet>
             <div data-aos="zoom-in">
-                <h2>Home</h2>
+                <h2>{t('home.welcome')}</h2>
                 <motion.div
                     style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}
                     initial={{ opacity: 0 }}
@@ -19,10 +21,10 @@ function Home() {
                     transition={{ delay: 0.5, duration: 1 }}
                 >
                     <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: '#f9f9f9' }}>
-                        Dienstleistungen
+                        {t('home.services')}
                     </div>
                     <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: '#f9f9f9' }}>
-                        Blog
+                        {t('home.blog')}
                     </div>
                 </motion.div>
             </div>

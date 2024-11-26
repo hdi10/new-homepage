@@ -1,0 +1,26 @@
+{
+  "header": {
+    "title": "My Portfolio",
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "about": "About Me",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to my portfolio!",
+    "services": "Services",
+    "blog": "Blog"
+  },
+  "portfolio": {
+    "title": "My Projects",
+    "description": "Explore my portfolio, showcasing web development, mobile apps, and more."
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Learn more about my journey and expertise in software development."
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "Get in touch for inquiries or collaborations."
+  }
+}

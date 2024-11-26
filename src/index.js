@@ -4,6 +4,7 @@ import App from './App';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './i18n'; // Importiere i18n, um es global zu aktivieren
 
 AOS.init();
 

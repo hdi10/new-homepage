@@ -4,6 +4,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
 import Button from '@mui/material/Button';
+import { useTranslation } from 'react-i18next';
 
 const validationSchema = Yup.object({
     name: Yup.string().required('Name is required'),
@@ -12,6 +13,8 @@ const validationSchema = Yup.object({
 });
 
 function Contact() {
+    const { t } = useTranslation();
+
     const handleSubmit = (values) => {
         axios.post('https://example.com/contact', values).then((response) => {
             console.log(response.data);
@@ -21,12 +24,12 @@ function Contact() {
     return (
         <section id="contact" style={{ padding: '2rem', textAlign: 'center' }}>
             <Helmet>
-                <title>Contact Me - Get in Touch</title>
-                <meta name="description" content="Contact me for any inquiries or collaborations." />
+                <title>{t('contact.title')}</title>
+                <meta name="description" content={t('contact.description')} />
                 <meta name="keywords" content="Contact, Portfolio, Get in Touch" />
             </Helmet>
             <div data-aos="fade-up">
-                <h2>Contact Me</h2>
+                <h2>{t('contact.title')}</h2>
                 <Formik
                     initialValues={{ name: '', email: '', message: '' }}
                     validationSchema={validationSchema}
@@ -35,19 +38,19 @@ function Contact() {
                     {() => (
                         <Form>
                             <div>
-                                <Field name="name" placeholder="Your Name" />
+                                <Field name="name" placeholder={t('contact.placeholder.name')} />
                                 <ErrorMessage name="name" component="div" />
                             </div>
                             <div>
-                                <Field name="email" type="email" placeholder="Your Email" />
+                                <Field name="email" type="email" placeholder={t('contact.placeholder.email')} />
                                 <ErrorMessage name="email" component="div" />
                             </div>
                             <div>
-                                <Field name="message" as="textarea" placeholder="Your Message" />
+                                <Field name="message" as="textarea" placeholder={t('contact.placeholder.message')} />
                                 <ErrorMessage name="message" component="div" />
                             </div>
                             <Button variant="contained" color="primary">
-                                Send
+                                {t('contact.send')}
                             </Button>
                         </Form>
                     )}

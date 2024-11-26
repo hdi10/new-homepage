@@ -1,0 +1,26 @@
+{
+  "header": {
+    "title": "Benim Portfolyom",
+    "home": "Ana Sayfa",
+    "portfolio": "Portföy",
+    "about": "Hakkımda",
+    "contact": "İletişim"
+  },
+  "home": {
+    "welcome": "Portföyüme hoş geldiniz!",
+    "services": "Hizmetler",
+    "blog": "Blog"
+  },
+  "portfolio": {
+    "title": "Projelerim",
+    "description": "Web geliştirme, mobil uygulamalar ve daha fazlasını içeren portföyümü keşfedin."
+  },
+  "about": {
+    "title": "Hakkımda",
+    "description": "Yazılım geliştirme konusundaki yolculuğum ve uzmanlığım hakkında daha fazla bilgi edinin."
+  },
+  "contact": {
+    "title": "İletişime Geç",
+    "description": "Soru ve işbirliği için benimle iletişime geçin."
+  }
+}
