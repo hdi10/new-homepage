@@ -14,7 +14,21 @@
   },
   "portfolio": {
     "title": "My Projects",
-    "description": "Explore my portfolio, showcasing web development, mobile apps, and more."
+    "description": "Explore my portfolio, showcasing web development, mobile apps, and more.",
+
+      "project1": {
+        "title": "ZelTimer",
+        "description": "Time management"
+      },
+      "project2": {
+        "title": "DestiWishWheel",
+        "description": "A Random Wish WHeel"
+      },
+      "project3": {
+        "title": "Live-Tracking & History",
+        "description": "Song Counter of Artist tracks - Spotify"
+      }
+
   },
   "about": {
     "title": "About Me",
@@ -26,6 +40,9 @@
   },
   "data_protection": {
     "title": "Data protection and data security",
+    "welcome": "Data protection & data security",
+    "services": "General Data Protection Regulation GDPR",
+    "blog": "Imprint",
     "description": "Data protection and imprint"
   }
 }

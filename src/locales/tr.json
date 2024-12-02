@@ -15,8 +15,22 @@
   "portfolio": {
     "title": "Projelerim",
     "description": "Web geliştirme, mobil uygulamalar ve daha fazlasını içeren portföyümü keşfedin."
-  },
-  "about": {
+  ,
+
+    "project1": {
+      "title": "ZelTimer",
+      "description": "Zaman Yönetimi"
+    },
+    "project2": {
+      "title": "DestiWishWheel",
+      "description": "Rastgele Bir Dilek Hissi"
+    },
+    "project3": {
+      "title": "Canlı İzleme ve Geçmiş",
+      "description": "Sanatçı parçalarının Şarkı Sayacı - Spotify"
+    }
+
+  },"about": {
     "title": "Hakkımda",
     "description": "Yazılım geliştirme konusundaki yolculuğum ve uzmanlığım hakkında daha fazla bilgi edinin."
   },
@@ -26,6 +40,9 @@
   },
   "data_protection": {
     "title": "Veri koruma ve baskı",
+    "welcome": "Veri koruma ve veri güvenliği",
+    "services": "Veri koruma",
+    "blog": "Veri güvenliği",
     "description": "Veri koruma ve veri güvenliği"
   }
 }

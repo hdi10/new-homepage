@@ -10,16 +10,20 @@ const projects = [
         icon: faCode,
         titleKey: 'portfolio.project1.title',
         descriptionKey: 'portfolio.project1.description',
+        repoLink: 'https://github.com/hdi10/TimeZelkulon'
     },
     {
         icon: faLaptopCode,
         titleKey: 'portfolio.project2.title',
         descriptionKey: 'portfolio.project2.description',
+        repoLink: 'https://github.com/hdi10/TimeZelkulon'
+
     },
     {
         icon: faMobileAlt,
         titleKey: 'portfolio.project3.title',
         descriptionKey: 'portfolio.project3.description',
+        repoLink: 'https://github.com/hdi10/TimeZelkulon'
     },
 ];
 
@@ -42,11 +46,12 @@ function Portfolio() {
                 >
                     <div className="projects">
                         {projects.map((project, index) => (
-                            <div className="project" key={index} style={{ textAlign: 'center', margin: '10px' }}>
-                                <FontAwesomeIcon icon={project.icon} size="3x" />
+                            <div className="project" key={index} style={{textAlign: 'center', margin: '10px'}}>
+                                <FontAwesomeIcon icon={project.icon} size="2x"/>
                                 <h3>{t(project.titleKey)}</h3>
                                 <p>{t(project.descriptionKey)}</p>
                             </div>
+
                         ))}
                     </div>
                 </motion.div>

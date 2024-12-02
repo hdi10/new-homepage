@@ -27,7 +27,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
-            <Route path="/dataprotection" element={<DataProtection/>}/>
+            <Route path="/data_protection" element={<DataProtection/>}/>
           </Routes>
           {/* Toast Container für Benachrichtigungen */}
           <ToastContainer />

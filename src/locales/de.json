@@ -14,7 +14,21 @@
   },
   "portfolio": {
     "title": "Meine Projekte",
-    "description": "Entdecke mein Portfolio mit Webentwicklung, mobilen Apps und mehr."
+    "description": "Entdecke mein Portfolio mit Webentwicklung, mobilen Apps und mehr.",
+
+    "project1": {
+      "title": "Zeiterfassung",
+      "description": "Zeitmanagment"
+    },
+    "project2": {
+      "title": "Schicksalsrad",
+      "description": "Entscheidungsfindung"
+    },
+    "project3": {
+      "title": "Live-Tracking & Archivierung",
+      "description": "Songaufrufzähler Spotify"
+    }
+
   },
   "about": {
     "title": "Über mich",
@@ -26,6 +40,9 @@
   },
   "data_protection": {
     "title": "Datenschutz und Datensicherheit",
+    "welcome": "Datenschutz und Impressum",
+    "services": "Datenschutz-Grundverordnung DSGVO",
+    "blog": "Impressum",
     "description": "Datenschutz und Impressum"
   }
 }
