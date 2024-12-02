@@ -4,7 +4,8 @@
     "home": "Ana Sayfa",
     "portfolio": "Portföy",
     "about": "Hakkımda",
-    "contact": "İletişim"
+    "contact": "İletişim",
+    "data_protection": "Veri Koruma"
   },
   "home": {
     "welcome": "Portföyüme hoş geldiniz!",
@@ -22,5 +23,9 @@
   "contact": {
     "title": "İletişime Geç",
     "description": "Soru ve işbirliği için benimle iletişime geçin."
+  },
+  "data_protection": {
+    "title": "Veri koruma ve baskı",
+    "description": "Veri koruma ve veri güvenliği"
   }
 }

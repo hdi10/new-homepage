@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Home from "./components/Home";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import DataProtection from "./components/DataProtection";
 
 function App() {
   return (
@@ -15,10 +16,10 @@ function App() {
         <div>
           <Helmet>
             <meta charSet="utf-8" />
-            <title>My Portfolio Website</title>
-            <meta name="description" content="A personal portfolio showcasing my projects and skills." />
-            <meta name="keywords" content="Portfolio, Web Development, React, Mobile Apps" />
-            <meta name="author" content="Your Name" />
+            <title>Zelkulon</title>
+            <meta name="description" content="Softwareentwicklung und Testing." />
+            <meta name="keywords" content="Portfolio, Web Development, React, Android, Mobile Apps, Component Based Development" />
+            <meta name="author" content="Zelkulon UG(haftungsbeschränkt)" />
           </Helmet>
           <Header />
           <Routes>
@@ -26,6 +27,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
+            <Route path="/dataprotection" element={<DataProtection/>}/>
           </Routes>
           {/* Toast Container für Benachrichtigungen */}
           <ToastContainer />

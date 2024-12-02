@@ -63,6 +63,7 @@ function Header() {
                 <Link to="/portfolio" style={{ margin: '0 10px', color: '#fff' }}>{t('header.portfolio')}</Link>
                 <Link to="/contact" style={{ margin: '0 10px', color: '#fff' }}>{t('header.contact')}</Link>
                 <Link to="/about" style={{ margin: '0 10px', color: '#fff' }}>{t('header.about')}</Link>
+                <Link to="/dataprotection" style={{ margin: "0 10px", color: '#fff' }}>{t("header.data_protection")}</Link>
             </nav>
             <div className="language-switcher">
                 <button onClick={() => switchLanguage('en')}>EN</button>

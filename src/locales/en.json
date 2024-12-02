@@ -4,7 +4,8 @@
     "home": "Home",
     "portfolio": "Portfolio",
     "about": "About Me",
-    "contact": "Contact"
+    "contact": "Contact",
+    "data_protection": "Data Protection"
   },
   "home": {
     "welcome": "Welcome to my portfolio!",
@@ -22,5 +23,9 @@
   "contact": {
     "title": "Contact Me",
     "description": "Get in touch for inquiries or collaborations."
+  },
+  "data_protection": {
+    "title": "Data protection and data security",
+    "description": "Data protection and imprint"
   }
 }

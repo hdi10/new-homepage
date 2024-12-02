@@ -4,7 +4,8 @@
     "home": "Startseite",
     "portfolio": "Portfolio",
     "about": "Über mich",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "data_protection": "Datensicherheit"
   },
   "home": {
     "welcome": "Willkommen in meinem Portfolio!",
@@ -22,5 +23,9 @@
   "contact": {
     "title": "Kontaktiere mich",
     "description": "Melde dich bei mir für Anfragen oder Kooperationen."
+  },
+  "data_protection": {
+    "title": "Datenschutz und Datensicherheit",
+    "description": "Datenschutz und Impressum"
   }
 }
