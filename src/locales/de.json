@@ -11,39 +11,77 @@
     "title": "Zelkulon",
     "welcome": "Willkommen in meinem Portfolio!",
     "services": "Dienstleistungen",
-    "blog": "Blog"
-  },
-  "portfolio": {
-    "title": "Meine Projekte",
-    "description": "Entdecke mein Portfolio mit Webentwicklung, mobilen Apps und mehr.",
-
-    "project1": {
-      "title": "Zeiterfassung",
-      "description": "Zeitmanagment"
+    "service1": {
+      "title": "Software App-Entwicklung",
+      "description": ""
     },
-    "project2": {
-      "title": "Schicksalsrad",
-      "description": "Entscheidungsfindung"
+    "service2": {
+      "title": "Testing nach ISTQB-Standard",
+      "description": ""
     },
-    "project3": {
-      "title": "Live-Tracking & Archivierung",
-      "description": "Songaufrufzähler Spotify"
+    "service3": {
+      "title": "Vertrieb und Entwicklung für Apple App Store und Google Play Store",
+      "description": ""
+    },
+    "service4": {
+      "title": "IT-Beratung und Qualitätssicherung",
+      "description": ""
+    },
+    "service5": {
+      "title": "Schulungen, Workshops und Seminare in den Bereichen IT- und Software",
+      "description": ""
+    },
+    "blog": "Blog",
+      "blog1": {
+        "title": "Dashboard Visualisierung Esp32-CAM",
+        "description": ""
+      },
+      "blog2": {
+        "title": "Spotify-Live-Tracking und Spotify-Archivierung Ihrer Wiedergabe.",
+        "description": ""
+      },
+      "blog3": {
+        "title": "Glücksrad-Simulation -->Everydaytooltip von Tim Tool.",
+        "description": ""
+      },
+      "blog4": {
+        "title": "Karten App Wo lang bin ich das letztemal gelaufen",
+        "description": ""
+      },
+      "blog5": {
+        "title": "SafetyButton App oder Zeiterfassungs- als Wochenplaner-App --> ERP angelehnt?",
+        "description": ""
+      },
+      "portfolio": {
+        "title": "Meine Projekte",
+        "description": "Entdecke mein Portfolio mit Webentwicklung, mobilen Apps und mehr.",
+        "project1": {
+          "title": "Zeiterfassung",
+          "description": "Zeitmanagment"
+        },
+        "project2": {
+          "title": "Schicksalsrad",
+          "description": "Entscheidungsfindung"
+        },
+        "project3": {
+          "title": "Live-Tracking & Archivierung",
+          "description": "Songaufrufzähler Spotify"
+        }
+      },
+      "about": {
+        "title": "Über mich",
+        "description": "Erfahre mehr über meine Reise und meine Expertise in der Softwareentwicklung."
+      },
+      "contact": {
+        "title": "Kontaktiere mich",
+        "description": "Melde dich bei mir für Anfragen oder Kooperationen."
+      },
+      "data_protection": {
+        "title": "Datenschutz und Datensicherheit",
+        "welcome": "Datenschutz und Impressum",
+        "services": "Datenschutz-Grundverordnung DSGVO",
+        "blog": "Impressum",
+        "description": "Datenschutz und Impressum"
+      }
     }
-
-  },
-  "about": {
-    "title": "Über mich",
-    "description": "Erfahre mehr über meine Reise und meine Expertise in der Softwareentwicklung."
-  },
-  "contact": {
-    "title": "Kontaktiere mich",
-    "description": "Melde dich bei mir für Anfragen oder Kooperationen."
-  },
-  "data_protection": {
-    "title": "Datenschutz und Datensicherheit",
-    "welcome": "Datenschutz und Impressum",
-    "services": "Datenschutz-Grundverordnung DSGVO",
-    "blog": "Impressum",
-    "description": "Datenschutz und Impressum"
   }
-}

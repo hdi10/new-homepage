@@ -11,12 +11,50 @@
     "title": "Zelkulon",
     "welcome": "Welcome to my portfolio!",
     "services": "Services",
-    "blog": "Blog"
-  },
-  "portfolio": {
-    "title": "My Projects",
-    "description": "Explore my portfolio, showcasing web development, mobile apps, and more.",
-
+    "service1": {
+      "title": "Software app development",
+      "description": ""
+    },
+    "service2": {
+      "title": "Distribution and development for Apple App Store and Google Play Store",
+      "description": ""
+    },
+    "service3": {
+      "title": "Testing to ISTQB standard",
+      "description": ""
+    },
+    "service4": {
+      "title": "IT consulting and quality assurance",
+      "description": ""
+    },
+    "service5": {
+      "title": "Training courses, workshops and seminars in the areas of IT and software",
+      "description": ""
+    },
+    "blog": "Blog",
+    "blog1": {
+      "title": "Dashboard visualization Esp32-CAM",
+      "description": ""
+    },
+    "blog2": {
+      "title": "Spotify live tracking and Spotify archiving of your playback",
+      "description": ""
+    },
+    "blog3": {
+      "title": "Wheel of Fortune Simulation -->Everydaytooltip by Tim Tool.",
+      "description": ""
+    },
+    "blog4": {
+      "title": "Maps App Where did I walk last time",
+      "description": ""
+    },
+    "blog5": {
+      "title": "TSafetyButton app or time tracking as weekly planner app --> ERP based?",
+      "description": ""
+    },
+    "portfolio": {
+      "title": "My Projects",
+      "description": "Explore my portfolio, showcasing web development, mobile apps, and more.",
       "project1": {
         "title": "ZelTimer",
         "description": "Time management"
@@ -29,21 +67,21 @@
         "title": "Live-Tracking & History",
         "description": "Song Counter of Artist tracks - Spotify"
       }
-
-  },
-  "about": {
-    "title": "About Me",
-    "description": "Learn more about my journey and expertise in software development."
-  },
-  "contact": {
-    "title": "Contact Me",
-    "description": "Get in touch for inquiries or collaborations."
-  },
-  "data_protection": {
-    "title": "Data protection and data security",
-    "welcome": "Data protection & data security",
-    "services": "General Data Protection Regulation GDPR",
-    "blog": "Imprint",
-    "description": "Data protection and imprint"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "Learn more about my journey and expertise in software development."
+    },
+    "contact": {
+      "title": "Contact Me",
+      "description": "Get in touch for inquiries or collaborations."
+    },
+    "data_protection": {
+      "title": "Data protection and data security",
+      "welcome": "Data protection & data security",
+      "services": "General Data Protection Regulation GDPR",
+      "blog": "Imprint",
+      "description": "Data protection and imprint"
+    }
   }
 }

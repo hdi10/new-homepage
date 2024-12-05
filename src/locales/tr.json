@@ -11,39 +11,77 @@
     "title": "Zelkulon",
     "welcome": "Portföyüme hoş geldiniz!",
     "services": "Hizmetler",
-    "blog": "Blog"
-  },
-  "portfolio": {
-    "title": "Projelerim",
-    "description": "Web geliştirme, mobil uygulamalar ve daha fazlasını içeren portföyümü keşfedin."
-  ,
-
-    "project1": {
-      "title": "ZelTimer",
-      "description": "Zaman Yönetimi"
+    "service1": {
+      "title": "Yazılım uygulaması geliştirme",
+      "description": ""
     },
-    "project2": {
-      "title": "DestiWishWheel",
-      "description": "Rastgele Bir Dilek Hissi"
+    "service2": {
+      "title": "ISTQB standardına göre test",
+      "description": ""
     },
-    "project3": {
-      "title": "Canlı İzleme ve Geçmiş",
-      "description": "Sanatçı parçalarının Şarkı Sayacı - Spotify"
+    "service3": {
+      "title": "Apple App Store ve Google Play Store için Satış ve Geliştirme",
+      "description": ""
+    },
+    "service4": {
+      "title": "BT danışmanlığı ve kalite güvencesi",
+      "description": ""
+    },
+    "service5": {
+      "title": "BT ve yazılım alanlarında eğitim kursları, atölye çalışmaları ve seminerler",
+      "description": ""
+    },
+    "blog": "Blog",
+    "blog1": {
+      "title": "Pano görselleştirme Esp32-CAM",
+      "description": ""
+    },
+    "blog2": {
+      "title": "Spotify canlı izleme ve oynatmalarınızın Spotify arşivlemesi.",
+      "description": ""
+    },
+    "blog3": {
+      "title": "Çarkıfelek Simülasyonu --> Tim Tool tarafından hazırlanan Everyydaytooltip.",
+      "description": ""
+    },
+    "blog4": {
+      "title": "Haritalar Uygulaması En son nerede yürüdüm",
+      "description": ""
+    },
+    "blog5": {
+      "title": "SafetyButton uygulaması veya haftalık planlayıcı uygulaması olarak zaman takibi --> ERP tabanlı?",
+      "description": ""
+    },
+    "portfolio": {
+      "title": "Projelerim",
+      "description": "Web geliştirme, mobil uygulamalar ve daha fazlasını içeren portföyümü keşfedin.",
+      "project1": {
+        "title": "ZelTimer",
+        "description": "Zaman Yönetimi"
+      },
+      "project2": {
+        "title": "DestiWishWheel",
+        "description": "Rastgele Bir Dilek Hissi"
+      },
+      "project3": {
+        "title": "Canlı İzleme ve Geçmiş",
+        "description": "Sanatçı parçalarının Şarkı Sayacı - Spotify"
+      }
+    },
+    "about": {
+      "title": "Hakkımda",
+      "description": "Yazılım geliştirme konusundaki yolculuğum ve uzmanlığım hakkında daha fazla bilgi edinin."
+    },
+    "contact": {
+      "title": "İletişime Geç",
+      "description": "Soru ve işbirliği için benimle iletişime geçin."
+    },
+    "data_protection": {
+      "title": "Veri koruma ve baskı",
+      "welcome": "Veri koruma ve veri güvenliği",
+      "services": "Veri koruma",
+      "blog": "Veri güvenliği",
+      "description": "Veri koruma ve veri güvenliği"
     }
-
-  },"about": {
-    "title": "Hakkımda",
-    "description": "Yazılım geliştirme konusundaki yolculuğum ve uzmanlığım hakkında daha fazla bilgi edinin."
-  },
-  "contact": {
-    "title": "İletişime Geç",
-    "description": "Soru ve işbirliği için benimle iletişime geçin."
-  },
-  "data_protection": {
-    "title": "Veri koruma ve baskı",
-    "welcome": "Veri koruma ve veri güvenliği",
-    "services": "Veri koruma",
-    "blog": "Veri güvenliği",
-    "description": "Veri koruma ve veri güvenliği"
   }
 }
