@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
+
 function DataProtection() {
     const { t } = useTranslation();
 
@@ -38,32 +39,39 @@ function DataProtection() {
                     }}
                 >
                     <div style={contentStyle}>
-                        <h3>{t('data_protection.blog')}</h3>
+                        <h1>{t('data_protection.blog')}</h1>
                         <p>
-                            <h1>Impressum</h1>
+                            <h2>Impressum</h2>
 
-                            <h2> Angaben gemäß § 5 TMG:</h2>
-
-                            [Zelkulon UG(haftungsbeschränkt)][Wermuthweg 7 12353
-                            Berlin][0176-22812332][hdastekin@gmail.com][Umsatzsteuer-Identifikationsnummer gemäß § 27a
-                            Umsatzsteuergesetz, falls vorhanden][Handelsregistereintrag, falls zutreffend:
-                            Handelsregister, Registernummer]
+                            <h3> Angaben gemäß § 5 TMG:</h3>
+                            <address>
+                                {/*Written by <a href="mailto:hdastekin@gmail.com">Harun Dastekin</a>.<br/>*/}
+                                <h1>Kontaktieren Sie uns:<br/></h1>
+                                Zelkulon UG(haftungsbeschränkt)<br/>
+                                Wermuthweg 7, 12353
+                                Berlin<br/>
+                                Deutschland
+                            </address>
+                            <ul><li>[Umsatzsteuer-Identifikationsnummer gemäß § 27a
+                            Umsatzsteuergesetz, falls vorhanden]</li><li>[Handelsregistereintrag, falls zutreffend:
+                            Handelsregister, Registernummer]</li></ul>
                         </p>
                         <p>
-                                Vertreten durch:
-
-                                [Harun Dastekin]
-
-                                Kontakt:
-
-                                Telefon: [0176-22812332]E-Mail: [hdastekin@gmail.com]Website: [dastekin.de]
-                        </p>
+                            <h3>Vertreten durch:</h3>
+                            <h4>Kontakt:</h4>
+                            <p>Harun Dastekin</p>
+                            <address>
+                                Telefon: 0176-22812332<br/>
+                                E-Mail: hdastekin@gmail.com<br/>
+                                Website: <a href={"https://www.dastekin.de"}>https://www.dastekin.de</a>
+                            </address>
+                            </p>
                         <p>
                             <div>
-                                Haftungsausschluss (Disclaimer):
+                                <h3>Haftungsausschluss (Disclaimer):</h3>
 
                         <p>
-                                Haftung für Inhalte
+                            <h3>Haftung für Inhalte</h3>
                         </p>
                         <p>
                                 Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten
@@ -80,7 +88,7 @@ function DataProtection() {
                                 entfernen.
                         </p>
                         <p>
-                                Haftung für Links
+                            <h3>Haftung für Links</h3>
                         </p>
                         <p>
                                 Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen
@@ -92,33 +100,57 @@ function DataProtection() {
                         </p>
                     <p>
                                 Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete
-                                Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekannt
+                                Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekannt Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+
+                        <h3>Urheberrecht</h3>
+                                Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen
+                                dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art
+                                der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen
+                                Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite
+                                sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+
+                                Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die
+                                Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche
+                                gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam
+                                werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von
+                                Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+
+                            <h3>Online-Streitbeilegung</h3>
+                                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS)
+                                bereit: https://ec.europa.eu/consumers/odr.
+                                Unsere E-Mail-Adresse finden Sie oben im Impressum.
+
+                                Hinweis gemäß § 36 VSBG (Verbraucherstreitbeilegungsgesetz):
+                                Wir sind weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer
+                                Verbraucherschlichtungsstelle teilzunehmen.
+
                         </p>
                             </div>
 
                             </p>
                     </div>
                     <div style={contentStyle}>
-                        <h3>{t('data_protection.services')}</h3>
                         <p>
-                            <h1> Datenschutz</h1>
+                        <h1>{t('data_protection.services')}</h1>
+                        <p>
+                            <h2> Datenschutz</h2>
                         </p>
                             <p>
                                 Wir freuen uns über Ihr Interesse an unserer Website. Der Schutz Ihrer personenbezogenen
                                 Daten ist uns ein wichtiges Anliegen. Nachfolgend informieren wir Sie über die
                                 Verarbeitung personenbezogener Daten im Rahmen der Nutzung unserer Website.
                             </p>
-                                <p>
-                                    <h2> Verantwortlicher</h2>
+                        <div>
+                            <h3> Verantwortlicher</h3>
 
-                                    <b>Zelkulon UG(haftungsbeschränkt)</b>
-                                    Wermuthweg 7
-                                    0176-22812332
-                                    hdastekin@gmail.com
-                                </p>
+                            Zelkulon UG(haftungsbeschränkt)<br/>
+                            Wermuthweg 7<br/>
+                            0176-22812332<br/>
+                            hdastekin@gmail.com<br/>
+                        </div>
                         <p>
-                        <h2> Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck der
-                                    Verwendung </h2>
+                        <h3> Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck der
+                                    Verwendung </h3>
                         </p>
                         <p>
                         <h3>1. Besuch der Website</h3>
@@ -132,22 +164,27 @@ function DataProtection() {
                                     gespeichert:
                         </p>
                         <p>
-                                    - IP-Adresse des anfragenden Rechners,
-                                    - Datum und Uhrzeit des Zugriffs,
-                                    - Name und URL der abgerufenen Datei,
-                                    - Website, von der aus der Zugriff erfolgt (Referrer-URL),
-                                    - verwendeter Browser und ggf. das Betriebssystem Ihres Rechners sowie der Name
+                            <ul>
+                                <li>IP-Adresse des anfragenden Rechners,</li>
+                                <li>Datum und Uhrzeit des Zugriffs,</li>
+                                <li>Name und URL der abgerufenen Datei,</li>
+                                <li>Website, von der aus der Zugriff erfolgt (Referrer-URL),</li>
+                                <li>verwendeter Browser und ggf. das Betriebssystem Ihres Rechners sowie der Name
                                     Ihres
-                                    Access-Providers.
+                                    Access-Providers.</li>
+                            </ul>
                         </p>
                         <p>
-                                    Die genannten Daten werden durch uns zu folgenden Zwecken verarbeitet:
+                            Die genannten Daten werden durch uns zu folgenden Zwecken verarbeitet:
                         </p>
                         <p>
-                                    - Gewährleistung eines reibungslosen Verbindungsaufbaus der Website,
-                                    - Gewährleistung einer komfortablen Nutzung unserer Website,
-                                    - Auswertung der Systemsicherheit und -stabilität sowie
-                                    - zu weiteren administrativen Zwecken.
+                            <ul>
+                            <li>Gewährleistung eines reibungslosen Verbindungsaufbaus der Website,
+                            </li>
+                            <li>Gewährleistung einer komfortablen Nutzung unserer Website,</li>
+                            <li>Auswertung der Systemsicherheit und -stabilität sowie</li>
+                            <li>zu weiteren administrativen Zwecken.</li>
+                            </ul>
                         </p>
                         <p>
                                     Die Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Unser
@@ -225,59 +262,64 @@ function DataProtection() {
                                     Wir setzen auf unserer Website Analyse-Tools ein, um die Nutzung unserer Website
                                     statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebots für Sie
                                     auszuwerten. Die Rechtsgrundlage für die Verwendung solcher Analyse-Tools ist Art. 6
-                                    Abs. 1 lit. f DSGVO.
+                                    Abs. 1 lit. f DSGVO.<br/>
 
                                     **[Platz für spezifische Tools, wie z. B. Google Analytics, Matomo, etc.]**
 
-                            <h2> Weitergabe von Daten</h2>
+                            <h3> Weitergabe von Daten</h3>
 
                                     Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den im Folgenden
                                     aufgeführten Zwecken findet nicht statt.
 
                                     Wir geben Ihre persönlichen Daten nur an Dritte weiter, wenn:
 
-                                    - Sie Ihre ausdrückliche Einwilligung dazu erteilt haben (Art. 6 Abs. 1 lit. a
-                                    DSGVO),
-                                    - die Weitergabe nach Art. 6 Abs. 1 lit. f DSGVO zur Geltendmachung, Ausübung oder
+                            <ul>
+                                <li>Sie Ihre ausdrückliche Einwilligung dazu erteilt haben (Art. 6 Abs. 1 lit. a
+                                    DSGVO),</li>
+                                <li>die Weitergabe nach Art. 6 Abs. 1 lit. f DSGVO zur Geltendmachung, Ausübung oder
                                     Verteidigung von Rechtsansprüchen erforderlich ist und kein Grund zur Annahme
                                     besteht,
                                     dass Sie ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe Ihrer
                                     Daten
-                                    haben,
-                                    - für den Fall, dass für die Weitergabe nach Art. 6 Abs. 1 lit. c DSGVO eine
+                                    haben,</li>
+                                <li>für den Fall, dass für die Weitergabe nach Art. 6 Abs. 1 lit. c DSGVO eine
                                     gesetzliche
-                                    Verpflichtung besteht, sowie
-                                    - dies gesetzlich zulässig und nach Art. 6 Abs. 1 lit. b DSGVO für die Abwicklung
+                                    Verpflichtung besteht, sowie</li>
+                                <li>dies gesetzlich zulässig und nach Art. 6 Abs. 1 lit. b DSGVO für die Abwicklung
                                     von
-                                    Vertragsverhältnissen mit Ihnen erforderlich ist.
+                                    Vertragsverhältnissen mit Ihnen erforderlich ist.</li>
+                            </ul>
 
-                            <h2>Rechte der betroffenen Person</h2>
+
+                            <h3>Rechte der betroffenen Person</h3>
 
                                     Sie haben das Recht:
-
-                                    - gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen
+                            <ul>
+                                <li>gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen
                                     Daten
-                                    zu verlangen;
-                                    - gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder
+                                    zu verlangen;</li>
+                                <li>gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder
                                     Vervollständigung
-                                    Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen;
-                                    - gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen
+                                    Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen;</li>
+                                <li>gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen
                                     Daten
                                     zu verlangen, soweit nicht die Verarbeitung zur Erfüllung einer rechtlichen
-                                    Verpflichtung erforderlich ist;
-                                    - gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung Ihrer personenbezogenen
+                                    Verpflichtung erforderlich ist;</li>
+                                <li>gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung Ihrer personenbezogenen
                                     Daten
-                                    zu verlangen;
-                                    - gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt
+                                    zu verlangen;</li>
+                                <li>gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt
                                     haben, in
                                     einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten oder die
-                                    Übermittlung an einen anderen Verantwortlichen zu verlangen;
-                                    - gemäß Art. 7 Abs. 3 DSGVO Ihre einmal erteilte Einwilligung jederzeit gegenüber
+                                    Übermittlung an einen anderen Verantwortlichen zu verlangen;</li>
+                                <li>gemäß Art. 7 Abs. 3 DSGVO Ihre einmal erteilte Einwilligung jederzeit gegenüber
                                     uns zu
-                                    widerrufen;
-                                    - gemäß Art. 77 DSGVO sich bei einer Aufsichtsbehörde zu beschweren.
+                                    widerrufen;</li>
+                                <li>gemäß Art. 77 DSGVO sich bei einer Aufsichtsbehörde zu beschweren.</li>
+                            </ul>
 
-                            <h2> Aktualität und Änderung dieser Datenschutzerklärung</h2>
+
+                            <h4> Aktualität und Änderung dieser Datenschutzerklärung</h4>
 
                                     Diese Datenschutzerklärung ist aktuell gültig und hat den Stand [Datum].
 
@@ -289,6 +331,7 @@ function DataProtection() {
 
 
                                 </p>
+                        </p>
                     </div>
                 </motion.div>
             </motion.div>
