@@ -10,20 +10,23 @@ const projects = [
         icon: faCode,
         titleKey: 'portfolio.project1.title',
         descriptionKey: 'portfolio.project1.description',
-        repoLink: 'https://github.com/hdi10/TimeZelkulon'
+        repoLink: 'https://github.com/hdi10/TimeZelkulon',
+        image: "images/TimeZelkulon/day3.png"
     },
     {
         icon: faLaptopCode,
         titleKey: 'portfolio.project2.title',
         descriptionKey: 'portfolio.project2.description',
-        repoLink: 'https://github.com/hdi10/TimeZelkulon'
+        repoLink: 'https://github.com/hdi10/TimeZelkulon',
+        image: "images/DestiWish/wheel1.png"
 
     },
     {
         icon: faMobileAlt,
         titleKey: 'portfolio.project3.title',
         descriptionKey: 'portfolio.project3.description',
-        repoLink: 'https://github.com/hdi10/TimeZelkulon'
+        repoLink: 'https://github.com/hdi10/TimeZelkulon',
+        image:"images/AntZel/standort1.png"
     },
 ];
 
@@ -46,12 +49,23 @@ function Portfolio() {
                 >
                     <div className="projects">
                         {projects.map((project, index) => (
-                            <div className="project" key={index} style={{textAlign: 'center', margin: '10px'}}>
-                                <FontAwesomeIcon icon={project.icon} size="2x"/>
-                                <h3>{t(project.titleKey)}</h3>
-                                <p>{t(project.descriptionKey)}</p>
-                            </div>
+                            <div className="project" key={index}
+                                 style={{display: 'flex', alignItems: 'center', margin: '10px', gap: '10px'}}>
+                                {/* Projektbild */}
+                                <img src={project.image} alt={t(project.titleKey)} style={{
+                                    width: '100px',
+                                    height: '200px',
+                                    objectFit: 'cover',
+                                    borderRadius: '1px'
+                                }}/>
 
+                                {/* Projektinfo */}
+                                <div className="project" key={index} style={{textAlign: 'center', margin: '10px'}}>
+                                    <FontAwesomeIcon icon={project.icon} size="2x"/>
+                                    <h3>{t(project.titleKey)}</h3>
+                                    <p>{t(project.descriptionKey)}</p>
+                                </div>
+                            </div>
                         ))}
                     </div>
                 </motion.div>
@@ -60,4 +74,5 @@ function Portfolio() {
     );
 }
 
-export default Portfolio;
+
+                        export default Portfolio;

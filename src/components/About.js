@@ -21,8 +21,8 @@ function About() {
             <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <h2>{t('about.title')}</h2>
                 <p>{t('about.description')}</p>
-                <h3>{t('about.vision')}</h3>
-                <h3>{t('about.experience')}</h3>
+                <h3>{t('about.visionLong')}</h3>
+                <h3>{t('about.experienceLong')}</h3>
                 <h3>{t('about.goals')}</h3>
             </div>
         </motion.section>

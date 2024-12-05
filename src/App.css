@@ -106,12 +106,6 @@ form button:hover {
   color: #f39c12; /* Textfarbe beim Hovern ändern */
 }
 
-.project {
-  position: relative;
-  overflow: hidden;
-  background: url('./assets/ubuntu.jpg') center/cover no-repeat;
-  color: #fff;
-}
 
 .project::after {
   content: '';

@@ -65,7 +65,8 @@
       },
       "project3": {
         "title": "Live-Tracking & History",
-        "description": "Song Counter of Artist tracks - Spotify"
+        "description": "Song Counter of Artist tracks - Spotify",
+        "image":"./LiveTrackingAndHistory.png"
       }
     },
     "about": {
