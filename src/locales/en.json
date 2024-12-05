@@ -70,7 +70,15 @@
     },
     "about": {
       "title": "About Me",
-      "description": "Learn more about my journey and expertise in software development."
+      "description": "I am a graduate in applied computer science with experience in software development, IT consulting, and test automation. My focus is on developing innovative microservices, apps, and IoT solutions.",
+      "vision": "With my company, I aim to set new standards in software development and secure a leading position in the industry.",
+      "experience": "I have worked on projects for Toll Collect, Entraserv, and Stromnetz Berlin, including microservices with Spring Cloud and Android/iOS apps.",
+      "goals": "My goals are to successfully launch game and service apps and establish my UG in the long term.",
+
+      "descriptionLong": "Learn more about my journey and expertise in software development.",
+      "visionLong": "I strive to develop innovative software solutions and further expand my knowledge in the areas of microservices, testing and app development. My vision is to set new standards in software development with my own company and to take a leading position in the industry in the long term.",
+      "experienceLong":"I am a graduate in applied computer science with extensive experience as a working student in the areas of software development, IT consulting and test automation at companies such as Toll Collect, Entraserv and Stromnetz Berlin. My projects include the development of microservices with Spring Cloud, Android and iOS apps, as well as solutions with ESP32 and Grafana. I also have expertise in technologies such as Java, Kotlin, Docker and GitLab CI/CD.",
+      "goalsLong": "My goals are to take off as a software developer, successfully establish my UG and publish game and service apps. I want to maximise my income to support my family and develop myself as an expert in software development."
     },
     "contact": {
       "title": "Contact Me",

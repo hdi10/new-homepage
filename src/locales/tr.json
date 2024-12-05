@@ -70,7 +70,15 @@
     },
     "about": {
       "title": "Hakkımda",
-      "description": "Yazılım geliştirme konusundaki yolculuğum ve uzmanlığım hakkında daha fazla bilgi edinin."
+      "description": "Yazılım geliştirme, BT danışmanlığı ve test otomasyonu konularında deneyime sahip, uygulamalı bilgisayar bilimi mezunuyum. Yenilikçi mikro hizmetler, uygulamalar ve IoT çözümleri geliştirmeye odaklanıyorum.",
+      "vision": "Kendi şirketimle yazılım geliştirmede yeni standartlar belirlemeyi ve sektörde lider bir konuma ulaşmayı hedefliyorum.",
+      "experience": "Toll Collect, Entraserv ve Stromnetz Berlin için Spring Cloud ve Android/iOS uygulamalarını içeren projelerde çalıştım.",
+      "goals": "Amacım, oyun ve hizmet uygulamalarını başarıyla yayınlamak ve uzun vadede UG'mi kurmak.",
+
+      "descriptionLong": "Yazılım geliştirme konusundaki yolculuğum ve uzmanlığım hakkında daha fazla bilgi edinin.",
+      "visionLong": "Yenilikçi yazılım çözümleri geliştirmek ve mikro hizmetler, test ve uygulama geliştirme alanlarındaki bilgilerimi daha da genişletmek için çabalıyorum. Vizyonum, kendi şirketimle yazılım geliştirmede yeni standartlar belirlemek ve uzun vadede sektörde lider bir konuma gelmek.",
+      "experienceLong":"Toll Collect, Entraserv ve Stromnetz Berlin gibi şirketlerde yazılım geliştirme, BT danışmanlığı ve test otomasyonu alanlarında çalışan bir öğrenci olarak geniş deneyime sahip uygulamalı bilgisayar bilimi mezunuyum. Projelerim arasında Spring Cloud, Android ve iOS uygulamaları ile mikro hizmetlerin geliştirilmesinin yanı sıra ESP32 ve Grafana ile çözümler yer alıyor. Java, Kotlin, Docker ve GitLab CI/CD gibi teknolojilerde de uzmanlığım var.",
+      "goalsLong": "Hedeflerim bir yazılım geliştiricisi olarak yola çıkmak, UG'mi başarıyla kurmak ve oyun ve hizmet uygulamaları yayınlamak. Ailemi desteklemek için gelirimi en üst düzeye çıkarmak ve kendimi yazılım geliştirme konusunda bir uzman olarak geliştirmek istiyorum."
     },
     "contact": {
       "title": "İletişime Geç",

@@ -68,10 +68,19 @@
           "description": "Songaufrufzähler Spotify"
         }
       },
-      "about": {
-        "title": "Über mich",
-        "description": "Erfahre mehr über meine Reise und meine Expertise in der Softwareentwicklung."
-      },
+  "about": {
+    "title": "Über mich",
+    "description": "Ich bin Absolvent der angewandten Informatik mit Erfahrung in Softwareentwicklung, IT-Beratung und Testautomatisierung. Mein Fokus liegt auf der Entwicklung innovativer Microservices, Apps und IoT-Lösungen.",
+    "vision": "Mit meiner Firma möchte ich neue Standards in der Softwareentwicklung setzen und eine führende Position in der Branche einnehmen.",
+    "experience": "Ich habe an Projekten für Toll Collect, Entraserv und Stromnetz Berlin gearbeitet, darunter Microservices mit Spring Cloud und Android/iOS-Apps.",
+    "goals": "Meine Ziele sind es, erfolgreich Spiele- und Dienstleistungs-Apps zu veröffentlichen und meine UG langfristig zu etablieren.",
+
+    "descriptionLong": "Erfahre mehr über meine Reise und meine Expertise in der Softwareentwicklung.",
+    "visionLong": "Ich strebe danach, innovative Softwarelösungen zu entwickeln und mein Wissen in den Bereichen Microservices, Testing und App-Entwicklung weiter auszubauen. Meine Vision ist es, mit meiner eigenen Firma neue Standards in der Softwareentwicklung zu setzen und langfristig eine führende Position in der Branche einzunehmen.",
+    "experienceLong": "Ich bin Absolvent der angewandten Informatik mit umfangreicher Erfahrung als Werkstudent in den Bereichen Softwareentwicklung, IT-Beratung und Testautomatisierung bei Unternehmen wie Toll Collect, Entraserv und Stromnetz Berlin. Meine Projekte umfassen die Entwicklung von Microservices mit Spring Cloud, Android- und iOS-Apps, sowie Lösungen mit ESP32 und Grafana. Zudem habe ich Expertise in Technologien wie Java, Kotlin, Docker und GitLab CI/CD.",
+    "goalsLong": "Meine Ziele sind es, als Softwareentwickler durchzustarten, meine UG erfolgreich zu etablieren und Spiele- sowie Dienstleistungs-Apps zu veröffentlichen. Ich möchte mein Einkommen maximieren, um meine Familie zu unterstützen, und mich als Experte in der Softwareentwicklung weiterentwickeln."
+  }
+,
       "contact": {
         "title": "Kontaktiere mich",
         "description": "Melde dich bei mir für Anfragen oder Kooperationen."
