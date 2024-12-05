@@ -11,22 +11,27 @@ const projects = [
         titleKey: 'portfolio.project1.title',
         descriptionKey: 'portfolio.project1.description',
         repoLink: 'https://github.com/hdi10/TimeZelkulon',
-        image: "images/TimeZelkulon/day3.png"
+        image1: "images/TimeZelkulon/day1.png",
+        image2: "images/TimeZelkulon/day2.png",
+        image3: "images/TimeZelkulon/day3.png"
     },
     {
         icon: faLaptopCode,
         titleKey: 'portfolio.project2.title',
         descriptionKey: 'portfolio.project2.description',
         repoLink: 'https://github.com/hdi10/TimeZelkulon',
-        image: "images/DestiWish/wheel1.png"
-
+        image1: "images/DestiWish/homescreen_desti.png",
+        image2: "images/DestiWish/wheel2.png",
+        image3: "images/DestiWish/endwheel.png"
     },
     {
         icon: faMobileAlt,
         titleKey: 'portfolio.project3.title',
         descriptionKey: 'portfolio.project3.description',
         repoLink: 'https://github.com/hdi10/TimeZelkulon',
-        image:"images/AntZel/standort1.png"
+        image1: "images/AntZel/gps.png",
+        image2: "images/AntZel/standort1.png",
+        image3: "images/AntZel/standort2.png"
     },
 ];
 
@@ -52,7 +57,19 @@ function Portfolio() {
                             <div className="project" key={index}
                                  style={{display: 'flex', alignItems: 'center', margin: '10px', gap: '10px'}}>
                                 {/* Projektbild */}
-                                <img src={project.image} alt={t(project.titleKey)} style={{
+                                <img src={project.image1} alt={t(project.titleKey)} style={{
+                                    width: '100px',
+                                    height: '200px',
+                                    objectFit: 'cover',
+                                    borderRadius: '1px'
+                                }}/>
+                                <img src={project.image2} alt={t(project.titleKey)} style={{
+                                    width: '100px',
+                                    height: '200px',
+                                    objectFit: 'cover',
+                                    borderRadius: '1px'
+                                }}/>
+                                <img src={project.image3} alt={t(project.titleKey)} style={{
                                     width: '100px',
                                     height: '200px',
                                     objectFit: 'cover',
@@ -75,4 +92,4 @@ function Portfolio() {
 }
 
 
-                        export default Portfolio;
+export default Portfolio;
