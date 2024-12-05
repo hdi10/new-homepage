@@ -51,7 +51,7 @@
     "blog5": {
       "title": "TSafetyButton app or time tracking as weekly planner app --> ERP based?",
       "description": ""
-    },
+    }},
     "portfolio": {
       "title": "My Projects",
       "description": "Explore my portfolio, showcasing web development, mobile apps, and more.",
@@ -84,4 +84,4 @@
       "description": "Data protection and imprint"
     }
   }
-}
+

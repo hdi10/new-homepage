@@ -51,7 +51,7 @@
       "blog5": {
         "title": "SafetyButton App oder Zeiterfassungs- als Wochenplaner-App --> ERP angelehnt?",
         "description": ""
-      },
+      }},
       "portfolio": {
         "title": "Meine Projekte",
         "description": "Entdecke mein Portfolio mit Webentwicklung, mobilen Apps und mehr.",
@@ -84,4 +84,3 @@
         "description": "Datenschutz und Impressum"
       }
     }
-  }

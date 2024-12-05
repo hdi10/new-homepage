@@ -51,7 +51,7 @@
     "blog5": {
       "title": "SafetyButton uygulaması veya haftalık planlayıcı uygulaması olarak zaman takibi --> ERP tabanlı?",
       "description": ""
-    },
+    }},
     "portfolio": {
       "title": "Projelerim",
       "description": "Web geliştirme, mobil uygulamalar ve daha fazlasını içeren portföyümü keşfedin.",
@@ -84,4 +84,3 @@
       "description": "Veri koruma ve veri güvenliği"
     }
   }
-}
