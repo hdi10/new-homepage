@@ -40,9 +40,9 @@ function DataProtection() {
                     <div style={contentStyle}>
                         <h3>{t('data_protection.blog')}</h3>
                         <p>
-                            Impressum
+                            <h1>Impressum</h1>
 
-                            Angaben gemäß § 5 TMG:
+                            <h2> Angaben gemäß § 5 TMG:</h2>
 
                             [Zelkulon UG(haftungsbeschränkt)][Wermuthweg 7 12353
                             Berlin][0176-22812332][hdastekin@gmail.com][Umsatzsteuer-Identifikationsnummer gemäß § 27a
@@ -101,7 +101,7 @@ function DataProtection() {
                     <div style={contentStyle}>
                         <h3>{t('data_protection.services')}</h3>
                         <p>
-                            # Datenschutz
+                            <h1> Datenschutz</h1>
                         </p>
                             <p>
                                 Wir freuen uns über Ihr Interesse an unserer Website. Der Schutz Ihrer personenbezogenen
@@ -109,19 +109,19 @@ function DataProtection() {
                                 Verarbeitung personenbezogener Daten im Rahmen der Nutzung unserer Website.
                             </p>
                                 <p>
-                                    ## Verantwortlicher
+                                    <h2> Verantwortlicher</h2>
 
-                                    **Zelkulon UG(haftungsbeschränkt)**
+                                    <b>Zelkulon UG(haftungsbeschränkt)</b>
                                     Wermuthweg 7
                                     0176-22812332
                                     hdastekin@gmail.com
                                 </p>
                         <p>
-                                    ## Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck der
-                                    Verwendung
+                        <h2> Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck der
+                                    Verwendung </h2>
                         </p>
                         <p>
-                                    ### 1. Besuch der Website
+                        <h3>1. Besuch der Website</h3>
 
                                     Beim Aufrufen unserer Website werden durch den auf Ihrem Endgerät zum Einsatz
                                     kommenden
@@ -158,7 +158,7 @@ function DataProtection() {
                                     zu ziehen.
                         </p>
                         <p>
-                                    ### 2. Kontaktaufnahme
+                        <h3> 2. Kontaktaufnahme</h3>
 
                                     Wenn Sie uns per E-Mail oder über ein Kontaktformular Anfragen zukommen lassen,
                                     werden
@@ -178,7 +178,7 @@ function DataProtection() {
                                     an der effektiven Bearbeitung der an uns gerichteten Anfragen haben.
                         </p>
                         <p>
-                                    ### 3. Verwendung von Cookies
+                                   <h3>3. Verwendung von Cookies</h3>
 
                                     Unsere Website verwendet Cookies. Hierbei handelt es sich um kleine Dateien, die Ihr
                                     Browser automatisch erstellt und die auf Ihrem Endgerät gespeichert werden, wenn Sie
@@ -220,7 +220,7 @@ function DataProtection() {
                                     Sie nicht alle Funktionen unserer Website nutzen können.
                         </p>
                         <p>
-                                    ### 4. Nutzung von Analyse-Tools
+                            <h3> 4. Nutzung von Analyse-Tools</h3>
 
                                     Wir setzen auf unserer Website Analyse-Tools ein, um die Nutzung unserer Website
                                     statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebots für Sie
@@ -229,7 +229,7 @@ function DataProtection() {
 
                                     **[Platz für spezifische Tools, wie z. B. Google Analytics, Matomo, etc.]**
 
-                                    ## Weitergabe von Daten
+                            <h2> Weitergabe von Daten</h2>
 
                                     Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den im Folgenden
                                     aufgeführten Zwecken findet nicht statt.
@@ -251,7 +251,7 @@ function DataProtection() {
                                     von
                                     Vertragsverhältnissen mit Ihnen erforderlich ist.
 
-                                    ## Rechte der betroffenen Person
+                            <h2>Rechte der betroffenen Person</h2>
 
                                     Sie haben das Recht:
 
@@ -277,7 +277,7 @@ function DataProtection() {
                                     widerrufen;
                                     - gemäß Art. 77 DSGVO sich bei einer Aufsichtsbehörde zu beschweren.
 
-                                    ## Aktualität und Änderung dieser Datenschutzerklärung
+                            <h2> Aktualität und Änderung dieser Datenschutzerklärung</h2>
 
                                     Diese Datenschutzerklärung ist aktuell gültig und hat den Stand [Datum].
 
