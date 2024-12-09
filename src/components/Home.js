@@ -20,7 +20,7 @@ function Home() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 1 }}
                 >
-                    <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: '#f9f9f9' }}>
+                    <div style={{border: '1px solid #ddd', padding: '1rem', width: '200px', background: '#f9f9f9'}}>
                         {t('home.services')}
                         {/*<p>IoT-Device Installation und Aktualisierung</p>*/}
                         <p>{t('home.service1.title')}</p>
@@ -28,6 +28,17 @@ function Home() {
                         <p>{t('home.service3.title')}</p>
                         <p>{t('home.service4.title')}</p>
                         <p>{t('home.service5.title')}</p>
+                        <p>Lorem Ipsum</p><p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p><p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+
+
+
                     </div>
                     <div style={{border: '1px solid #ddd', padding: '1rem', width: '200px', background: '#f9f9f9'}}>
                         {t('home.blog')}
@@ -36,6 +47,14 @@ function Home() {
                         <p>{t('home.blog3.title')}</p>
                         <p>{t('home.blog4.title')}</p>
                         <p>{t('home.blog5.title')}</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
+                        <p>Lorem Ipsum</p>
                     </div>
                 </motion.div>
             </div>

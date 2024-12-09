@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {toast} from "react-toastify";
@@ -16,8 +16,29 @@ window.addEventListener('scroll', () => {
 
 function Header() {
     const { t, i18n } = useTranslation();
+    const [isHidden, setIsHidden] = useState(false);
+    const [lastScrollY, setLastScrollY] = useState(0);
 
-    const switchLanguage = (lang) => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollY = window.scrollY;
+
+            if (currentScrollY > lastScrollY && currentScrollY > 50) {
+                setIsHidden(true); // Header verstecken, wenn nach unten gescrollt wird
+            } else {
+                setIsHidden(false); // Header anzeigen, wenn nach oben gescrollt wird
+            }
+
+            setLastScrollY(currentScrollY);
+        };
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [lastScrollY]);
+
+        const switchLanguage = (lang) => {
         i18n.changeLanguage(lang)
             .then(() => {
                 toast.success(`Language changed to ${lang.toUpperCase()}!`, {
@@ -46,6 +67,7 @@ function Header() {
 
     return (
         <header
+            className={isHidden ? 'hidden' : ''}
             style={{
                 background: `url(${japaneseMatrix}) center/cover no-repeat`,
                 color: '#fff',

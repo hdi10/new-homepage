@@ -163,9 +163,16 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
+header.hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+
 header.scrolled {
-  background-color: rgba(0, 0, 0, 0.8); /* Transparenter schwarzer Hintergrund beim Scrollen */
-  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 header h1 {
@@ -215,9 +222,11 @@ header .language-switcher button {
   border-radius: 5px;
 }
 
-header .language-switcher button:hover {
-  background-color: #f39c12;
+
+button:hover, header nav a:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
 
 @media (max-width: 768px) {
   header nav {
