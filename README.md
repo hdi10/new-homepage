@@ -73,3 +73,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 https://upload.wikimedia.org/wikipedia/commons/4/43/Tollcollect-logo.svg
 https://upload.wikimedia.org/wikipedia/commons/d/d9/Stromnetz_Berlin_logo.svg
+https://www.entraserv.com/
+https://de.wikipedia.org/wiki/Grafana#/media/Datei:Grafana_logo.png
+https://de.wikipedia.org/wiki/IOS_(Betriebssystem)#/media/Datei:IOS_wordmark_(2017).svg
+https://de.wikipedia.org/wiki/Android_(Betriebssystem)
+https://de.wikipedia.org/wiki/ESP32#/media/Datei:Espressif_ESP-WROOM-32_Wi-Fi_&_Bluetooth_Module.jpg
+https://de.wikipedia.org/wiki/Spring_(Framework)#/media/Datei:Spring_Framework_Logo_2018.svg
+https://en.wikipedia.org/wiki/Java_(programming_language)#/media/File:Java_programming_language_logo.svg
+https://de.wikipedia.org/wiki/Kotlin_(Programmiersprache)#/media/Datei:Kotlin_Icon_2021.svg
+https://de.wikipedia.org/wiki/GitLab#/media/Datei:GitLab_logo_(2).svg

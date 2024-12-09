@@ -13,7 +13,11 @@ const logos = [
         repoLink: 'https://github.com/hdi10/TimeZelkulon',
         image1: "/images/about/Tollcollect-logo.png",
         image2: "images/about/logoentraserv.png",
-        image3: "images/about/Stromnetz_Berlin_logo.png"
+        image3: "images/about/Stromnetz_Berlin_logo.png",
+        image4:"images/about/Android_2023_3D_logo_and_wordmark.png",
+        image5:"images/about/Espressif_ESP-WROOM-32_Wi-Fi_&_Bluetooth_Module.jpeg",
+        image6:"images/about/Grafana_logo.png",
+        image7:"images/about/IOS_wordmark_(2017).png"
     }/*,
     {
         icon: faLaptopCode,
@@ -67,7 +71,7 @@ function About() {
                         {logos.map((logo, index) => (
                             <div className="logo" key={index}
                                  style={{display: 'flex', alignItems: 'center', margin: '10px', gap: '10px'}}>
-                                {/* Projektbild */}
+                                {/* logos */}
 
 
                                 <img src={logo.image1} alt={t(logo.titleKey)} style={{
@@ -97,7 +101,54 @@ function About() {
                     </div>
                 </motion.div>
 
+
                 <h3>{t('about.experienceLong')}</h3>
+                <motion.div
+                    style={{display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap'}}
+                    initial={{opacity: 0}}
+                    animate={{opacity: 1}}
+                    transition={{delay: 0.5, duration: 1}}
+                >
+                    <div className="logos">
+                        {logos.map((logo, index) => (
+                            <div className="logo" key={index}
+                                 style={{display: 'flex', alignItems: 'center', margin: '10px', gap: '10px'}}>
+                                {/* logos */}
+
+
+                                <img src={logo.image4} alt={t(logo.titleKey)} style={{
+                                    width: '100px',
+                                    height: '200px',
+                                    objectFit: 'contain',
+                                    borderRadius: '1px'
+                                }}/>
+
+                                <img src={logo.image5} alt={t(logo.titleKey)} style={{
+                                    width: '100px',
+                                    height: '200px',
+                                    objectFit: 'contain',
+                                    borderRadius: '1px'
+                                }}/>
+
+                                <img src={logo.image6} alt={t(logo.titleKey)} style={{
+                                    width: '100px',
+                                    height: '200px',
+                                    objectFit: 'contain',
+                                    borderRadius: '1px'
+                                }}/>
+
+                                <img src={logo.image7} alt={t(logo.titleKey)} style={{
+                                    width: '100px',
+                                    height: '200px',
+                                    objectFit: 'contain',
+                                    borderRadius: '1px'
+                                }}/>
+
+
+                            </div>
+                        ))}
+                    </div>
+                </motion.div>
                 <h3>{t('about.goals')}</h3>
             </div>
 
