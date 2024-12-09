@@ -71,22 +71,22 @@ function About() {
 
 
                                 <img src={logo.image1} alt={t(logo.titleKey)} style={{
-                                    width: '200px',
-                                    height: '400px',
+                                    width: '100px',
+                                    height: '200px',
                                     objectFit: 'contain',
                                     borderRadius: '1px'
                                 }}/>
 
                                 <img src={logo.image2} alt={t(logo.titleKey)} style={{
-                                    width: '200px',
-                                    height: '400px',
+                                    width: '100px',
+                                    height: '200px',
                                     objectFit: 'contain',
                                     borderRadius: '1px'
                                 }}/>
 
                                 <img src={logo.image3} alt={t(logo.titleKey)} style={{
-                                    width: '200px',
-                                    height: '400px',
+                                    width: '100px',
+                                    height: '200px',
                                     objectFit: 'contain',
                                     borderRadius: '1px'
                                 }}/>
