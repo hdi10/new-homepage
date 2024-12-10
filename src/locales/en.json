@@ -1,11 +1,11 @@
 {
   "header": {
-    "title": "My Portfolio",
+    "title": "Our Portfolio",
     "home": "Home",
     "portfolio": "Portfolio",
-    "about": "About Me",
+    "about": "About Us",
     "contact": "Contact",
-    "data_protection": "Data Protection"
+    "data_protection": "Privacy Policy"
   },
   "home": {
     "title": "Zelkulon",
@@ -69,18 +69,18 @@
         "image":"./LiveTrackingAndHistory.png"
       }
     },
-    "about": {
-      "title": "About Me",
-      "description": "I am a graduate in applied computer science with experience in software development, IT consulting, and test automation. My focus is on developing innovative microservices, apps, and IoT solutions.",
-      "vision": "With my company, I aim to set new standards in software development and secure a leading position in the industry.",
-      "experience": "I have worked on projects for Toll Collect, Entraserv, and Stromnetz Berlin, including microservices with Spring Cloud and Android/iOS apps.",
-      "goals": "My goals are to successfully launch game and service apps and establish my UG in the long term.",
+  "about": {
+    "title": "About Us",
+    "description": "We are a software development company focused on microservices, mobile apps, and IoT solutions. Our mission is to deliver innovative and high-quality software solutions.",
+    "vision": "Our vision is to redefine technological standards and establish a leading position in the software industry.",
+    "experience": "Our projects include the development of microservices with Spring Cloud, Android and iOS apps, and IoT integrations for companies such as Toll Collect, Entraserv, and Stromnetz Berlin.",
+    "goals": "We are committed to sustainable growth, the successful launch of apps and services, and positioning our company as a leader in innovative software solutions.",
 
-      "descriptionLong": "Learn more about my journey and expertise in software development.",
-      "visionLong": "I strive to develop innovative software solutions and further expand my knowledge in the areas of microservices, testing and app development. My vision is to set new standards in software development with my own company and to take a leading position in the industry in the long term.",
-      "experienceLong":"I am a graduate in applied computer science with extensive experience as a software developer, IT consulting and test automation at companies such as Toll Collect, Entraserv and Stromnetz Berlin. My projects include the development of microservices with Spring Cloud, Android and iOS apps, as well as solutions with ESP32 and Grafana. I also have expertise in technologies such as Java, Kotlin, Docker and GitLab CI/CD.",
-      "goalsLong": "My goals are to take off as a software developer, successfully establish my UG and publish game and service apps. I want to maximise my income to support my family and develop myself as an expert in software development."
-    },
+    "descriptionLong": "Discover more about our expertise in software development and how we create value through technological innovation.",
+    "visionLong": "Our mission is to deliver tailored software solutions that meet market demands and set new technological benchmarks. With our experience in microservices, test automation, and app development, we actively shape the future of the software industry.",
+    "experienceLong": "With extensive experience in software development, IT consulting, and test automation, we have successfully executed projects for renowned companies like Toll Collect, Entraserv, and Stromnetz Berlin. Our technical expertise includes Java, Kotlin, Docker, GitLab CI/CD, Android and iOS apps, as well as IoT solutions such as ESP32 and Grafana.",
+    "goalsLong": "Our long-term goals are to expand our portfolio with innovative software solutions, launch successful game and service apps, and establish our company as a trusted partner in the software industry."
+  },
     "contact": {
       "title": "Contact Me",
       "description": "Get in touch for inquiries or collaborations."

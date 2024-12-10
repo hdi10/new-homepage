@@ -1,11 +1,11 @@
 {
   "header": {
-    "title": "Benim Portfolyom",
+    "title": "Portföyümüz",
     "home": "Ana Sayfa",
     "portfolio": "Portföy",
-    "about": "Hakkımda",
+    "about": "Hakkımızda",
     "contact": "İletişim",
-    "data_protection": "Veri Koruma"
+    "data_protection": "Gizlilik Politikası"
   },
   "home": {
     "title": "Zelkulon",
@@ -68,18 +68,18 @@
         "description": "Sanatçı parçalarının Şarkı Sayacı - Spotify"
       }
     },
-    "about": {
-      "title": "Hakkımda",
-      "description": "Yazılım geliştirme, BT danışmanlığı ve test otomasyonu konularında deneyime sahip, uygulamalı bilgisayar bilimi mezunuyum. Yenilikçi mikro hizmetler, uygulamalar ve IoT çözümleri geliştirmeye odaklanıyorum.",
-      "vision": "Kendi şirketimle yazılım geliştirmede yeni standartlar belirlemeyi ve sektörde lider bir konuma ulaşmayı hedefliyorum.",
-      "experience": "Toll Collect, Entraserv ve Stromnetz Berlin için Spring Cloud ve Android/iOS uygulamalarını içeren projelerde çalıştım.",
-      "goals": "Amacım, oyun ve hizmet uygulamalarını başarıyla yayınlamak ve uzun vadede UG'mi kurmak.",
+  "about": {
+    "title": "Hakkımızda",
+    "description": "Mikro servisler, mobil uygulamalar ve IoT çözümlerine odaklanan bir yazılım geliştirme şirketiyiz. Misyonumuz, yenilikçi ve yüksek kaliteli yazılım çözümleri sunmaktır.",
+    "vision": "Vizyonumuz, teknolojik standartları yeniden tanımlamak ve yazılım sektöründe lider bir konuma ulaşmaktır.",
+    "experience": "Projelerimiz arasında Spring Cloud ile mikro servislerin geliştirilmesi, Android ve iOS uygulamaları ile Toll Collect, Entraserv ve Stromnetz Berlin gibi şirketler için IoT entegrasyonları yer almaktadır.",
+    "goals": "Sürdürülebilir büyüme, uygulama ve hizmetlerin başarılı bir şekilde piyasaya sürülmesi ve şirketimizi yenilikçi yazılım çözümleri sağlayıcısı olarak konumlandırmaya kararlıyız.",
 
-      "descriptionLong": "Yazılım geliştirme konusundaki yolculuğum ve uzmanlığım hakkında daha fazla bilgi edinin.",
-      "visionLong": "Yenilikçi yazılım çözümleri geliştirmek ve mikro hizmetler, test ve uygulama geliştirme alanlarındaki bilgilerimi daha da genişletmek için çabalıyorum. Vizyonum, kendi şirketimle yazılım geliştirmede yeni standartlar belirlemek ve uzun vadede sektörde lider bir konuma gelmek.",
-      "experienceLong":"Toll Collect, Entraserv ve Stromnetz Berlin gibi şirketlerde yazılım geliştirme, BT danışmanlığı ve test otomasyonu alanlarında çalışan bir bilgisayar bilimi mezunuyum. Projelerim arasında Spring Cloud, Android ve iOS uygulamaları ile mikro hizmetlerin geliştirilmesinin yanı sıra ESP32 ve Grafana ile çözümler yer alıyor. Java, Kotlin, Docker ve GitLab CI/CD gibi teknolojilerde de uzmanlığım var.",
-      "goalsLong": "Hedeflerim bir yazılım geliştiricisi olarak yola çıkmak, UG'mi başarıyla kurmak ve oyun ve hizmet uygulamaları yayınlamak. Ailemi desteklemek için gelirimi en üst düzeye çıkarmak ve kendimi yazılım geliştirme konusunda bir uzman olarak geliştirmek istiyorum."
-    },
+    "descriptionLong": "Yazılım geliştirme konusundaki uzmanlığımız ve teknolojik yenilikler ile nasıl değer yarattığımız hakkında daha fazla bilgi edinin.",
+    "visionLong": "Amacımız, pazar ihtiyaçlarını karşılayan ve yeni teknolojik standartlar belirleyen özel yazılım çözümleri sunmaktır. Mikro servisler, test otomasyonu ve uygulama geliştirme konularındaki deneyimimizle yazılım sektörünün geleceğini şekillendiriyoruz.",
+    "experienceLong": "Yazılım geliştirme, IT danışmanlığı ve test otomasyonu alanlarında geniş deneyimimizle, Toll Collect, Entraserv ve Stromnetz Berlin gibi tanınmış şirketler için projeleri başarıyla tamamladık. Teknik uzmanlık alanlarımız arasında Java, Kotlin, Docker, GitLab CI/CD, Android ve iOS uygulamaları ile ESP32 ve Grafana gibi IoT çözümleri bulunmaktadır.",
+    "goalsLong": "Uzun vadeli hedeflerimiz, yenilikçi yazılım çözümleriyle portföyümüzü genişletmek, başarılı oyun ve hizmet uygulamaları piyasaya sürmek ve şirketimizi yazılım sektöründe güvenilir bir iş ortağı olarak konumlandırmaktır."
+  },
     "contact": {
       "title": "İletişime Geç",
       "description": "Soru ve işbirliği için benimle iletişime geçin."
