@@ -9,7 +9,7 @@
   },
   "home": {
     "title": "Zelkulon",
-    "welcome": "Welcome to my portfolio!",
+    "welcome": "Our services",
     "services": "Services",
     "service1": {
       "title": "Software app development",
@@ -53,19 +53,19 @@
       "description": ""
     }},
     "portfolio": {
-      "title": "My Projects",
+      "title": "Projects",
       "description": "Explore my portfolio, showcasing web development, mobile apps, and more.",
       "project1": {
-        "title": "ZelTimer",
-        "description": "Time management"
+        "title": "Time Tracking",
+        "description": "Efficient time management solution for teams and individuals."
       },
       "project2": {
-        "title": "DestiWishWheel",
-        "description": "Random Wish Wheel"
+        "title": "Wheel of Fortune",
+        "description": "Smart tool for decision-making with customizable options."
       },
       "project3": {
-        "title": "AntZel",
-        "description": "Live-Tracking & History",
+        "title": "Live-Tracking & History",
+        "description": "Solution for live tracking and seamless gps-data archiving in real-time.",
         "image":"./LiveTrackingAndHistory.png"
       }
     },

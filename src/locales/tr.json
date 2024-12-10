@@ -9,7 +9,7 @@
   },
   "home": {
     "title": "Zelkulon",
-    "welcome": "Portföyüme hoş geldiniz!",
+    "welcome": "Hizmetlerimiz",
     "services": "Hizmetler",
     "service1": {
       "title": "Yazılım uygulaması geliştirme",
@@ -53,19 +53,19 @@
       "description": ""
     }},
     "portfolio": {
-      "title": "Projelerim",
+      "title": "Projeler",
       "description": "Web geliştirme, mobil uygulamalar ve daha fazlasını içeren portföyümü keşfedin.",
       "project1": {
-        "title": "ZelTimer",
+        "title": "Zaman Takibi",
         "description": "Zaman Yönetimi"
       },
       "project2": {
-        "title": "DestiWishWheel",
+        "title": "Kader Çarkı",
         "description": "Rastgele Bir Dilek Hissi"
       },
       "project3": {
         "title": "Canlı İzleme ve Geçmiş",
-        "description": "Sanatçı parçalarının Şarkı Sayacı - Spotify"
+        "description": "Gerçek zamanlı gps veri takibi ve sorunsuz arşivleme çözümü."
       }
     },
   "about": {

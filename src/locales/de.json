@@ -9,7 +9,7 @@
   },
   "home": {
     "title": "Zelkulon",
-    "welcome": "Willkommen in meinem Portfolio!",
+    "welcome": "Unsere Services",
     "services": "Dienstleistungen",
     "service1": {
       "title": "Software App-Entwicklung",
@@ -53,19 +53,19 @@
         "description": ""
       }},
       "portfolio": {
-        "title": "Meine Projekte",
-        "description": "Entdecke mein Portfolio mit Webentwicklung, mobilen Apps und mehr.",
+        "title": "Projekte",
+        "description": "Ein Einblick in unser Portfolio – von Webentwicklung bis hin zu mobilen Anwendungen und innovativen Lösungen.",
         "project1": {
           "title": "Zeiterfassung",
-          "description": "Zeitmanagment"
+          "description": "Effiziente Zeitmanagementlösung für Teams und Einzelpersonen."
         },
         "project2": {
           "title": "Schicksalsrad",
-          "description": "Entscheidungsfindung"
+          "description": "Intelligentes Tool zur Entscheidungsfindung mit benutzerdefinierten Optionen."
         },
         "project3": {
           "title": "Live-Tracking & Archivierung",
-          "description": "Songaufrufzähler Spotify"
+          "description": "Lösung für Live-Tracking und nahtlose Archivierung von GPS-Daten in Echtzeit."
         }
       },
   "about": {
