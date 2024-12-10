@@ -39,7 +39,7 @@ function Portfolio() {
     const { t } = useTranslation();
 
     return (
-        <section id="portfolio" style={{ padding: '2rem', textAlign: 'center' }}>
+        <section id="portfolio" style={{ padding: '0.2rem', textAlign: 'center' }}>
             <Helmet>
                 <title>{t('portfolio.title')}</title>
                 <meta name="description" content={t('portfolio.description')} />
