@@ -82,3 +82,4 @@ https://de.wikipedia.org/wiki/Spring_(Framework)#/media/Datei:Spring_Framework_L
 https://en.wikipedia.org/wiki/Java_(programming_language)#/media/File:Java_programming_language_logo.svg
 https://de.wikipedia.org/wiki/Kotlin_(Programmiersprache)#/media/Datei:Kotlin_Icon_2021.svg
 https://de.wikipedia.org/wiki/GitLab#/media/Datei:GitLab_logo_(2).svg
+https://en.wikipedia.org/wiki/MicroPython#/media/File:MicroPython_new_logo.svg
