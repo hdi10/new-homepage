@@ -61,11 +61,11 @@
       },
       "project2": {
         "title": "DestiWishWheel",
-        "description": "A Random Wish WHeel"
+        "description": "Random Wish Wheel"
       },
       "project3": {
-        "title": "Live-Tracking & History",
-        "description": "Song Counter of Artist tracks - Spotify",
+        "title": "AntZel",
+        "description": "Live-Tracking & History",
         "image":"./LiveTrackingAndHistory.png"
       }
     },
