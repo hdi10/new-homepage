@@ -55,7 +55,7 @@ function About() {
                 <title>{t('about.title')}</title>
                 <meta name="description" content={t('about.description')}/>
             </Helmet>
-            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="100">
                 <h2>{t('about.title')}</h2>
                 <h3>{t('about.visionLong')}</h3>
 
