@@ -103,6 +103,7 @@ function About() {
 
 
                 <h3>{t('about.experienceLong')}</h3>
+
                 <motion.div
                     style={{display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap'}}
                     initial={{opacity: 0}}
@@ -149,7 +150,9 @@ function About() {
                         ))}
                     </div>
                 </motion.div>
+
                 <h3>{t('about.goals')}</h3>
+
             </div>
 
 

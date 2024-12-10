@@ -59,31 +59,31 @@ form button:hover {
   position: relative;
   overflow: hidden;
   background: url('./assets/ubuntu.jpg') center/cover no-repeat;
-  color: #fff; /* Beibehalten für guten Kontrast */
+  color: #fff;
 }
 
-.project::after {
+/*.project::after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7); /* Stärkere Überlagerung */
-  opacity: 1; /* Standardmäßig sichtbar */
+  background: rgba(0, 0, 0, 0.7); !* Stärkere Überlagerung *!
+  opacity: 1; !* Standardmäßig sichtbar *!
   transition: opacity 0.3s;
-}
+}*/
 
-.project:hover::after {
-  opacity: 0.5; /* Leicht abschwächen, um Fokus auf den Inhalt zu setzen */
-}
+/*.project:hover::after {
+  opacity: 0.5; !* Leicht abschwächen, um Fokus auf den Inhalt zu setzen *!
+}*/
 
-.project h3,
+/*.project h3,
 .project p {
   z-index: 1;
   position: relative;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Schatten hinter dem Text */
-}
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); !* Schatten hinter dem Text *!
+}*/
 
 .project h3 {
   font-size: 1.5rem;
@@ -91,7 +91,7 @@ form button:hover {
 }
 
 .project p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.4;
 }
 
@@ -107,17 +107,17 @@ form button:hover {
 }
 
 
-.project::after {
+/*.project::after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Standardmäßig etwas sichtbar */
-  opacity: 1; /* Deutliche Überlagerung */
+  background: rgba(0, 0, 0, 0.5); !* Standardmäßig etwas sichtbar *!
+  opacity: 1; !* Deutliche Überlagerung *!
   transition: opacity 0.3s ease-in-out;
-}
+}*/
 
 button {
   margin: 0 5px;
