@@ -32,64 +32,89 @@
       "description": ""
     },
     "blog": "Blog",
-      "blog1": {
-        "title": "Dashboard Visualisierung Esp32-CAM",
-        "description": ""
-      },
-      "blog2": {
-        "title": "Spotify-Live-Tracking und Spotify-Archivierung Ihrer Wiedergabe.",
-        "description": ""
-      },
-      "blog3": {
-        "title": "Glücksrad-Simulation -->Everydaytooltip von Tim Tool.",
-        "description": ""
-      },
-      "blog4": {
-        "title": "Karten App Wo lang bin ich das letztemal gelaufen",
-        "description": ""
-      },
-      "blog5": {
-        "title": "SafetyButton App oder Zeiterfassungs- als Wochenplaner-App --> ERP angelehnt?",
-        "description": ""
-      }},
-      "portfolio": {
-        "title": "Projekte",
-        "description": "Ein Einblick in unser Portfolio – von Webentwicklung bis hin zu mobilen Anwendungen und innovativen Lösungen.",
-        "project1": {
-          "title": "Zeiterfassung",
-          "description": "Effiziente Zeitmanagementlösung für Teams und Einzelpersonen."
-        },
-        "project2": {
-          "title": "Schicksalsrad",
-          "description": "Intelligentes Tool zur Entscheidungsfindung mit benutzerdefinierten Optionen."
-        },
-        "project3": {
-          "title": "Live-Tracking & Archivierung",
-          "description": "Lösung für Live-Tracking und nahtlose Archivierung von GPS-Daten in Echtzeit."
-        }
-      },
+    "blog1": {
+      "title": "Dashboard Visualisierung Esp32-CAM",
+      "description": ""
+    },
+    "blog2": {
+      "title": "Spotify-Live-Tracking und Spotify-Archivierung Ihrer Wiedergabe.",
+      "description": ""
+    },
+    "blog3": {
+      "title": "Glücksrad-Simulation -->Everydaytooltip von Tim Tool.",
+      "description": ""
+    },
+    "blog4": {
+      "title": "Karten App Wo lang bin ich das letztemal gelaufen",
+      "description": ""
+    },
+    "blog5": {
+      "title": "SafetyButton App oder Zeiterfassungs- als Wochenplaner-App --> ERP angelehnt?",
+      "description": ""
+    }
+  },
+  "portfolio": {
+    "title": "Projekte",
+    "description": "Ein Einblick in unser Portfolio – von Webentwicklung bis hin zu mobilen Anwendungen und innovativen Lösungen.",
+    "project1": {
+      "title": "Zeiterfassung",
+      "description": "Effiziente Zeitmanagementlösung für Teams und Einzelpersonen."
+    },
+    "project2": {
+      "title": "Schicksalsrad",
+      "description": "Intelligentes Tool zur Entscheidungsfindung mit benutzerdefinierten Optionen."
+    },
+    "project3": {
+      "title": "Live-Tracking & Archivierung",
+      "description": "Lösung für Live-Tracking und nahtlose Archivierung von GPS-Daten in Echtzeit."
+    }
+  },
   "about": {
     "title": "Über uns",
     "description": "Wir sind ein Softwareentwicklungsunternehmen mit Fokus auf Microservices, mobile Apps und IoT-Lösungen. Unser Ziel ist es, innovative und hochwertige Softwarelösungen zu entwickeln.",
     "vision": "Wir streben an, technologische Standards neu zu definieren und eine führende Position in der Softwarebranche einzunehmen.",
     "experience": "Unsere Projekte umfassen die Entwicklung von Microservices mit Spring Cloud, Android- und iOS-Apps sowie IoT-Integrationen für Unternehmen wie Toll Collect, Entraserv und Stromnetz Berlin.",
     "goals": "Wir setzen auf nachhaltiges Wachstum, den erfolgreichen Launch von Apps und Dienstleistungen sowie die Etablierung unseres Unternehmens als führender Anbieter innovativer Softwarelösungen.",
-
     "descriptionLong": "Erfahren Sie mehr über unsere Expertise in der Softwareentwicklung und wie wir durch technologische Innovation Mehrwert schaffen.",
     "visionLong": "Unser Ziel ist es, maßgeschneiderte Softwarelösungen zu entwickeln, die nicht nur aktuellen Marktanforderungen gerecht werden, sondern auch technologische Trends setzen. Mit unserer Erfahrung in Microservices, Testautomatisierung und App-Entwicklung gestalten wir die Zukunft der Softwarebranche aktiv mit.",
     "experienceLong": "Mit umfangreicher Erfahrung in der Softwareentwicklung, IT-Beratung und Testautomatisierung haben wir erfolgreich Projekte für namhafte Unternehmen wie Toll Collect, Entraserv und Stromnetz Berlin realisiert. Unser technologischer Schwerpunkt liegt auf Java, Kotlin, Docker, GitLab CI/CD, Android und iOS-Apps sowie IoT-Lösungen wie ESP32 und Grafana.",
     "goalsLong": "Unsere langfristigen Ziele sind der Ausbau unseres Portfolios mit innovativen Softwarelösungen, die erfolgreiche Einführung von Spiele- und Service-Apps sowie die Positionierung unseres Unternehmens als vertrauenswürdiger Partner in der Softwarebranche."
-  }
-,
-      "contact": {
-        "title": "Kontaktiere mich",
-        "description": "Melde dich bei mir für Anfragen oder Kooperationen."
+  },
+  "contact": {
+    "title": "Kontaktiere mich",
+    "description": "Melde dich bei mir für Anfragen oder Kooperationen."
+  },
+
+      "imprint": {
+        "welcome": "Datenschutz und Impressum\n",
+        "contact": {
+          "name": "Zelkulon UG (haftungsbeschränkt)",
+          "address": "Wermuthweg 7, 12353 Berlin, Deutschland",
+          "phone": "0176-22812332",
+          "email": "hdastekin@gmail.com",
+          "website": "https://www.dastekin.de"
+        },
+        "legal_information": {
+          "tax_id": "[Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz, falls vorhanden]",
+          "commercial_register": "[Handelsregistereintrag, falls zutreffend: Handelsregister, Registernummer]"
+        },
+        "representative": "Harun Dastekin",
+        "disclaimer": {
+          "content_liability": "Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.",
+          "link_liability": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
+          "copyright": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen."
+        }
       },
       "data_protection": {
-        "title": "Datenschutz und Datensicherheit",
-        "welcome": "Datenschutz und Impressum",
-        "services": "Datenschutz-Grundverordnung DSGVO",
-        "blog": "Impressum",
-        "description": "Datenschutz und Impressum"
+        "responsible": "Zelkulon UG (haftungsbeschränkt), Wermuthweg 7, 0176-22812332, hdastekin@gmail.com",
+        "data_usage": {
+          "website_visit": "Beim Aufrufen unserer Website werden durch den auf Ihrem Endgerät zum Einsatz kommenden Browser automatisch Informationen an den Server unserer Website gesendet. Diese Informationen werden temporär in einem sogenannten Logfile gespeichert. Folgende Informationen werden dabei ohne Ihr Zutun erfasst und bis zur automatisierten Löschung gespeichert: IP-Adresse des anfragenden Rechners, Datum und Uhrzeit des Zugriffs, Name und URL der abgerufenen Datei, Website, von der aus der Zugriff erfolgt (Referrer-URL), verwendeter Browser und ggf. das Betriebssystem Ihres Rechners sowie der Name Ihres Access-Providers. Die genannten Daten werden durch uns zu folgenden Zwecken verarbeitet: Gewährleistung eines reibungslosen Verbindungsaufbaus der Website, Gewährleistung einer komfortablen Nutzung unserer Website, Auswertung der Systemsicherheit und -stabilität sowie zu weiteren administrativen Zwecken. Die Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse folgt aus den oben aufgelisteten Zwecken zur Datenerhebung. In keinem Fall verwenden wir die erhobenen Daten zu dem Zweck, Rückschlüsse auf Ihre Person zu ziehen.",
+          "contact": "Wenn Sie uns per E-Mail oder über ein Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben inklusive der von Ihnen angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) und/oder auf unseren berechtigten Interessen (Art. 6 Abs. 1 lit. f DSGVO), da wir ein berechtigtes Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen haben.",
+          "cookies": "Unsere Website verwendet Cookies. Hierbei handelt es sich um kleine Dateien, die Ihr Browser automatisch erstellt und die auf Ihrem Endgerät gespeichert werden, wenn Sie unsere Seite besuchen. Cookies richten auf Ihrem Endgerät keinen Schaden an, enthalten keine Viren, Trojaner oder sonstige Schadsoftware. In dem Cookie werden Informationen abgelegt, die sich jeweils im Zusammenhang mit dem spezifisch eingesetzten Endgerät ergeben. Dies bedeutet jedoch nicht, dass wir dadurch unmittelbar Kenntnis von Ihrer Identität erhalten. Die Verwendung von Cookies dient einerseits dazu, die Nutzung unseres Angebots für Sie angenehmer zu gestalten. So setzen wir sogenannte Session-Cookies ein, um zu erkennen, dass Sie einzelne Seiten unserer Website bereits besucht haben. Diese werden nach Verlassen unserer Seite automatisch gelöscht. Darüber hinaus setzen wir ebenfalls zur Optimierung der Benutzerfreundlichkeit temporäre Cookies ein, die für einen bestimmten festgelegten Zeitraum auf Ihrem Endgerät gespeichert werden. Besuchen Sie unsere Seite erneut, um unsere Dienste in Anspruch zu nehmen, wird automatisch erkannt, dass Sie bereits bei uns waren und welche Eingaben und Einstellungen Sie getätigt haben, um diese nicht noch einmal eingeben zu müssen. Die durch Cookies verarbeiteten Daten sind für die genannten Zwecke zur Wahrung unserer berechtigten Interessen sowie der Dritter nach Art. 6 Abs. 1 lit. f DSGVO erforderlich. Sie können Ihre Browsereinstellungen so konfigurieren, dass keine Cookies auf Ihrem Computer gespeichert werden oder stets ein Hinweis erscheint, bevor ein neuer Cookie angelegt wird. Die vollständige Deaktivierung von Cookies kann jedoch dazu führen, dass Sie nicht alle Funktionen unserer Website nutzen können.",
+          "analytics": "Wir setzen auf unserer Website Analyse-Tools ein, um die Nutzung unserer Website statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebots für Sie auszuwerten. Die Rechtsgrundlage für die Verwendung solcher Analyse-Tools ist Art. 6 Abs. 1 lit. f DSGVO."
+        },
+        "rights": "Ihre Rechte: gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen; gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder Vervollständigung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen; gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist; gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen; gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen; gemäß Art. 7 Abs. 3 DSGVO Ihre einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen; gemäß Art. 77 DSGVO sich bei einer Aufsichtsbehörde zu beschweren."
       }
     }
+
+

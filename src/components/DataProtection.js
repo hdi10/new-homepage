@@ -29,7 +29,7 @@ function DataProtection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.8 }}
             >
-                <h2 style={{ marginBottom: '2rem' }}>{t('data_protection.welcome')}</h2>
+                <h2 style={{ marginBottom: '2rem' }}>{t('imprint.welcome')}</h2>
                 <motion.div
                     style={{
                         display: 'flex',
@@ -38,14 +38,54 @@ function DataProtection() {
                         gap: '20px',
                     }}
                 >
-                    <div style={contentStyle}>
+
+                    <section style={contentStyle}>
+                        <header style={contentStyle}>
+                            <h1>{t('imprint.contact.name')}</h1>
+                        </header>
+                        <address>
+                            <p>{t('imprint.contact.address')}</p>
+                            <p>{t('imprint.contact.phone')}</p>
+                            <p>
+                                <a href={`mailto:${t('imprint.contact.email')}`}>
+                                    {t('imprint.contact.email')}
+                                </a>
+                            </p>
+                            <p>
+                                <a href={t('imprint.contact.website')}>
+                                    {t('imprint.contact.website')}
+                                </a>
+                            </p>
+                        </address>
+                        <section>
+                            <h3>{t('imprint.legal_information.tax_id')}</h3>
+                            <h3>{t('imprint.legal_information.commercial_register')}</h3>
+                        </section>
+                        <section>
+                            <h2>{t('imprint.representative')}</h2>
+                        </section>
+                    </section>
+                    <section style={contentStyle}>
+                        <header style={contentStyle}>
+                            <h1>{t('data_protection.responsible')}</h1>
+                        </header>
+                        <article>
+                            <p>{t('data_protection.data_usage.website_visit')}</p>
+                            <p>{t('data_protection.data_usage.contact')}</p>
+                            <p>{t('data_protection.data_usage.cookies')}</p>
+                            <p>{t('data_protection.rights')}</p>
+                        </article>
+                    </section>
+
+
+                    {/*<div style={contentStyle}>
                         <h1>{t('data_protection.blog')}</h1>
                         <p>
                             <h2>Impressum</h2>
 
                             <h3> Angaben gemäß § 5 TMG:</h3>
                             <address>
-                                {/*Written by <a href="mailto:hdastekin@gmail.com">Harun Dastekin</a>.<br/>*/}
+                                Written by <a href="mailto:hdastekin@gmail.com">Harun Dastekin</a>.<br/>
                                 <h1>Kontaktieren Sie uns:<br/></h1>
                                 Zelkulon UG(haftungsbeschränkt)<br/>
                                 Wermuthweg 7, 12353
@@ -332,7 +372,7 @@ function DataProtection() {
 
                                 </p>
                         </p>
-                    </div>
+                    </div>*/}
                 </motion.div>
             </motion.div>
         </section>
