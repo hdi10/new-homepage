@@ -74,6 +74,11 @@
       "title": "Live-Tracking & History",
       "description": "Solution for live tracking and seamless gps-data archiving in real-time.",
       "image": "./LiveTrackingAndHistory.png"
+    },
+    "project4": {
+      "title": "Random Choice Helper",
+      "description": "A versatile app to generate random numbers, words, and choices for easy decision-making. Includes options for customizable inputs like movies and lists.",
+      "image": "./RandomChoiceHelper.png"
     }
   },
   "about": {

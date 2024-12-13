@@ -72,6 +72,11 @@
     "project3": {
       "title": "Live-Tracking & Archivierung",
       "description": "Lösung für Live-Tracking und nahtlose Archivierung von GPS-Daten in Echtzeit."
+    },
+    "project4": {
+      "title": "Zufallswahl-Helfer",
+      "description": "Eine vielseitige App, um Zufallszahlen, Wörter und Entscheidungen zu generieren. Bietet anpassbare Eingaben wie Filme und Listen für einfachere Entscheidungen.",
+      "image": "./RandomChoiceHelper.png"
     }
   },
   "about": {

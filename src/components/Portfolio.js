@@ -33,6 +33,16 @@ const projects = [
         image2: "images/AntZel/standort1.png",
         image3: "images/AntZel/standort2.png"
     },
+    {
+        icon: faLaptopCode,
+        titleKey: 'portfolio.project4.title',
+        descriptionKey: 'portfolio.project4.description',
+        repoLink: 'https://github.com/hdi10/RandomChoiceHelperApplicationApp?tab=readme-ov-file',
+        image1: "images/RandomChoiceHelperApp/RandomChoice1.png",
+        image2: "images/RandomChoiceHelperApp/RandomChoice2.png",
+        image3: "images/RandomChoiceHelperApp/RandomChoice3.png"
+    }
+
 ];
 
 function Portfolio() {

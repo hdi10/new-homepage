@@ -73,7 +73,13 @@
     "project3": {
       "title": "Canlı İzleme ve Geçmiş",
       "description": "Gerçek zamanlı gps veri takibi ve sorunsuz arşivleme çözümü."
+    },
+    "project4": {
+      "title": "Rastgele Seçim Yardımcısı",
+      "description": "Rastgele sayı, kelime ve seçimler oluşturmak için çok yönlü bir uygulama. Filmler ve listeler gibi özelleştirilebilir girişlerle karar vermeyi kolaylaştırır.",
+      "image": "./RandomChoiceHelper.png"
     }
+
   },
   "about": {
     "title": "Hakkımızda",
