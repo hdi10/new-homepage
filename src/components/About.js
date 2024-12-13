@@ -17,7 +17,11 @@ const logos = [
         image4:"images/about/Android_2023_3D_logo_and_wordmark.png",
         image5:"images/about/Espressif_ESP-WROOM-32_Wi-Fi_&_Bluetooth_Module.jpeg",
         image6:"images/about/Grafana_logo.png",
-        image7:"images/about/IOS_wordmark_(2017).png"
+        image7:"images/about/IOS_wordmark_(2017).png",
+        imageJava:"images/about/Java_programming_language_logo.png",
+        imageKotlin:"images/about/Kotlin_Icon_2021.png",
+        imageMicropython:"images/about/MicroPython_new_logo.png",
+        imageGitLab:"images/about/GitLab_logo_(2).png"
     }/*,
     {
         icon: faLaptopCode,
@@ -125,22 +129,22 @@ function About() {
                                 }}/>
 
                                 <img src={logo.image5} alt={t(logo.titleKey)} style={{
-                                    width: '100px',
-                                    height: '200px',
+                                    width: '75px',
+                                    height: '150px',
                                     objectFit: 'contain',
                                     borderRadius: '1px'
                                 }}/>
 
                                 <img src={logo.image6} alt={t(logo.titleKey)} style={{
-                                    width: '100px',
-                                    height: '200px',
+                                    width: '75px',
+                                    height: '150px',
                                     objectFit: 'contain',
                                     borderRadius: '1px'
                                 }}/>
 
                                 <img src={logo.image7} alt={t(logo.titleKey)} style={{
-                                    width: '100px',
-                                    height: '200px',
+                                    width: '75px',
+                                    height: '175px',
                                     objectFit: 'contain',
                                     borderRadius: '1px'
                                 }}/>
@@ -153,6 +157,53 @@ function About() {
 
                 <h3>{t('about.goals')}</h3>
 
+
+                <motion.div
+                    style={{display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap'}}
+                    initial={{opacity: 0}}
+                    animate={{opacity: 1}}
+                    transition={{delay: 0.5, duration: 1}}
+                >
+                    <div className="logos">
+                        {logos.map((logo, index) => (
+                            <div className="logo" key={index}
+                                 style={{display: 'flex', alignItems: 'center', margin: '10px', gap: '10px'}}>
+                                {/* logos */}
+
+
+                                <img src={logo.imageJava} alt={t(logo.titleKey)} style={{
+                                    width: '50px',
+                                    height: '100px',
+                                    objectFit: 'contain',
+                                    borderRadius: '1px'
+                                }}/>
+
+                                <img src={logo.imageKotlin} alt={t(logo.titleKey)} style={{
+                                    width: '50px',
+                                    height: '100px',
+                                    objectFit: 'contain',
+                                    borderRadius: '1px'
+                                }}/>
+
+                                <img src={logo.imageGitLab} alt={t(logo.titleKey)} style={{
+                                    width: '100px',
+                                    height: '200px',
+                                    objectFit: 'contain',
+                                    borderRadius: '1px'
+                                }}/>
+
+                                <img src={logo.imageMicropython} alt={t(logo.titleKey)} style={{
+                                    width: '50px',
+                                    height: '150px',
+                                    objectFit: 'contain',
+                                    borderRadius: '1px'
+                                }}/>
+
+
+                            </div>
+                        ))}
+                    </div>
+                </motion.div>
             </div>
 
 
