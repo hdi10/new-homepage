@@ -252,3 +252,41 @@ button:hover, header nav a:hover {
     padding: 0.4rem 0.8rem; /* Weniger Padding */
   }
 }
+/* iOS-Spezifische Optimierungen */
+@supports (-webkit-overflow-scrolling: touch) {
+  header {
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0); /* Aktiviert Hardwarebeschleunigung für sanfteres Scrollen */
+    will-change: transform; /* Verhindert Flackern */
+    position: sticky; /* Sicherstellen, dass der Header oben bleibt */
+    top: 0; /* Position oben fixieren */
+    z-index: 1000; /* Höchste Priorität */
+  }
+
+  header.hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  header.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px); /* iOS spezifische Unterstützung für Unschärfe-Effekt */
+  }
+}
+
+/* Allgemeine Verbesserungen für flüssiges Scrollen */
+html {
+  scroll-behavior: smooth; /* Sanftes Scrollen */
+}
+
+/* Zusätzliche Anpassungen für kleine Bildschirme */
+@media (max-width: 480px) {
+  header {
+    padding: 0.5rem; /* Weniger Padding für kleinere Bildschirme */
+  }
+
+  header .language-switcher {
+    flex-wrap: wrap; /* Buttons brechen in die nächste Zeile, wenn nötig */
+  }
+}
+
