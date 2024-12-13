@@ -79,6 +79,11 @@
       "title": "Random Choice Helper",
       "description": "A versatile app to generate random numbers, words, and choices for easy decision-making. Includes options for customizable inputs like movies and lists.",
       "image": "./RandomChoiceHelper.png"
+    },
+    "project5": {
+      "title": "Personal Website",
+      "description": "Development and design of this professional website, featuring responsive design, multilingual support (German, English, Turkish), and modern web technologies.",
+      "image": "./myWebsite.png"
     }
   },
   "about": {

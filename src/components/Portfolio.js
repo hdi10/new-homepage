@@ -41,6 +41,16 @@ const projects = [
         image1: "images/RandomChoiceHelperApp/RandomChoice1.png",
         image2: "images/RandomChoiceHelperApp/RandomChoice2.png",
         image3: "images/RandomChoiceHelperApp/RandomChoice3.png"
+    },
+    {
+        icon: faCode,
+        titleKey: 'portfolio.project5.title',
+        descriptionKey: 'portfolio.project5.description',
+        repoLink: 'https://github.com/hdi10/new-homepage',
+        image1: "images/NewHomepage/website1.png",
+        image2: "images/NewHomepage/website2.png",
+        image3: "images/NewHomepage/website3.png"
+
     }
 
 ];
@@ -144,19 +154,19 @@ function Portfolio() {
                                 <img src={project.image1} alt={t(project.titleKey)} style={{
                                     width: '100px',
                                     height: '200px',
-                                    objectFit: 'cover',
+                                    objectFit: 'contain',
                                     borderRadius: '1px'
                                 }}/>
                                 <img src={project.image2} alt={t(project.titleKey)} style={{
                                     width: '100px',
                                     height: '200px',
-                                    objectFit: 'cover',
+                                    objectFit: 'contain',
                                     borderRadius: '1px'
                                 }}/>
                                 <img src={project.image3} alt={t(project.titleKey)} style={{
                                     width: '100px',
                                     height: '200px',
-                                    objectFit: 'cover',
+                                    objectFit: 'contain ',
                                     borderRadius: '1px'
                                 }}/>
 

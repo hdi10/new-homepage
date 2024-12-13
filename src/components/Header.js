@@ -79,7 +79,7 @@ function Header() {
                 transition: 'all 0.3s ease-in-out',
             }}
         >
-            <h1 className="header-title">Zelkulon</h1>
+          <h2 className="header-title">Zelkulon</h2>
             <nav>
                 <Link to="/" style={{ margin: '0 10px', color: '#fff' }}>{t('header.home')}</Link>
                 <Link to="/portfolio" style={{ margin: '0 10px', color: '#fff' }}>{t('header.portfolio')}</Link>

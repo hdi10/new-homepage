@@ -78,8 +78,12 @@
       "title": "Rastgele Seçim Yardımcısı",
       "description": "Rastgele sayı, kelime ve seçimler oluşturmak için çok yönlü bir uygulama. Filmler ve listeler gibi özelleştirilebilir girişlerle karar vermeyi kolaylaştırır.",
       "image": "./RandomChoiceHelper.png"
+    },
+    "project6": {
+      "title": "Kendi Web Sitesi",
+      "description": "Bu profesyonel web sitesinin geliştirilmesi ve tasarımı, duyarlı tasarım, çok dilli destek (Almanca, İngilizce, Türkçe) ve modern web teknolojileri ile yapılmıştır.",
+      "image": "./myWebsite.png"
     }
-
   },
   "about": {
     "title": "Hakkımızda",

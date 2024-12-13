@@ -252,6 +252,8 @@ button:hover, header nav a:hover {
     padding: 0.4rem 0.8rem; /* Weniger Padding */
   }
 }
+
+
 /* iOS-Spezifische Optimierungen */
 @supports (-webkit-overflow-scrolling: touch) {
   header {
@@ -261,6 +263,7 @@ button:hover, header nav a:hover {
     position: sticky; /* Sicherstellen, dass der Header oben bleibt */
     top: 0; /* Position oben fixieren */
     z-index: 1000; /* Höchste Priorität */
+    transition: all 0.3s ease-in-out; /* Sanfte Übergänge */
   }
 
   header.hidden {
@@ -271,6 +274,8 @@ button:hover, header nav a:hover {
   header.scrolled {
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(5px); /* iOS spezifische Unterstützung für Unschärfe-Effekt */
+    height: 50px; /* Header verkleinern beim Scrollen */
+    line-height: 50px; /* Zentriert den Text vertikal */
   }
 }
 
@@ -288,5 +293,5 @@ html {
   header .language-switcher {
     flex-wrap: wrap; /* Buttons brechen in die nächste Zeile, wenn nötig */
   }
-}
 
+}
