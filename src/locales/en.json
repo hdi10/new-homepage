@@ -6,7 +6,10 @@
     "about": "About Us",
     "contact": "Contact",
     "data_protection": "Privacy Policy"
-  },
+  },"cookie": {
+  "accept": "Accept cookies",
+  "reject": "Reject cookies"
+},
   "home": {
     "title": "Zelkulon",
     "welcome": "Our services",

@@ -6,7 +6,10 @@
     "about": "Über uns",
     "contact": "Kontakt",
     "data_protection": "Datenschutz"
-  },
+  },"cookie": {
+  "accept": "Cookies akzeptieren",
+  "reject": "Cookies ablehnen"
+},
   "home": {
     "title": "Zelkulon",
     "welcome": "Unsere Services",

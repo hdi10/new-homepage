@@ -6,7 +6,10 @@
     "about": "Hakkımızda",
     "contact": "İletişim",
     "data_protection": "Gizlilik Politikası"
-  },
+  },"cookie": {
+  "accept": "Çerezleri kabul et",
+  "reject": "Çerezleri reddetme"
+},
   "home": {
     "title": "Zelkulon",
     "welcome": "Hizmetlerimiz",

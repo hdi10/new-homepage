@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { faCode, faLaptopCode, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
@@ -46,6 +46,26 @@ const logos = [
 
 function About() {
     const { t } = useTranslation();
+    const [showCookieBanner, setShowCookieBanner] = useState(false);
+
+    useEffect(() => {
+        // Überprüfe, ob die Cookie-Einwilligung bereits vorhanden ist
+        const consent = localStorage.getItem('cookieConsent');
+        if (!consent) {
+            setShowCookieBanner(true);
+        }
+    }, []);
+
+    const handleAcceptCookies = () => {
+        localStorage.setItem('cookieConsent', 'accepted');
+        setShowCookieBanner(false);
+    };
+
+    const handleRejectCookies = () => {
+        localStorage.setItem('cookieConsent', 'rejected');
+        setShowCookieBanner(false);
+    };
+
 
     return (
         <motion.section
@@ -59,6 +79,59 @@ function About() {
                 <title>{t('about.title')}</title>
                 <meta name="description" content={t('about.description')}/>
             </Helmet>
+
+            {/* Cookie-Banner */}
+            {showCookieBanner && (
+                <div
+                    style={{
+                        position: 'fixed',
+                        bottom: 0,
+                        width: '100%',
+                        background: '#f3f3f3',
+                        padding: '1rem',
+                        boxShadow: '0 -2px 5px rgba(0, 0, 0, 0.1)',
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                        zIndex: 1000,
+                    }}
+                >
+                    <p style={{ margin: 0 }}>
+                        {t('cookie.message')} <a href="/data_protection">{t('cookie.learnMore')}</a>
+                    </p>
+                    <div>
+                        <button
+                            onClick={handleAcceptCookies}
+                            style={{
+                                marginLeft: '10px',
+                                padding: '0.5rem 1rem',
+                                background: '#4caf50',
+                                color: '#fff',
+                                border: 'none',
+                                borderRadius: '5px',
+                                cursor: 'pointer',
+                            }}
+                        >
+                            {t('cookie.accept')}
+                        </button>
+                        <button
+                            onClick={handleRejectCookies}
+                            style={{
+                                marginLeft: '10px',
+                                padding: '0.5rem 1rem',
+                                background: '#f44336',
+                                color: '#fff',
+                                border: 'none',
+                                borderRadius: '5px',
+                                cursor: 'pointer',
+                            }}
+                        >
+                            {t('cookie.reject')}
+                        </button>
+                    </div>
+                </div>
+            )}
+
             <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="100">
                 <h2>{t('about.title')}</h2>
                 <h3>{t('about.visionLong')}</h3>

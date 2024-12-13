@@ -1,50 +1,118 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 function Home() {
     const { t } = useTranslation();
+    const [showCookieBanner, setShowCookieBanner] = useState(false);
+
+    useEffect(() => {
+        // Überprüfe, ob die Cookie-Einwilligung bereits vorhanden ist
+        const consent = localStorage.getItem('cookieConsent');
+        if (!consent) {
+            setShowCookieBanner(true);
+        }
+    }, []);
+
+    const handleAcceptCookies = () => {
+        localStorage.setItem('cookieConsent', 'accepted');
+        setShowCookieBanner(false);
+    };
+
+    const handleRejectCookies = () => {
+        localStorage.setItem('cookieConsent', 'rejected');
+        setShowCookieBanner(false);
+    };
 
     return (
-        <section id="home" style={{ padding: '2rem', textAlign: 'center' }}>
+        <>
             <Helmet>
                 <title>{t('home.title')}</title>
                 <meta name="description" content={t('home.description')} />
             </Helmet>
-            <div data-aos="zoom-in">
-                <h2>{t('home.welcome')}</h2>
-                <motion.div
-                    style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.5, duration: 1 }}
+
+            {/* Cookie-Banner */}
+            {showCookieBanner && (
+                <div
+                    style={{
+                        position: 'fixed',
+                        bottom: 0,
+                        width: '100%',
+                        background: '#f3f3f3',
+                        padding: '1rem',
+                        boxShadow: '0 -2px 5px rgba(0, 0, 0, 0.1)',
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                        zIndex: 1000,
+                    }}
                 >
-                    <div style={{border: '1px solid #ddd', padding: '1rem', width: '200px', background: '#f9f9f9'}}>
-                        {t('home.services')}
-                        {/*<p>IoT-Device Installation und Aktualisierung</p>*/}
-                        <p>{t('home.service1.title')}</p>
-                        <p>{t('home.service2.title')}</p>
-                        <p>{t('home.service3.title')}</p>
-                        <p>{t('home.service4.title')}</p>
-                        <p>{t('home.service5.title')}</p>
-
-
-
-
+                    <p style={{ margin: 0 }}>
+                        {t('cookie.message')} <a href="/data_protection">{t('cookie.learnMore')}</a>
+                    </p>
+                    <div>
+                        <button
+                            onClick={handleAcceptCookies}
+                            style={{
+                                marginLeft: '10px',
+                                padding: '0.5rem 1rem',
+                                background: '#4caf50',
+                                color: '#fff',
+                                border: 'none',
+                                borderRadius: '5px',
+                                cursor: 'pointer',
+                            }}
+                        >
+                            {t('cookie.accept')}
+                        </button>
+                        <button
+                            onClick={handleRejectCookies}
+                            style={{
+                                marginLeft: '10px',
+                                padding: '0.5rem 1rem',
+                                background: '#f44336',
+                                color: '#fff',
+                                border: 'none',
+                                borderRadius: '5px',
+                                cursor: 'pointer',
+                            }}
+                        >
+                            {t('cookie.reject')}
+                        </button>
                     </div>
-                    <div style={{border: '1px solid #ddd', padding: '1rem', width: '200px', background: '#f9f9f9'}}>
-                        {t('home.blog')}
-                        <p>{t('home.blog1.title')}</p>
-                        <p>{t('home.blog2.title')}</p>
-                        <p>{t('home.blog3.title')}</p>
-                        <p>{t('home.blog4.title')}</p>
-                        <p>{t('home.blog5.title')}</p>
+                </div>
+            )}
 
-                    </div>
-                </motion.div>
-            </div>
-        </section>
+            <section id="home" style={{ padding: '2rem', textAlign: 'center' }}>
+                <div data-aos="zoom-in">
+                    <h2>{t('home.welcome')}</h2>
+                    <motion.div
+                        style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 0.5, duration: 1 }}
+                    >
+                        <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: '#f9f9f9' }}>
+                            {t('home.services')}
+                            <p>{t('home.service1.title')}</p>
+                            <p>{t('home.service2.title')}</p>
+                            <p>{t('home.service3.title')}</p>
+                            <p>{t('home.service4.title')}</p>
+                            <p>{t('home.service5.title')}</p>
+                        </div>
+                        <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: '#f9f9f9' }}>
+                            {t('home.blog')}
+                            <p>{t('home.blog1.title')}</p>
+                            <p>{t('home.blog2.title')}</p>
+                            <p>{t('home.blog3.title')}</p>
+                            <p>{t('home.blog4.title')}</p>
+                            <p>{t('home.blog5.title')}</p>
+                        </div>
+                    </motion.div>
+                </div>
+            </section>
+        </>
     );
 }
 
