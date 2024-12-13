@@ -8,7 +8,9 @@
     "data_protection": "Datenschutz"
   },"cookie": {
   "accept": "Cookies akzeptieren",
-  "reject": "Cookies ablehnen"
+  "reject": "Cookies ablehnen",
+  "message": "Wir verwenden Cookies, um Ihnen die beste Benutzererfahrung zu bieten.",
+  "learnMore": "Mehr erfahren"
 },
   "home": {
     "title": "Zelkulon",

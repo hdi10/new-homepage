@@ -6,10 +6,13 @@
     "about": "About Us",
     "contact": "Contact",
     "data_protection": "Privacy Policy"
-  },"cookie": {
-  "accept": "Accept cookies",
-  "reject": "Reject cookies"
-},
+  },
+  "cookie": {
+    "accept": "Accept cookies",
+    "reject": "Reject cookies",
+    "message": "We use cookies to provide you with the best user experience.",
+    "learnMore": "Learn more"
+  },
   "home": {
     "title": "Zelkulon",
     "welcome": "Our services",
@@ -54,69 +57,69 @@
     "blog5": {
       "title": "TSafetyButton app or time tracking as weekly planner app --> ERP based?",
       "description": ""
-    }},
-    "portfolio": {
-      "title": "Projects",
-      "description": "Explore my portfolio, showcasing web development, mobile apps, and more.",
-      "project1": {
-        "title": "Time Tracking",
-        "description": "Efficient time management solution for teams and individuals."
-      },
-      "project2": {
-        "title": "Wheel of Fortune",
-        "description": "Smart tool for decision-making with customizable options."
-      },
-      "project3": {
-        "title": "Live-Tracking & History",
-        "description": "Solution for live tracking and seamless gps-data archiving in real-time.",
-        "image":"./LiveTrackingAndHistory.png"
-      }
+    }
+  },
+  "portfolio": {
+    "title": "Projects",
+    "description": "Explore my portfolio, showcasing web development, mobile apps, and more.",
+    "project1": {
+      "title": "Time Tracking",
+      "description": "Efficient time management solution for teams and individuals."
     },
+    "project2": {
+      "title": "Wheel of Fortune",
+      "description": "Smart tool for decision-making with customizable options."
+    },
+    "project3": {
+      "title": "Live-Tracking & History",
+      "description": "Solution for live tracking and seamless gps-data archiving in real-time.",
+      "image": "./LiveTrackingAndHistory.png"
+    }
+  },
   "about": {
     "title": "About Us",
     "description": "We are a software development company focused on microservices, mobile apps, and IoT solutions. Our mission is to deliver innovative and high-quality software solutions.",
     "vision": "Our vision is to redefine technological standards and establish a leading position in the software industry.",
     "experience": "Our projects include the development of microservices with Spring Cloud, Android and iOS apps, and IoT integrations for companies such as Toll Collect, Entraserv, and Stromnetz Berlin.",
     "goals": "We are committed to sustainable growth, the successful launch of apps and services, and positioning our company as a leader in innovative software solutions.",
-
     "descriptionLong": "Discover more about our expertise in software development and how we create value through technological innovation.",
     "visionLong": "Our mission is to deliver tailored software solutions that meet market demands and set new technological benchmarks. With our experience in microservices, test automation, and app development, we actively shape the future of the software industry.",
     "experienceLong": "With extensive experience in software development, IT consulting, and test automation, we have successfully executed projects for renowned companies like Toll Collect, Entraserv, and Stromnetz Berlin. Our technical expertise includes Java, Kotlin, Docker, GitLab CI/CD, Android and iOS apps, as well as IoT solutions such as ESP32 and Grafana.",
     "goalsLong": "Our long-term goals are to expand our portfolio with innovative software solutions, launch successful game and service apps, and establish our company as a trusted partner in the software industry."
   },
+  "contact": {
+    "title": "Contact Me",
+    "description": "Get in touch for inquiries or collaborations."
+  },
+  "imprint": {
+    "welcome": "Data protection & data security\n",
     "contact": {
-      "title": "Contact Me",
-      "description": "Get in touch for inquiries or collaborations."
+      "name": "Zelkulon UG (haftungsbeschränkt)",
+      "address": "Wermuthweg 7, 12353 Berlin, Germany",
+      "phone": "0176-22812332",
+      "email": "hdastekin@gmail.com",
+      "website": "https://www.dastekin.de"
     },
-      "imprint": {
-        "welcome": "Data protection & data security\n",
-        "contact": {
-          "name": "Zelkulon UG (haftungsbeschränkt)",
-          "address": "Wermuthweg 7, 12353 Berlin, Germany",
-          "phone": "0176-22812332",
-          "email": "hdastekin@gmail.com",
-          "website": "https://www.dastekin.de"
-        },
-        "legal_information": {
-          "tax_id": "[VAT Identification Number pursuant to § 27a of the German VAT Act, if applicable]",
-          "commercial_register": "[Commercial Register Entry, if applicable: Commercial Register, Registration Number]"
-        },
-        "representative": "Harun Dastekin",
-        "disclaimer": {
-          "content_liability": "As a service provider, we are responsible for our own content on these pages in accordance with § 7 para. 1 TMG under general laws. However, according to §§ 8 to 10 TMG, we are not obligated to monitor transmitted or stored foreign information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under general laws remain unaffected. However, liability in this regard is only possible from the time of knowledge of a specific legal violation. If we become aware of such violations, we will remove this content immediately.",
-          "link_liability": "Our offer contains links to external third-party websites, the contents of which we have no influence on. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the linked pages is always responsible for their content. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognizable at the time of linking. However, permanent monitoring of the content of the linked pages is not reasonable without concrete evidence of a violation of the law. If we become aware of violations, we will remove such links immediately.",
-          "copyright": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use. Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. Third-party content is marked as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. Upon becoming aware of legal violations, we will remove such content immediately."
-        }
-      },
-      "data_protection": {
-        "responsible": "Zelkulon UG (haftungsbeschränkt), Wermuthweg 7, 0176-22812332, hdastekin@gmail.com",
-        "data_usage": {
-          "website_visit": "When you visit our website, information is automatically sent by the browser used on your device to the server of our website. This information is temporarily stored in a so-called log file. The following information is recorded without your intervention and stored until it is automatically deleted: The IP address of the requesting computer, Date and time of access, Name and URL of the retrieved file, Website from which access is made (referrer URL), Browser used and, if applicable, the operating system of your computer as well as the name of your access provider. The data mentioned is processed by us for the following purposes: Ensuring a smooth connection setup of the website, Ensuring comfortable use of our website, Evaluation of system security and stability, and For further administrative purposes. The legal basis for data processing is Art. 6 para. 1 lit. f GDPR. Our legitimate interest follows from the purposes for data collection listed above. Under no circumstances do we use the collected data for the purpose of drawing conclusions about your person.",
-          "contact": "If you send us inquiries via email or contact form, your details, including the contact details you provide, will be stored by us for the purpose of processing the inquiry and for any follow-up questions. We do not share this data without your consent. The processing of this data is based on Art. 6 para. 1 lit. b GDPR if your request is related to the fulfillment of a contract or is necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on your consent (Art. 6 para. 1 lit. a GDPR) and/or our legitimate interests (Art. 6 para. 1 lit. f GDPR), as we have a legitimate interest in the effective processing of inquiries addressed to us.",
-          "cookies": "Our website uses cookies. Cookies are small files that your browser automatically creates and that are stored on your device when you visit our site. Cookies do not harm your device, do not contain viruses, trojans, or other malicious software. In the cookie, information is stored that arises in each case in connection with the specific device used. However, this does not mean that we directly become aware of your identity. The use of cookies serves, on the one hand, to make the use of our offer more pleasant for you. For example, we use so-called session cookies to recognize that you have already visited individual pages of our website. These are automatically deleted after leaving our site. In addition, we also use temporary cookies to optimize user-friendliness, which are stored on your device for a specified period. If you visit our site again to use our services, it will automatically recognize that you have already been with us and what inputs and settings you have made so that you do not have to enter them again. The data processed by cookies is required for the purposes mentioned to safeguard our legitimate interests and those of third parties in accordance with Art. 6 para. 1 lit. f GDPR. You can configure your browser settings so that no cookies are stored on your computer or a notice always appears before a new cookie is created. However, the complete deactivation of cookies may mean that you cannot use all functions of our website."
-        },
-        "rights": "Your rights: Pursuant to Art. 15 GDPR, you have the right to request information about your personal data processed by us; Pursuant to Art. 16 GDPR, you have the right to request the correction or completion of your personal data stored by us; Pursuant to Art. 17 GDPR, you have the right to request the deletion of your personal data stored by us, unless the processing is necessary to comply with a legal obligation; Pursuant to Art. 18 GDPR, you have the right to request the restriction of processing your personal data; Pursuant to Art. 20 GDPR, you have the right to receive your personal data that you have provided to us in a structured, commonly used, and machine-readable format or to request its transfer to another controller; Pursuant to Art. 7 para. 3 GDPR, you have the right to revoke your consent at any time; Pursuant to Art. 77 GDPR, you have the right to lodge a complaint with a supervisory authority."
-      }
+    "legal_information": {
+      "tax_id": "[VAT Identification Number pursuant to § 27a of the German VAT Act, if applicable]",
+      "commercial_register": "[Commercial Register Entry, if applicable: Commercial Register, Registration Number]"
+    },
+    "representative": "Harun Dastekin",
+    "disclaimer": {
+      "content_liability": "As a service provider, we are responsible for our own content on these pages in accordance with § 7 para. 1 TMG under general laws. However, according to §§ 8 to 10 TMG, we are not obligated to monitor transmitted or stored foreign information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under general laws remain unaffected. However, liability in this regard is only possible from the time of knowledge of a specific legal violation. If we become aware of such violations, we will remove this content immediately.",
+      "link_liability": "Our offer contains links to external third-party websites, the contents of which we have no influence on. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the linked pages is always responsible for their content. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognizable at the time of linking. However, permanent monitoring of the content of the linked pages is not reasonable without concrete evidence of a violation of the law. If we become aware of violations, we will remove such links immediately.",
+      "copyright": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use. Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. Third-party content is marked as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. Upon becoming aware of legal violations, we will remove such content immediately."
     }
+  },
+  "data_protection": {
+    "responsible": "Zelkulon UG (haftungsbeschränkt), Wermuthweg 7, 0176-22812332, hdastekin@gmail.com",
+    "data_usage": {
+      "website_visit": "When you visit our website, information is automatically sent by the browser used on your device to the server of our website. This information is temporarily stored in a so-called log file. The following information is recorded without your intervention and stored until it is automatically deleted: The IP address of the requesting computer, Date and time of access, Name and URL of the retrieved file, Website from which access is made (referrer URL), Browser used and, if applicable, the operating system of your computer as well as the name of your access provider. The data mentioned is processed by us for the following purposes: Ensuring a smooth connection setup of the website, Ensuring comfortable use of our website, Evaluation of system security and stability, and For further administrative purposes. The legal basis for data processing is Art. 6 para. 1 lit. f GDPR. Our legitimate interest follows from the purposes for data collection listed above. Under no circumstances do we use the collected data for the purpose of drawing conclusions about your person.",
+      "contact": "If you send us inquiries via email or contact form, your details, including the contact details you provide, will be stored by us for the purpose of processing the inquiry and for any follow-up questions. We do not share this data without your consent. The processing of this data is based on Art. 6 para. 1 lit. b GDPR if your request is related to the fulfillment of a contract or is necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on your consent (Art. 6 para. 1 lit. a GDPR) and/or our legitimate interests (Art. 6 para. 1 lit. f GDPR), as we have a legitimate interest in the effective processing of inquiries addressed to us.",
+      "cookies": "Our website uses cookies. Cookies are small files that your browser automatically creates and that are stored on your device when you visit our site. Cookies do not harm your device, do not contain viruses, trojans, or other malicious software. In the cookie, information is stored that arises in each case in connection with the specific device used. However, this does not mean that we directly become aware of your identity. The use of cookies serves, on the one hand, to make the use of our offer more pleasant for you. For example, we use so-called session cookies to recognize that you have already visited individual pages of our website. These are automatically deleted after leaving our site. In addition, we also use temporary cookies to optimize user-friendliness, which are stored on your device for a specified period. If you visit our site again to use our services, it will automatically recognize that you have already been with us and what inputs and settings you have made so that you do not have to enter them again. The data processed by cookies is required for the purposes mentioned to safeguard our legitimate interests and those of third parties in accordance with Art. 6 para. 1 lit. f GDPR. You can configure your browser settings so that no cookies are stored on your computer or a notice always appears before a new cookie is created. However, the complete deactivation of cookies may mean that you cannot use all functions of our website."
+    },
+    "rights": "Your rights: Pursuant to Art. 15 GDPR, you have the right to request information about your personal data processed by us; Pursuant to Art. 16 GDPR, you have the right to request the correction or completion of your personal data stored by us; Pursuant to Art. 17 GDPR, you have the right to request the deletion of your personal data stored by us, unless the processing is necessary to comply with a legal obligation; Pursuant to Art. 18 GDPR, you have the right to request the restriction of processing your personal data; Pursuant to Art. 20 GDPR, you have the right to receive your personal data that you have provided to us in a structured, commonly used, and machine-readable format or to request its transfer to another controller; Pursuant to Art. 7 para. 3 GDPR, you have the right to revoke your consent at any time; Pursuant to Art. 77 GDPR, you have the right to lodge a complaint with a supervisory authority."
+  }
+}
 
 

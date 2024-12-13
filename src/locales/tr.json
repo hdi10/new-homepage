@@ -6,10 +6,13 @@
     "about": "Hakkımızda",
     "contact": "İletişim",
     "data_protection": "Gizlilik Politikası"
-  },"cookie": {
-  "accept": "Çerezleri kabul et",
-  "reject": "Çerezleri reddetme"
-},
+  },
+  "cookie": {
+    "accept": "Çerezleri kabul et",
+    "reject": "Çerezleri reddetme",
+    "message": "En iyi kullanıcı deneyimini sunmak için çerezler kullanıyoruz.",
+    "learnMore": "Daha fazla bilgi edinin"
+  },
   "home": {
     "title": "Zelkulon",
     "welcome": "Hizmetlerimiz",
@@ -54,67 +57,66 @@
     "blog5": {
       "title": "SafetyButton uygulaması veya haftalık planlayıcı uygulaması olarak zaman takibi --> ERP tabanlı?",
       "description": ""
-    }},
-    "portfolio": {
-      "title": "Projeler",
-      "description": "Web geliştirme, mobil uygulamalar ve daha fazlasını içeren portföyümü keşfedin.",
-      "project1": {
-        "title": "Zaman Takibi",
-        "description": "Zaman Yönetimi"
-      },
-      "project2": {
-        "title": "Kader Çarkı",
-        "description": "Rastgele Bir Dilek Hissi"
-      },
-      "project3": {
-        "title": "Canlı İzleme ve Geçmiş",
-        "description": "Gerçek zamanlı gps veri takibi ve sorunsuz arşivleme çözümü."
-      }
+    }
+  },
+  "portfolio": {
+    "title": "Projeler",
+    "description": "Web geliştirme, mobil uygulamalar ve daha fazlasını içeren portföyümü keşfedin.",
+    "project1": {
+      "title": "Zaman Takibi",
+      "description": "Zaman Yönetimi"
     },
+    "project2": {
+      "title": "Kader Çarkı",
+      "description": "Rastgele Bir Dilek Hissi"
+    },
+    "project3": {
+      "title": "Canlı İzleme ve Geçmiş",
+      "description": "Gerçek zamanlı gps veri takibi ve sorunsuz arşivleme çözümü."
+    }
+  },
   "about": {
     "title": "Hakkımızda",
     "description": "Mikro servisler, mobil uygulamalar ve IoT çözümlerine odaklanan bir yazılım geliştirme şirketiyiz. Misyonumuz, yenilikçi ve yüksek kaliteli yazılım çözümleri sunmaktır.",
     "vision": "Vizyonumuz, teknolojik standartları yeniden tanımlamak ve yazılım sektöründe lider bir konuma ulaşmaktır.",
     "experience": "Projelerimiz arasında Spring Cloud ile mikro servislerin geliştirilmesi, Android ve iOS uygulamaları ile Toll Collect, Entraserv ve Stromnetz Berlin gibi şirketler için IoT entegrasyonları yer almaktadır.",
     "goals": "Sürdürülebilir büyüme, uygulama ve hizmetlerin başarılı bir şekilde piyasaya sürülmesi ve şirketimizi yenilikçi yazılım çözümleri sağlayıcısı olarak konumlandırmaya kararlıyız.",
-
     "descriptionLong": "Yazılım geliştirme konusundaki uzmanlığımız ve teknolojik yenilikler ile nasıl değer yarattığımız hakkında daha fazla bilgi edinin.",
     "visionLong": "Amacımız, pazar ihtiyaçlarını karşılayan ve yeni teknolojik standartlar belirleyen özel yazılım çözümleri sunmaktır. Mikro servisler, test otomasyonu ve uygulama geliştirme konularındaki deneyimimizle yazılım sektörünün geleceğini şekillendiriyoruz.",
     "experienceLong": "Yazılım geliştirme, IT danışmanlığı ve test otomasyonu alanlarında geniş deneyimimizle, Toll Collect, Entraserv ve Stromnetz Berlin gibi tanınmış şirketler için projeleri başarıyla tamamladık. Teknik uzmanlık alanlarımız arasında Java, Kotlin, Docker, GitLab CI/CD, Android ve iOS uygulamaları ile ESP32 ve Grafana gibi IoT çözümleri bulunmaktadır.",
     "goalsLong": "Uzun vadeli hedeflerimiz, yenilikçi yazılım çözümleriyle portföyümüzü genişletmek, başarılı oyun ve hizmet uygulamaları piyasaya sürmek ve şirketimizi yazılım sektöründe güvenilir bir iş ortağı olarak konumlandırmaktır."
   },
+  "contact": {
+    "title": "İletişime Geç",
+    "description": "Soru ve işbirliği için benimle iletişime geçin."
+  },
+  "imprint": {
+    "welcome": "Veri koruma ve veri güvenliği\n",
     "contact": {
-      "title": "İletişime Geç",
-      "description": "Soru ve işbirliği için benimle iletişime geçin."
+      "name": "Zelkulon UG (haftungsbeschränkt)",
+      "address": "Wermuthweg 7, 12353 Berlin, Almanya",
+      "phone": "0176-22812332",
+      "email": "hdastekin@gmail.com",
+      "website": "https://www.dastekin.de"
     },
-      "imprint": {
-        "welcome": "Veri koruma ve veri güvenliği\n",
-        "contact": {
-          "name": "Zelkulon UG (haftungsbeschränkt)",
-          "address": "Wermuthweg 7, 12353 Berlin, Almanya",
-          "phone": "0176-22812332",
-          "email": "hdastekin@gmail.com",
-          "website": "https://www.dastekin.de"
-        },
-        "legal_information": {
-          "tax_id": "[Alman KDV Yasası'nın 27a Paragrafı uyarınca KDV Kimlik Numarası, mevcutsa]",
-          "commercial_register": "[Ticaret Sicili Kaydı, uygunsa: Ticaret Sicili, Kayıt Numarası]"
-        },
-        "representative": "Harun Dastekin",
-        "disclaimer": {
-          "content_liability": "Hizmet sağlayıcı olarak, bu sayfalardaki kendi içeriklerimizden genel yasalara göre TMG'nin 7. maddesi uyarınca sorumluyuz. Ancak, TMG'nin 8 ila 10. maddeleri uyarınca, iletilen veya saklanan yabancı bilgileri denetlemek veya yasa dışı faaliyetlere işaret eden durumları araştırmakla yükümlü değiliz. Genel yasalar uyarınca bilgilerin kaldırılması veya kullanımının engellenmesi yükümlülükleri bundan etkilenmez. Bununla birlikte, bu tür bir sorumluluk ancak somut bir yasa ihlalinin farkına varıldığında mümkündür. İlgili yasa ihlalleri fark edilirse, bu içerikleri derhal kaldıracağız.",
-          "link_liability": "Teklifimiz, içerikleri üzerinde hiçbir kontrolümüz olmayan üçüncü tarafların harici web sitelerine bağlantılar içermektedir. Bu nedenle, bu harici içeriklerin hiçbir garantisini kabul edemeyiz. Bağlantılı sayfaların içeriğinden her zaman ilgili sağlayıcı veya işletmeci sorumludur. Bağlantılar verildiği sırada olası yasa ihlalleri kontrol edilmiştir. Bağlantı sırasında yasa dışı içerikler fark edilmemiştir. Bununla birlikte, bağlantılı sayfaların sürekli olarak kontrol edilmesi, somut bir yasa ihlali işareti olmadan makul değildir. Yasa ihlalleri fark edilirse, bu tür bağlantıları derhal kaldıracağız.",
-          "copyright": "Bu sayfalardaki site operatörleri tarafından oluşturulan içerikler ve eserler Alman telif hakkı yasasına tabidir. Bu sayfalardaki içeriklerin ve eserlerin çoğaltılması, işlenmesi, dağıtılması ve telif hakkı sınırları dışında her türlü kullanımı ilgili yazarın veya oluşturucunun yazılı onayını gerektirir. Bu sayfanın indirilmesi ve kopyalanması yalnızca özel, ticari olmayan kullanım için izin verilmiştir. Bu sayfadaki içerikler işletmeci tarafından oluşturulmadığı sürece, üçüncü tarafların telif haklarına dikkat edilir. Özellikle üçüncü taraf içerikler böyle bir şekilde işaretlenmiştir. Buna rağmen bir telif hakkı ihlali fark ederseniz, lütfen bize bir bildirimde bulunun. Yasa ihlalleri fark edilirse, bu tür içerikleri derhal kaldıracağız."
-        }
-      },
-      "data_protection": {
-        "responsible": "Zelkulon UG (haftungsbeschränkt), Wermuthweg 7, 0176-22812332, hdastekin@gmail.com",
-        "data_usage": {
-          "website_visit": "Web sitemizi ziyaret ettiğinizde, cihazınızda kullanılan tarayıcı tarafından web sitemizin sunucusuna otomatik olarak bilgiler gönderilir. Bu bilgiler, geçici olarak bir günlük dosyasında saklanır. Şu bilgiler, sizin herhangi bir girişiminiz olmadan kaydedilir ve otomatik olarak silinene kadar saklanır: Talepte bulunan bilgisayarın IP adresi, Erişim tarihi ve saati, Erişilen dosyanın adı ve URL'si, Erişimin gerçekleştiği web sitesi (Yönlendiren URL), Kullanılan tarayıcı ve bilgisayarınızın işletim sistemi ile Access-Provider'ın adı. Bu veriler aşağıdaki amaçlar doğrultusunda işlenir: Web sitesine sorunsuz bir bağlantı kurulmasını sağlamak, Web sitemizin rahat bir şekilde kullanılmasını sağlamak, Sistem güvenliği ve kararlılığını değerlendirmek ve Diğer idari amaçlar. Veri işleme için yasal dayanak, GDPR'nin 6. maddesinin 1. fıkrasının f bendidir. Meşru menfaatimiz, yukarıda belirtilen veri toplama amaçlarından kaynaklanmaktadır. Toplanan veriler hiçbir şekilde kişisel olarak sizinle ilişkilendirilemez.",
-          "contact": "Bize e-posta veya iletişim formu aracılığıyla sorular gönderirseniz, sağladığınız bilgiler, sağladığınız iletişim bilgileri de dahil olmak üzere, talebinizin işlenmesi ve devam eden sorular için saklanacaktır. Bu verileri sizin izniniz olmadan paylaşmayız. Bu verilerin işlenmesi, talebinizin bir sözleşmenin yerine getirilmesiyle ilgili olması veya sözleşme öncesi önlemlerin uygulanması için gerekli olması durumunda GDPR'nin 6. maddesinin 1. fıkrasının b bendi uyarınca gerçekleştirilir. Diğer tüm durumlarda, işleme, izninize (GDPR'nin 6. maddesinin 1. fıkrasının a bendi) ve/veya taleplerin etkin bir şekilde işlenmesine olan meşru menfaatlerimize (GDPR'nin 6. maddesinin 1. fıkrasının f bendi) dayanır.",
-          "cookies": "Web sitemiz çerezler kullanmaktadır. Çerezler, tarayıcınız tarafından otomatik olarak oluşturulan ve cihazınıza kaydedilen küçük dosyalardır. Çerezler cihazınıza zarar vermez, virüs, Truva atı veya başka zararlı yazılımlar içermez. Çerezlerde, kullanılan belirli cihaz bağlamındaki bilgiler saklanır. Ancak, bu durum kimliğiniz hakkında doğrudan bilgi edinmemizi sağlamaz. Çerezlerin kullanımı, bir yandan teklifimizin kullanımını sizin için daha keyifli hale getirmek içindir. Örneğin, belirli sayfaları zaten ziyaret ettiğinizi tanımak için oturum çerezleri kullanıyoruz. Bu çerezler, sitemizden ayrıldıktan sonra otomatik olarak silinir. Bunun yanı sıra, kullanıcı dostluğunu optimize etmek için belirli bir süre boyunca cihazınızda saklanan geçici çerezler kullanıyoruz. Tekrar sitemizi ziyaret ettiğinizde, daha önce bizde olduğunuz ve hangi girişleri ve ayarları yaptığınız otomatik olarak tanınır, böylece bunları tekrar girmeniz gerekmez. Çerezler tarafından işlenen veriler, yukarıda belirtilen amaçlar için GDPR'nin 6. maddesinin 1. fıkrasının f bendine uygun olarak, bizim ve üçüncü tarafların meşru menfaatlerini korumak için gereklidir. Tarayıcı ayarlarınızı, cihazınıza çerez kaydedilmesini engelleyecek veya yeni bir çerez oluşturulmadan önce her zaman bir uyarı gösterilecek şekilde yapılandırabilirsiniz. Ancak, çerezlerin tamamen devre dışı bırakılması, web sitemizin tüm işlevlerinden yararlanamamanıza neden olabilir."
-        },
-        "rights": "Haklarınız: GDPR'nin 15. maddesi uyarınca işlediğimiz kişisel verileriniz hakkında bilgi talep etme; GDPR'nin 16. maddesi uyarınca saklanan kişisel verilerinizin düzeltilmesini veya tamamlanmasını talep etme; GDPR'nin 17. maddesi uyarınca saklanan kişisel verilerinizin silinmesini talep etme, işleme yasal bir yükümlülüğün yerine getirilmesi için gerekli olmadıkça; GDPR'nin 18. maddesi uyarınca kişisel verilerinizin işlenmesinin kısıtlanmasını talep etme; GDPR'nin 20. maddesi uyarınca bize sağladığınız kişisel verilerinizi yapılandırılmış, yaygın olarak kullanılan ve makine tarafından okunabilir bir formatta alma veya başka bir sorumluya iletilmesini talep etme; GDPR'nin 7. maddesinin 3. fıkrası uyarınca bir kez verdiğiniz izni herhangi bir zamanda iptal etme; GDPR'nin 77. maddesi uyarınca bir denetim otoritesine şikayette bulunma."
-      }
-
+    "legal_information": {
+      "tax_id": "[Alman KDV Yasası'nın 27a Paragrafı uyarınca KDV Kimlik Numarası, mevcutsa]",
+      "commercial_register": "[Ticaret Sicili Kaydı, uygunsa: Ticaret Sicili, Kayıt Numarası]"
+    },
+    "representative": "Harun Dastekin",
+    "disclaimer": {
+      "content_liability": "Hizmet sağlayıcı olarak, bu sayfalardaki kendi içeriklerimizden genel yasalara göre TMG'nin 7. maddesi uyarınca sorumluyuz. Ancak, TMG'nin 8 ila 10. maddeleri uyarınca, iletilen veya saklanan yabancı bilgileri denetlemek veya yasa dışı faaliyetlere işaret eden durumları araştırmakla yükümlü değiliz. Genel yasalar uyarınca bilgilerin kaldırılması veya kullanımının engellenmesi yükümlülükleri bundan etkilenmez. Bununla birlikte, bu tür bir sorumluluk ancak somut bir yasa ihlalinin farkına varıldığında mümkündür. İlgili yasa ihlalleri fark edilirse, bu içerikleri derhal kaldıracağız.",
+      "link_liability": "Teklifimiz, içerikleri üzerinde hiçbir kontrolümüz olmayan üçüncü tarafların harici web sitelerine bağlantılar içermektedir. Bu nedenle, bu harici içeriklerin hiçbir garantisini kabul edemeyiz. Bağlantılı sayfaların içeriğinden her zaman ilgili sağlayıcı veya işletmeci sorumludur. Bağlantılar verildiği sırada olası yasa ihlalleri kontrol edilmiştir. Bağlantı sırasında yasa dışı içerikler fark edilmemiştir. Bununla birlikte, bağlantılı sayfaların sürekli olarak kontrol edilmesi, somut bir yasa ihlali işareti olmadan makul değildir. Yasa ihlalleri fark edilirse, bu tür bağlantıları derhal kaldıracağız.",
+      "copyright": "Bu sayfalardaki site operatörleri tarafından oluşturulan içerikler ve eserler Alman telif hakkı yasasına tabidir. Bu sayfalardaki içeriklerin ve eserlerin çoğaltılması, işlenmesi, dağıtılması ve telif hakkı sınırları dışında her türlü kullanımı ilgili yazarın veya oluşturucunun yazılı onayını gerektirir. Bu sayfanın indirilmesi ve kopyalanması yalnızca özel, ticari olmayan kullanım için izin verilmiştir. Bu sayfadaki içerikler işletmeci tarafından oluşturulmadığı sürece, üçüncü tarafların telif haklarına dikkat edilir. Özellikle üçüncü taraf içerikler böyle bir şekilde işaretlenmiştir. Buna rağmen bir telif hakkı ihlali fark ederseniz, lütfen bize bir bildirimde bulunun. Yasa ihlalleri fark edilirse, bu tür içerikleri derhal kaldıracağız."
+    }
+  },
+  "data_protection": {
+    "responsible": "Zelkulon UG (haftungsbeschränkt), Wermuthweg 7, 0176-22812332, hdastekin@gmail.com",
+    "data_usage": {
+      "website_visit": "Web sitemizi ziyaret ettiğinizde, cihazınızda kullanılan tarayıcı tarafından web sitemizin sunucusuna otomatik olarak bilgiler gönderilir. Bu bilgiler, geçici olarak bir günlük dosyasında saklanır. Şu bilgiler, sizin herhangi bir girişiminiz olmadan kaydedilir ve otomatik olarak silinene kadar saklanır: Talepte bulunan bilgisayarın IP adresi, Erişim tarihi ve saati, Erişilen dosyanın adı ve URL'si, Erişimin gerçekleştiği web sitesi (Yönlendiren URL), Kullanılan tarayıcı ve bilgisayarınızın işletim sistemi ile Access-Provider'ın adı. Bu veriler aşağıdaki amaçlar doğrultusunda işlenir: Web sitesine sorunsuz bir bağlantı kurulmasını sağlamak, Web sitemizin rahat bir şekilde kullanılmasını sağlamak, Sistem güvenliği ve kararlılığını değerlendirmek ve Diğer idari amaçlar. Veri işleme için yasal dayanak, GDPR'nin 6. maddesinin 1. fıkrasının f bendidir. Meşru menfaatimiz, yukarıda belirtilen veri toplama amaçlarından kaynaklanmaktadır. Toplanan veriler hiçbir şekilde kişisel olarak sizinle ilişkilendirilemez.",
+      "contact": "Bize e-posta veya iletişim formu aracılığıyla sorular gönderirseniz, sağladığınız bilgiler, sağladığınız iletişim bilgileri de dahil olmak üzere, talebinizin işlenmesi ve devam eden sorular için saklanacaktır. Bu verileri sizin izniniz olmadan paylaşmayız. Bu verilerin işlenmesi, talebinizin bir sözleşmenin yerine getirilmesiyle ilgili olması veya sözleşme öncesi önlemlerin uygulanması için gerekli olması durumunda GDPR'nin 6. maddesinin 1. fıkrasının b bendi uyarınca gerçekleştirilir. Diğer tüm durumlarda, işleme, izninize (GDPR'nin 6. maddesinin 1. fıkrasının a bendi) ve/veya taleplerin etkin bir şekilde işlenmesine olan meşru menfaatlerimize (GDPR'nin 6. maddesinin 1. fıkrasının f bendi) dayanır.",
+      "cookies": "Web sitemiz çerezler kullanmaktadır. Çerezler, tarayıcınız tarafından otomatik olarak oluşturulan ve cihazınıza kaydedilen küçük dosyalardır. Çerezler cihazınıza zarar vermez, virüs, Truva atı veya başka zararlı yazılımlar içermez. Çerezlerde, kullanılan belirli cihaz bağlamındaki bilgiler saklanır. Ancak, bu durum kimliğiniz hakkında doğrudan bilgi edinmemizi sağlamaz. Çerezlerin kullanımı, bir yandan teklifimizin kullanımını sizin için daha keyifli hale getirmek içindir. Örneğin, belirli sayfaları zaten ziyaret ettiğinizi tanımak için oturum çerezleri kullanıyoruz. Bu çerezler, sitemizden ayrıldıktan sonra otomatik olarak silinir. Bunun yanı sıra, kullanıcı dostluğunu optimize etmek için belirli bir süre boyunca cihazınızda saklanan geçici çerezler kullanıyoruz. Tekrar sitemizi ziyaret ettiğinizde, daha önce bizde olduğunuz ve hangi girişleri ve ayarları yaptığınız otomatik olarak tanınır, böylece bunları tekrar girmeniz gerekmez. Çerezler tarafından işlenen veriler, yukarıda belirtilen amaçlar için GDPR'nin 6. maddesinin 1. fıkrasının f bendine uygun olarak, bizim ve üçüncü tarafların meşru menfaatlerini korumak için gereklidir. Tarayıcı ayarlarınızı, cihazınıza çerez kaydedilmesini engelleyecek veya yeni bir çerez oluşturulmadan önce her zaman bir uyarı gösterilecek şekilde yapılandırabilirsiniz. Ancak, çerezlerin tamamen devre dışı bırakılması, web sitemizin tüm işlevlerinden yararlanamamanıza neden olabilir."
+    },
+    "rights": "Haklarınız: GDPR'nin 15. maddesi uyarınca işlediğimiz kişisel verileriniz hakkında bilgi talep etme; GDPR'nin 16. maddesi uyarınca saklanan kişisel verilerinizin düzeltilmesini veya tamamlanmasını talep etme; GDPR'nin 17. maddesi uyarınca saklanan kişisel verilerinizin silinmesini talep etme, işleme yasal bir yükümlülüğün yerine getirilmesi için gerekli olmadıkça; GDPR'nin 18. maddesi uyarınca kişisel verilerinizin işlenmesinin kısıtlanmasını talep etme; GDPR'nin 20. maddesi uyarınca bize sağladığınız kişisel verilerinizi yapılandırılmış, yaygın olarak kullanılan ve makine tarafından okunabilir bir formatta alma veya başka bir sorumluya iletilmesini talep etme; GDPR'nin 7. maddesinin 3. fıkrası uyarınca bir kez verdiğiniz izni herhangi bir zamanda iptal etme; GDPR'nin 77. maddesi uyarınca bir denetim otoritesine şikayette bulunma."
   }
+}
