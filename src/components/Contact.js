@@ -1,10 +1,8 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import axios from 'axios';
+import emailjs from '@emailjs/browser';
 import Button from '@mui/material/Button';
-import { useTranslation } from 'react-i18next';
 
 const validationSchema = Yup.object({
     name: Yup.string().required('Name is required'),
@@ -13,49 +11,50 @@ const validationSchema = Yup.object({
 });
 
 function Contact() {
-    const { t } = useTranslation();
-
-    const handleSubmit = (values) => {
-        axios.post('https://example.com/contact', values).then((response) => {
-            console.log(response.data);
-        });
+    const handleSubmit = (values, { resetForm }) => {
+        emailjs.send(
+            'service_5zbeihs', // Ersetzen Sie durch Ihre Service-ID
+            'template_sgpluvk', // Ersetzen Sie durch Ihre Template-ID
+            values,
+            'TqSCoMVDAU0xXIj7N' // Ersetzen Sie durch Ihren API-Schlüssel
+        )
+            .then(() => {
+                alert('Email sent successfully!');
+                resetForm();
+            })
+            .catch(() => {
+                alert('Failed to send email.');
+            });
     };
 
     return (
-        <section id="contact" style={{ padding: '2rem', textAlign: 'center' }}>
-            <Helmet>
-                <title>{t('contact.title')}</title>
-                <meta name="description" content={t('contact.description')} />
-                <meta name="keywords" content="Contact, Portfolio, Get in Touch" />
-            </Helmet>
-            <div data-aos="fade-up">
-                <h2>{t('contact.title')}</h2>
-                <Formik
-                    initialValues={{ name: '', email: '', message: '' }}
-                    validationSchema={validationSchema}
-                    onSubmit={handleSubmit}
-                >
-                    {() => (
-                        <Form>
-                            <div>
-                                <Field name="name" placeholder={t('contact.placeholder.name')} />
-                                <ErrorMessage name="name" component="div" />
-                            </div>
-                            <div>
-                                <Field name="email" type="email" placeholder={t('contact.placeholder.email')} />
-                                <ErrorMessage name="email" component="div" />
-                            </div>
-                            <div>
-                                <Field name="message" as="textarea" placeholder={t('contact.placeholder.message')} />
-                                <ErrorMessage name="message" component="div" />
-                            </div>
-                            <Button variant="contained" color="primary">
-                                {t('contact.send')}
-                            </Button>
-                        </Form>
-                    )}
-                </Formik>
-            </div>
+        <section style={{ padding: '2rem', textAlign: 'center' }}>
+            <h2>Contact Us</h2>
+            <Formik
+                initialValues={{ name: '', email: '', message: '' }}
+                validationSchema={validationSchema}
+                onSubmit={handleSubmit}
+            >
+                {() => (
+                    <Form>
+                        <div>
+                            <Field name="name" placeholder="Your Name" />
+                            <ErrorMessage name="name" component="div" />
+                        </div>
+                        <div>
+                            <Field name="email" type="email" placeholder="Your Email" />
+                            <ErrorMessage name="email" component="div" />
+                        </div>
+                        <div>
+                            <Field name="message" as="textarea" placeholder="Your Message" />
+                            <ErrorMessage name="message" component="div" />
+                        </div>
+                        <Button type="submit" variant="contained" color="primary">
+                            Send
+                        </Button>
+                    </Form>
+                )}
+            </Formik>
         </section>
     );
 }
