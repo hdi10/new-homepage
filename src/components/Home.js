@@ -2,10 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import axios from 'axios'; // Axios importieren
 
 function Home() {
     const { t } = useTranslation();
     const [showCookieBanner, setShowCookieBanner] = useState(false);
+    const [blogs, setBlogs] = useState([]); // Blogs-Status hinzufügen
+    const [error, setError] = useState(null); // Fehlerstatus
 
     useEffect(() => {
         // Überprüfe, ob die Cookie-Einwilligung bereits vorhanden ist
@@ -23,6 +26,17 @@ function Home() {
     const handleRejectCookies = () => {
         localStorage.setItem('cookieConsent', 'rejected');
         setShowCookieBanner(false);
+    };
+
+    // Blogs von Backend abrufen
+    const fetchBlogs = async () => {
+        try {
+            const response = await axios.get('http://localhost:9010/api/blogs'); // URL deines Backends
+            setBlogs(response.data); // Blogs in den Status speichern
+            setError(null); // Fehler zurücksetzen, falls vorher ein Fehler auftrat
+        } catch (err) {
+            setError(err.message); // Fehlerstatus setzen
+        }
     };
 
     return (
@@ -111,6 +125,44 @@ function Home() {
                         </div>
                     </motion.div>
                 </div>
+            </section>
+
+            {/* Button und Blog-Anzeige */}
+            <section id="blogs" style={{ padding: '2rem', textAlign: 'center' }}>
+                <button
+                    onClick={fetchBlogs}
+                    style={{
+                        padding: '0.5rem 1rem',
+                        background: '#007bff',
+                        color: '#fff',
+                        border: 'none',
+                        borderRadius: '5px',
+                        cursor: 'pointer',
+                    }}
+                >
+                    {t('home.fetchBlogs')}
+                </button>
+
+                {error && <p style={{ color: 'red' }}>{error}</p>}
+
+                {blogs.length > 0 ? (
+                    <div style={{ marginTop: '20px' }}>
+                        {blogs.map((blog) => (
+                            <div key={blog.id} style={{border: '1px solid #ddd', margin: '10px', padding: '10px'}}>
+                                <h3>{blog.title}</h3>
+                                <p>{blog.id}</p>
+
+                                <p>{blog.artist}</p>
+                                <p>{blog.location}</p>
+                                <p>{blog.timestamp}</p>
+
+
+                            </div>
+                        ))}
+                    </div>
+                ) : (
+                    <p style={{ marginTop: '20px' }}>{t('home.noBlogs')}</p>
+                )}
             </section>
         </>
     );
