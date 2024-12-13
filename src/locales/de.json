@@ -76,12 +76,12 @@
     },
     "project4": {
       "title": "Zufallswahl-Helfer",
-      "description": "Eine vielseitige App, um Zufallszahlen, Wörter und Entscheidungen zu generieren. Bietet anpassbare Eingaben wie Filme und Listen für einfachere Entscheidungen.",
+      "description": "App für Zufallszahlen, Wörter und Entscheidungen.",
       "image": "./RandomChoiceHelper.png"
     },
     "project5": {
       "title": "Eigene Website",
-      "description": "Entwicklung und Gestaltung dieser professionellen Website, einschließlich responsivem Design, mehrsprachiger Unterstützung (Deutsch, Englisch, Türkisch) und moderner Webtechnologien.",
+      "description": "Eine responsive, mehrsprachige Website.",
       "image": "./myWebsite.png"
     }
   },

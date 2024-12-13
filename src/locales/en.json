@@ -77,12 +77,12 @@
     },
     "project4": {
       "title": "Random Choice Helper",
-      "description": "A versatile app to generate random numbers, words, and choices for easy decision-making. Includes options for customizable inputs like movies and lists.",
+      "description": "An app for random numbers, words, and decisions.",
       "image": "./RandomChoiceHelper.png"
     },
     "project5": {
       "title": "Personal Website",
-      "description": "Development and design of this professional website, featuring responsive design, multilingual support (German, English, Turkish), and modern web technologies.",
+      "description": "A responsive, multilingual website showcasing my work.",
       "image": "./myWebsite.png"
     }
   },
