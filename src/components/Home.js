@@ -30,7 +30,7 @@ function Home() {
 
     const fetchBlogs = async () => {
         try {
-            const response = await axios.get('https://modules-3acf648b9e01.herokuapp.com/blogs/blogs'); // Heroku URL
+            const response = await axios.get('https://zelkulonmicroservice-myproject-1df345e27274.herokuapp.com/blogs'); // Heroku URL
             setBlogs(response.data);
             setError(null);
         } catch (err) {
