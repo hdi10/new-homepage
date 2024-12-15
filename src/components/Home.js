@@ -31,7 +31,7 @@ function Home() {
     // Blogs von Backend abrufen
     const fetchBlogs = async () => {
         try {
-            const response = await axios.get('https://modules-3acf648b9e01.herokuapp.com:9010/api/blogs'); // URL deines Backends
+            const response = await axios.get('https://modules-3acf648b9e01.herokuapp.com:8080/blogs/blogs'); // URL deines Backends
             setBlogs(response.data); // Blogs in den Status speichern
             setError(null); // Fehler zurücksetzen, falls vorher ein Fehler auftrat
         } catch (err) {
