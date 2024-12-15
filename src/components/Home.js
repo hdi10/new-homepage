@@ -28,16 +28,16 @@ function Home() {
         setShowCookieBanner(false);
     };
 
-    // Blogs von Backend abrufen
     const fetchBlogs = async () => {
         try {
-            const response = await axios.get('https://modules-3acf648b9e01.herokuapp.com//blogs/blogs'); // URL deines Backends
-            setBlogs(response.data); // Blogs in den Status speichern
-            setError(null); // Fehler zurücksetzen, falls vorher ein Fehler auftrat
+            const response = await axios.get('https://modules-3acf648b9e01.herokuapp.com/blogs/blogs'); // Heroku URL
+            setBlogs(response.data);
+            setError(null);
         } catch (err) {
-            setError(err.message); // Fehlerstatus setzen
+            setError('Fehler beim Abrufen der Blogs: ' + err.message); // Fehlerstatus setzen
         }
     };
+
 
     return (
         <>
