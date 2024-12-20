@@ -139,7 +139,7 @@ function Portfolio() {
 
             <div data-aos="flip-right">
 
-                <h2 style={{ padding: '0rem', textAlign: 'center' }}>{t('portfolio.title')}</h2>
+                <h2 style={{ padding: '2rem', textAlign: 'center' }}>{t('portfolio.title')}</h2>
                 {/* <p>{t('portfolio.description')}</p>*/}
                 <motion.div
                     style={{display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap'}}
