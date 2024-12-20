@@ -79,10 +79,10 @@ function Portfolio() {
 
 
     return (
-        <section id="portfolio" style={{ padding: '0.2rem', textAlign: 'center' }}>
+        <>
             <Helmet>
                 <title>{t('portfolio.title')}</title>
-                <meta name="description" content={t('portfolio.description')} />
+                <meta name="description" content={t('portfolio.description')}/>
             </Helmet>
 
             {/* Cookie-Banner */}
@@ -101,7 +101,7 @@ function Portfolio() {
                         zIndex: 1000,
                     }}
                 >
-                    <p style={{ margin: 0 }}>
+                    <p style={{margin: 0}}>
                         {t('cookie.message')} <a href="/data_protection">{t('cookie.learnMore')}</a>
                     </p>
                     <div>
@@ -137,19 +137,20 @@ function Portfolio() {
                 </div>
             )}
 
-
             <div data-aos="flip-right">
-                <h2>{t('portfolio.title')}</h2>
+
+                <h2 style={{ padding: '0rem', textAlign: 'center' }}>{t('portfolio.title')}</h2>
+                {/* <p>{t('portfolio.description')}</p>*/}
                 <motion.div
-                    style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.5, duration: 1 }}
+                    style={{display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap'}}
+                    initial={{opacity: 0}}
+                    animate={{opacity: 1}}
+                    transition={{delay: 0.5, duration: 1.15}}
                 >
                     <div className="projects">
                         {projects.map((project, index) => (
                             <div className="project" key={index}
-                                 style={{display: 'flex', alignItems: 'center', margin: '10px', gap: '10px'}}>
+                                 style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
                                 {/* Projektbild */}
                                 <img src={project.image1} alt={t(project.titleKey)} style={{
                                     width: '100px',
@@ -166,13 +167,13 @@ function Portfolio() {
                                 <img src={project.image3} alt={t(project.titleKey)} style={{
                                     width: '100px',
                                     height: '200px',
-                                    objectFit: 'contain ',
+                                    objectFit: 'contain',
                                     borderRadius: '1px'
                                 }}/>
 
                                 {/* Projektinfo */}
                                 <div className="project" key={index} style={{textAlign: 'center', margin: '10px'}}>
-                                    <FontAwesomeIcon icon={project.icon} size="2x"/>
+                                    <FontAwesomeIcon icon={project.icon} size="3x"/>
                                     <h3>{t(project.titleKey)}</h3>
                                     <p>{t(project.descriptionKey)}</p>
                                 </div>
@@ -181,9 +182,9 @@ function Portfolio() {
                     </div>
                 </motion.div>
             </div>
-        </section>
-    );
-}
+        </>
+            );
+            }
 
 
-export default Portfolio;
+            export default Portfolio;

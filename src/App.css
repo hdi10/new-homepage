@@ -16,7 +16,7 @@ section {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*/
   text-transform: uppercase;
 }
 
@@ -83,27 +83,29 @@ form button:hover {
   position: relative;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); !* Schatten hinter dem Text *!
 }*/
+/*
 
 .project h3 {
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .project p {
   font-size: 1.5rem;
-  line-height: 1.4;
+  line-height: 1.3;
 }
-
+*/
 .project:hover {
-  transform: scale(1.05);
+  transform: scale(1.0);
   border-color: #f39c12;
-  background-color: rgba(255, 255, 255, 0.1); /* Leichte Hervorhebung */
+
 }
 
 .project:hover h3,
 .project:hover p {
-  color: #f39c12; /* Textfarbe beim Hovern ändern */
+  color: #f39c12;
 }
+
 
 
 /*.project::after {
