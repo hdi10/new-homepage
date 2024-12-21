@@ -1,9 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import emailjs from '@emailjs/browser';
 import Button from '@mui/material/Button';
-import {useTranslation} from "react-i18next";
+import { useTranslation } from 'react-i18next';
+import LoginForm from '../components/LoginForm'; // Importiere LoginForm
 
 const validationSchema = Yup.object({
     name: Yup.string().required('Name is required'),
@@ -11,14 +12,13 @@ const validationSchema = Yup.object({
     message: Yup.string().required('Message is required'),
 });
 
-
-
 function Contact() {
     const { t } = useTranslation();
     const [showCookieBanner, setShowCookieBanner] = useState(false);
+    const [token, setToken] = useState(localStorage.getItem('token') || ''); // Token-State
 
+    // Cookie-Management
     useEffect(() => {
-        // Überprüfe, ob die Cookie-Einwilligung bereits vorhanden ist
         const consent = localStorage.getItem('cookieConsent');
         if (!consent) {
             setShowCookieBanner(true);
@@ -35,13 +35,12 @@ function Contact() {
         setShowCookieBanner(false);
     };
 
-
     const handleSubmit = (values, { resetForm }) => {
         emailjs.send(
-            'service_5zbeihs', // Ersetzen Sie durch Ihre Service-ID
-            'template_sgpluvk', // Ersetzen Sie durch Ihre Template-ID
+            'service_5zbeihs', // Service-ID
+            'template_sgpluvk', // Template-ID
             values,
-            'TqSCoMVDAU0xXIj7N' // Ersetzen Sie durch Ihren API-Schlüssel
+            'TqSCoMVDAU0xXIj7N' // API-KEY
         )
             .then(() => {
                 alert('Email sent successfully!');
@@ -108,6 +107,7 @@ function Contact() {
                 </div>
             )}
 
+            {/* Formular */}
             <Formik
                 initialValues={{ name: '', email: '', message: '' }}
                 validationSchema={validationSchema}
@@ -133,6 +133,16 @@ function Contact() {
                     </Form>
                 )}
             </Formik>
+
+            {/* Login-Bereich */}
+            {!token ? (
+                <section style={{ padding: '2rem', textAlign: 'center' }}>
+                    <h3>Login</h3>
+                    <LoginForm setToken={setToken} /> {/* LoginForm eingebunden */}
+                </section>
+            ) : (
+                <p>Du bist bereits eingeloggt!</p>
+            )}
         </section>
     );
 }

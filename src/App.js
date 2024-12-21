@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import DataProtection from "./pages/DataProtection";
+import LoginForm from "./components/LoginForm";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/data_protection" element={<DataProtection/>}/>
+            <Route path="/auth" element={<LoginForm />} />
           </Routes>
           {/* Toast Container für Benachrichtigungen */}
           <ToastContainer />
