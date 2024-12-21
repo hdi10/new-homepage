@@ -25,7 +25,7 @@ export const fetchBlogs = async (token) => {
 */
 import axios from 'axios';
 
-const API_URL = 'https://apigateway-myproject-1b6db96b72fe.herokuapp.com/auth';
+const API_URL = 'https://authmicroservice-myproject-66551bc0d4a5.herokuapp.com/auth';
 
 export const login = async (username, password) => {
     try {
