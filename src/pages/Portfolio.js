@@ -153,10 +153,12 @@ function Portfolio() {
                     animate={{opacity: 1}}
                     transition={{delay: 0.5, duration: 1.15}}
                 >
-                    <div className="projects">
+
+
+                    <div className="projects" >
                         {projects.map((project, index) => (
                             <div className="project" key={index}
-                                 style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
+                                 style={{ border: '1px solid #ddd', padding: '1rem', background: '#ffdfbf' ,display: 'flex', alignItems: 'center', gap: '10px'}}>
                                 {/* Projektbild */}
                                 <img src={project.image1} alt={t(project.titleKey)} style={{
                                     width: '100px',

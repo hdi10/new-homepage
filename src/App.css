@@ -8,8 +8,6 @@ body {
   background: url('assets/20231217_161807.jpg') center/cover no-repeat;
 }
 
-
-
 /* Sections */
 section {
   padding: 4rem 2rem;
@@ -18,10 +16,8 @@ section {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  /*margin-bottom: 1rem;*/
   text-transform: uppercase;
 }
-
 
 /* Form */
 form {
@@ -56,51 +52,10 @@ form button:hover {
   color: #000;
 }
 
-/*.project {
-  position: relative;
-  overflow: hidden;
-  background: url('./assets/ubuntu.jpg') center/cover no-repeat;
-  color: #fff;
-}*/
-
-/*.project::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7); !* Stärkere Überlagerung *!
-  opacity: 1; !* Standardmäßig sichtbar *!
-  transition: opacity 0.3s;
-}*/
-
-/*.project:hover::after {
-  opacity: 0.5; !* Leicht abschwächen, um Fokus auf den Inhalt zu setzen *!
-}*/
-
-/*.project h3,
-.project p {
-  z-index: 1;
-  position: relative;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); !* Schatten hinter dem Text *!
-}*/
-/*
-
-.project h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.3rem;
-}
-
-.project p {
-  font-size: 1.5rem;
-  line-height: 1.3;
-}
-*/
+/* Project Styles */
 .project:hover {
   transform: scale(1.0);
   border-color: #f39c12;
-
 }
 
 .project:hover h3,
@@ -108,20 +63,7 @@ form button:hover {
   color: #f39c12;
 }
 
-
-
-/*.project::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); !* Standardmäßig etwas sichtbar *!
-  opacity: 1; !* Deutliche Überlagerung *!
-  transition: opacity 0.3s ease-in-out;
-}*/
-
+/* Buttons */
 button {
   margin: 0 5px;
   padding: 0.5rem 1rem;
@@ -143,19 +85,29 @@ button:focus {
   background-color: #f39c12;
 }
 
+/* Blog Cards */
+.blogCards {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  width: 200px;
+  background: #ffc080;
+  /*background: #f2f2f2;*/
+}
+
+/* Header */
 .header-title {
-  font-size: clamp(2rem, 5vw, 4rem); /* Passt Größe dynamisch an die Bildschirmbreite an */
+  font-size: clamp(2rem, 5vw, 4rem);
   font-weight: bold;
   margin: 1rem 0;
-  text-align: center; /* Zentriert den Text */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Optional: Schatten */
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 header {
   display: flex;
-  flex-direction: column; /* Inhalte untereinander anordnen */
-  align-items: center; /* Zentriert die Inhalte horizontal */
-  justify-content: center; /* Zentriert die Inhalte vertikal */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 1rem;
   background: url('assets/20230726_124637.jpg') center/cover no-repeat;
   color: #fff;
@@ -171,7 +123,6 @@ header.hidden {
   transition: transform 0.3s ease-in-out;
 }
 
-
 header.scrolled {
   background-color: rgba(0, 0, 0, 0.8);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -179,45 +130,45 @@ header.scrolled {
 }
 
 header h1 {
-  font-size: clamp(1.5rem, 2vw, 2rem); /* Dynamische Schriftgröße */
+  font-size: clamp(1.5rem, 2vw, 2rem);
   margin-bottom: 1rem;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Schatten für bessere Lesbarkeit */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 header nav {
   display: flex;
-  flex-wrap: wrap; /* Links brechen auf kleinere Bildschirme um */
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 10px; /* Abstand zwischen Links */
+  gap: 10px;
 }
 
 header nav a {
   color: #fff;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  font-size: clamp(0.8rem, 1vw, 0.9rem); /* Dynamische Schriftgröße */
-  background-color: rgba(0, 0, 0, 0.5); /* Halbtransparente Box */
-  border: 1px solid #fff; /* Weißer Rand */
-  border-radius: 5px; /* Abgerundete Ecken */
-  transition: all 0.3s ease; /* Sanfter Übergang bei Hover */
+  font-size: clamp(0.8rem, 1vw, 0.9rem);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
 header nav a:hover {
-  background-color: rgba(255, 255, 255, 0.2); /* Aufhellung bei Hover */
-  color: #f39c12; /* Textfarbe beim Hovern */
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #f39c12;
 }
 
-
+/* Language Switcher */
 header .language-switcher {
   margin-top: 1rem;
   display: flex;
-  gap: 10px; /* Abstand zwischen Buttons */
+  gap: 10px;
 }
 
 header .language-switcher button {
   padding: 0.5rem 1rem;
   border: none;
-  background-color: rgba(0, 0, 0, 0.6); /* Leicht transparente Buttons */
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   font-size: 0.9rem;
   cursor: pointer;
@@ -225,20 +176,19 @@ header .language-switcher button {
   border-radius: 5px;
 }
 
-
 button:hover, header nav a:hover {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-
+/* Media Queries */
 @media (max-width: 768px) {
   header nav {
-    flex-direction: column; /* Navigation wird vertikal angeordnet */
+    flex-direction: column;
   }
 
   header nav a {
-    font-size: 0.8rem; /* Kleinere Schrift */
-    padding: 0.4rem 0.8rem; /* Weniger Padding */
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
   }
 }
 
@@ -248,26 +198,25 @@ button:hover, header nav a:hover {
   }
 
   header nav a {
-    font-size: 0.7rem; /* Kleinere Links */
+    font-size: 0.7rem;
   }
 
   header .language-switcher button {
     font-size: 0.8rem;
-    padding: 0.4rem 0.8rem; /* Weniger Padding */
+    padding: 0.4rem 0.8rem;
   }
 }
 
-
-/* iOS-Spezifische Optimierungen */
+/* iOS Optimization */
 @supports (-webkit-overflow-scrolling: touch) {
   header {
     backface-visibility: hidden;
-    transform: translate3d(0, 0, 0); /* Aktiviert Hardwarebeschleunigung für sanfteres Scrollen */
-    will-change: transform; /* Verhindert Flackern */
-    position: sticky; /* Sicherstellen, dass der Header oben bleibt */
-    top: 0; /* Position oben fixieren */
-    z-index: 1000; /* Höchste Priorität */
-    transition: all 0.3s ease-in-out; /* Sanfte Übergänge */
+    transform: translate3d(0, 0, 0);
+    will-change: transform;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
   }
 
   header.hidden {
@@ -277,25 +226,10 @@ button:hover, header nav a:hover {
 
   header.scrolled {
     background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(5px); /* iOS spezifische Unterstützung für Unschärfe-Effekt */
-    height: 50px; /* Header verkleinern beim Scrollen */
-    line-height: 50px; /* Zentriert den Text vertikal */
+    backdrop-filter: blur(5px);
   }
 }
 
-/* Allgemeine Verbesserungen für flüssiges Scrollen */
 html {
-  scroll-behavior: smooth; /* Sanftes Scrollen */
-}
-
-/* Zusätzliche Anpassungen für kleine Bildschirme */
-@media (max-width: 480px) {
-  header {
-    padding: 0.5rem; /* Weniger Padding für kleinere Bildschirme */
-  }
-
-  header .language-switcher {
-    flex-wrap: wrap; /* Buttons brechen in die nächste Zeile, wenn nötig */
-  }
-
+  scroll-behavior: smooth;
 }
