@@ -5,7 +5,9 @@ body {
   padding: 0;
   color: #333;
   background-color: #fff;
+  background: url('assets/20231217_161807.jpg') center/cover no-repeat;
 }
+
 
 
 /* Sections */
@@ -155,7 +157,7 @@ header {
   align-items: center; /* Zentriert die Inhalte horizontal */
   justify-content: center; /* Zentriert die Inhalte vertikal */
   padding: 1rem;
-  background: url('assets/japaneseMatrix.jpeg') center/cover no-repeat;
+  background: url('assets/20230726_124637.jpg') center/cover no-repeat;
   color: #fff;
   text-align: center;
   position: sticky;

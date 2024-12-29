@@ -68,12 +68,13 @@ function About() {
 
 
     return (
+
         <motion.section
             id="about"
             initial={{opacity: 0}}
             animate={{opacity: 1}}
             transition={{duration: 1}}
-            style={{padding: '2rem', textAlign: 'center'}}
+            style={{padding: '2rem', textAlign: 'center',backgroundColor: 'tan'}}
         >
             <Helmet>
                 <title>{t('about.title')}</title>
@@ -281,7 +282,9 @@ function About() {
 
 
         </motion.section>
-    );
+
+            );
+
 }
 
 export default About;

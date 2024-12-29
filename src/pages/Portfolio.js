@@ -79,7 +79,13 @@ function Portfolio() {
 
 
     return (
-        <>
+        <motion.section
+            id="about"
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            transition={{duration: 1}}
+            style={{padding: '2rem', textAlign: 'center', backgroundColor: 'tan'}}
+        >
             <Helmet>
                 <title>{t('portfolio.title')}</title>
                 <meta name="description" content={t('portfolio.description')}/>
@@ -139,7 +145,7 @@ function Portfolio() {
 
             <div data-aos="flip-right">
 
-                <h2 style={{ padding: '2rem', textAlign: 'center' }}>{t('portfolio.title')}</h2>
+                <h2 style={{padding: '2rem', textAlign: 'center'}}>{t('portfolio.title')}</h2>
                 {/* <p>{t('portfolio.description')}</p>*/}
                 <motion.div
                     style={{display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap'}}
@@ -182,9 +188,9 @@ function Portfolio() {
                     </div>
                 </motion.div>
             </div>
-        </>
-            );
-            }
+        </motion.section>
+    );
+}
 
 
-            export default Portfolio;
+export default Portfolio;
