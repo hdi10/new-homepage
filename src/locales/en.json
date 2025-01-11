@@ -122,6 +122,7 @@
     }
   },
   "data_protection": {
+    "title": "Data",
     "responsible": "Zelkulon UG (haftungsbeschränkt), Wermuthweg 7, 0176-22812332, hdastekin@gmail.com",
     "data_usage": {
       "website_visit": "When you visit our website, information is automatically sent by the browser used on your device to the server of our website. This information is temporarily stored in a so-called log file. The following information is recorded without your intervention and stored until it is automatically deleted: The IP address of the requesting computer, Date and time of access, Name and URL of the retrieved file, Website from which access is made (referrer URL), Browser used and, if applicable, the operating system of your computer as well as the name of your access provider. The data mentioned is processed by us for the following purposes: Ensuring a smooth connection setup of the website, Ensuring comfortable use of our website, Evaluation of system security and stability, and For further administrative purposes. The legal basis for data processing is Art. 6 para. 1 lit. f GDPR. Our legitimate interest follows from the purposes for data collection listed above. Under no circumstances do we use the collected data for the purpose of drawing conclusions about your person.",

@@ -22,6 +22,7 @@ const LoginForm = ({ setToken }) => {
 
             // Erfolgreiche Weiterleitung
             navigate('/dashboard'); // Zielseite nach Login
+
         } catch (err) {
             console.error(err);
             setError(err.message || 'An error occurred');
