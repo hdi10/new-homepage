@@ -108,7 +108,7 @@ function Home() {
                 </div>
             )}
 
-            <section id="home" style={{ padding: '2rem', textAlign: 'center'  }}>
+            <section id="home" style={{ padding: '2rem', textAlign: 'center' }}>
                 <div data-aos="zoom-in">
                     <h2>{t('home.welcome')}</h2>
                     <motion.div
@@ -117,7 +117,7 @@ function Home() {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5, duration: 1 }}
                     >
-                        <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: '#ffdfbf' }}>
+                        <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: 'whitesmoke' }}>
                             {t('home.services')}
 
 
@@ -130,7 +130,7 @@ function Home() {
                             <p className={'blogCards'}>{t('home.service4.title')}</p>
                             <p className={'blogCards'}>{t('home.service5.title')}</p>
                         </div>
-                        <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: '#ffdfbf' }}>
+                        <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: 'whitesmoke' }}>
                             {t('home.blog')}
                             <p className={'blogCards'}>{t('home.blog1.title')}</p>
                             <p className={'blogCards'}>{t('home.blog2.title')}</p>
