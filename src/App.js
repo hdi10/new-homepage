@@ -11,6 +11,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import DataProtection from "./pages/DataProtection";
 import LoginForm from "./components/LoginForm";
 
+import Dashboard from "./pages/Dashboard";
+
 function App() {
   return (
       <Router>
@@ -30,6 +32,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/data_protection" element={<DataProtection/>}/>
             <Route path="/auth" element={<LoginForm />} />
+            <Route path="/dashboard" element={<Dashboard/>}/>
           </Routes>
           {/* Toast Container für Benachrichtigungen */}
           <ToastContainer />
