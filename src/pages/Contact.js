@@ -52,7 +52,7 @@ function Contact() {
     };
 
     return (
-        <section style={{ padding: '2rem', textAlign: 'center' }}>
+        <section style={{ padding: '2rem', textAlign: 'center', backgroundColor:"tan" }}>
             <h2>Contact Us</h2>
 
             {/* Cookie-Banner */}

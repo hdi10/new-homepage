@@ -2,8 +2,9 @@ import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {toast} from "react-toastify";
+
 // Importiere das Bild
-import japaneseMatrix from '../assets/japaneseMatrix.jpeg';
+// import japaneseMatrix from '../assets/japaneseMatrix.jpeg';
 
 window.addEventListener('scroll', () => {
     const header = document.querySelector('header');
@@ -69,7 +70,8 @@ function Header() {
         <header
             className={isHidden ? 'hidden' : ''}
             style={{
-                background: `url(${japaneseMatrix}) center/cover no-repeat`,
+                // background: `url(${japaneseMatrix}) center/cover no-repeat`,
+                backgroundColor: '#A67B5B',
                 color: '#fff',
                 padding: '1rem',
                 textAlign: 'center',
@@ -82,10 +84,10 @@ function Header() {
           <h2 className="header-title">Zelkulon</h2>
             <nav>
                 <Link to="/" style={{ margin: '0 10px', color: '#fff' }}>{t('header.home')}</Link>
-                <Link to="/portfolio" style={{ margin: '0 10px', color: '#fff' }}>{t('header.portfolio')}</Link>
-                <Link to="/contact" style={{ margin: '0 10px', color: '#fff' }}>{t('header.contact')}</Link>
-                <Link to="/about" style={{ margin: '0 10px', color: '#fff' }}>{t('header.about')}</Link>
-                <Link to="/data_protection" style={{ margin: "0 10px", color: '#fff' }}>{t("header.data_protection")}</Link>
+                <Link to="/Portfolio" style={{ margin: '0 10px', color: '#fff' }}>{t('header.portfolio')}</Link>
+                <Link to="/Contact" style={{ margin: '0 10px', color: '#fff' }}>{t('header.contact')}</Link>
+                <Link to="/About" style={{ margin: '0 10px', color: '#fff' }}>{t('header.about')}</Link>
+                <Link to="/DataProtection" style={{ margin: "0 10px", color: '#fff' }}>{t("header.data_protection")}</Link>
             </nav>
             <div className="language-switcher">
                 <button onClick={() => switchLanguage('en')}>EN</button>

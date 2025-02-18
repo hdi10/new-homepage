@@ -19,7 +19,7 @@ function DataProtection() {
     };
 
     return (
-        <section id="data_protection" style={{ padding: '2rem', textAlign: 'center' }}>
+        <section id="data_protection" style={{ padding: '2rem', textAlign: 'center', backgroundColor:'tan' }}>
             <Helmet>
                 <title>{t('data_protection.title')}</title>
                 <meta name="description" content={t('home.description')} />

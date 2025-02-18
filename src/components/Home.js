@@ -39,7 +39,7 @@ function Home() {
     };
 
 
-    const fetchBlogByID = async () => {
+/*    const fetchBlogByID = async () => {
         try {
             const response = await axios.get('https://zelkulonmicroservice-myproject-1df345e27274.herokuapp.com/blogs/1'); // Heroku URL
             setBlogs(response.data);
@@ -47,7 +47,7 @@ function Home() {
         } catch (err) {
             setError('Fehler beim Abrufen der Blogs: ' + err.message); // Fehlerstatus setzen
         }
-    };
+    };*/
 
     return (
         <>
@@ -108,7 +108,7 @@ function Home() {
                 </div>
             )}
 
-            <section id="home" style={{ padding: '2rem', textAlign: 'center' }}>
+            <section id="home" style={{ padding: '2rem', textAlign: 'center', backgroundColor:"tan" }}>
                 <div data-aos="zoom-in">
                     <h2>{t('home.welcome')}</h2>
                     <motion.div
