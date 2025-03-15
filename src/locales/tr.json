@@ -129,5 +129,21 @@
       "cookies": "Web sitemiz çerezler kullanmaktadır. Çerezler, tarayıcınız tarafından otomatik olarak oluşturulan ve cihazınıza kaydedilen küçük dosyalardır. Çerezler cihazınıza zarar vermez, virüs, Truva atı veya başka zararlı yazılımlar içermez. Çerezlerde, kullanılan belirli cihaz bağlamındaki bilgiler saklanır. Ancak, bu durum kimliğiniz hakkında doğrudan bilgi edinmemizi sağlamaz. Çerezlerin kullanımı, bir yandan teklifimizin kullanımını sizin için daha keyifli hale getirmek içindir. Örneğin, belirli sayfaları zaten ziyaret ettiğinizi tanımak için oturum çerezleri kullanıyoruz. Bu çerezler, sitemizden ayrıldıktan sonra otomatik olarak silinir. Bunun yanı sıra, kullanıcı dostluğunu optimize etmek için belirli bir süre boyunca cihazınızda saklanan geçici çerezler kullanıyoruz. Tekrar sitemizi ziyaret ettiğinizde, daha önce bizde olduğunuz ve hangi girişleri ve ayarları yaptığınız otomatik olarak tanınır, böylece bunları tekrar girmeniz gerekmez. Çerezler tarafından işlenen veriler, yukarıda belirtilen amaçlar için GDPR'nin 6. maddesinin 1. fıkrasının f bendine uygun olarak, bizim ve üçüncü tarafların meşru menfaatlerini korumak için gereklidir. Tarayıcı ayarlarınızı, cihazınıza çerez kaydedilmesini engelleyecek veya yeni bir çerez oluşturulmadan önce her zaman bir uyarı gösterilecek şekilde yapılandırabilirsiniz. Ancak, çerezlerin tamamen devre dışı bırakılması, web sitemizin tüm işlevlerinden yararlanamamanıza neden olabilir."
     },
     "rights": "Haklarınız: GDPR'nin 15. maddesi uyarınca işlediğimiz kişisel verileriniz hakkında bilgi talep etme; GDPR'nin 16. maddesi uyarınca saklanan kişisel verilerinizin düzeltilmesini veya tamamlanmasını talep etme; GDPR'nin 17. maddesi uyarınca saklanan kişisel verilerinizin silinmesini talep etme, işleme yasal bir yükümlülüğün yerine getirilmesi için gerekli olmadıkça; GDPR'nin 18. maddesi uyarınca kişisel verilerinizin işlenmesinin kısıtlanmasını talep etme; GDPR'nin 20. maddesi uyarınca bize sağladığınız kişisel verilerinizi yapılandırılmış, yaygın olarak kullanılan ve makine tarafından okunabilir bir formatta alma veya başka bir sorumluya iletilmesini talep etme; GDPR'nin 7. maddesinin 3. fıkrası uyarınca bir kez verdiğiniz izni herhangi bir zamanda iptal etme; GDPR'nin 77. maddesi uyarınca bir denetim otoritesine şikayette bulunma."
-  }
+  },
+  "privacyData": {
+    "title": "Gizlilik Politikası",
+    "responsible": "Zelkulon UG (haftungsbeschränkt), Wermuthweg 7, 0176-22812332, hdastekin@gmail.com",
+    "data_usage": {
+      "app_usage": "Uygulamayı kullanırken, cihaz bilgileri, kullanım verileri ve reklam kimlikleri gibi veriler otomatik olarak toplanır.",
+      "admob": "DestiWishWheel, reklam göstermek için Google AdMob'u kullanır. AdMob, cihaz kimliği, IP adresi ve reklam kimliği gibi verileri toplayabilir...",
+      "website_visit": "Web sitemizi ziyaret ettiğinizde, belirli bilgiler otomatik olarak sunucuya gönderilir ve geçici olarak saklanır...",
+      "contact": "Bize e-posta yoluyla ulaşırsanız, talebiniz ve iletişim bilgileriniz saklanır...",
+      "cookies": "Uygulamamız çerezler veya benzer teknolojiler kullanabilir..."
+    },
+    "rights": "Haklarınız arasında, GDPR uyarınca verilere erişim, düzeltme, silme ve işlemlere itiraz etme hakkı bulunmaktadır."
+  },
+  "responsibel": "Sorumlu kişi",
+  "data_usage": "Veri işleme",
+  "rights": "Haklar"
+
 }

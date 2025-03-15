@@ -77,6 +77,25 @@ function DataProtection() {
                         </article>
                     </section>
 
+                    <section style={contentStyle}>
+                        <header style={contentStyle}>
+                            <h1>{t('privacyData.title')}</h1>
+                        </header>
+                        <article>
+                            <h2>{t('responsibel')}</h2>
+                            <p>{t('privacyData.responsible')}</p>
+
+                            <h2>{t('data_usage')}</h2>
+                            <p>{t('privacyData.data_usage.app_usage')}</p>
+                            <p>{t('privacyData.data_usage.admob')}</p>
+                            <p>{t('privacyData.data_usage.website_visit')}</p>
+                            <p>{t('privacyData.data_usage.contact')}</p>
+                            <p>{t('privacyData.data_usage.cookies')}</p>
+
+                            <h2>{t('rights')}</h2>
+                            <p>{t('privacyData.rights')}</p>
+                        </article>
+                    </section>
 
                     {/*<div style={contentStyle}>
                         <h1>{t('data_protection.blog')}</h1>

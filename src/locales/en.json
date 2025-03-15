@@ -130,7 +130,23 @@
       "cookies": "Our website uses cookies. Cookies are small files that your browser automatically creates and that are stored on your device when you visit our site. Cookies do not harm your device, do not contain viruses, trojans, or other malicious software. In the cookie, information is stored that arises in each case in connection with the specific device used. However, this does not mean that we directly become aware of your identity. The use of cookies serves, on the one hand, to make the use of our offer more pleasant for you. For example, we use so-called session cookies to recognize that you have already visited individual pages of our website. These are automatically deleted after leaving our site. In addition, we also use temporary cookies to optimize user-friendliness, which are stored on your device for a specified period. If you visit our site again to use our services, it will automatically recognize that you have already been with us and what inputs and settings you have made so that you do not have to enter them again. The data processed by cookies is required for the purposes mentioned to safeguard our legitimate interests and those of third parties in accordance with Art. 6 para. 1 lit. f GDPR. You can configure your browser settings so that no cookies are stored on your computer or a notice always appears before a new cookie is created. However, the complete deactivation of cookies may mean that you cannot use all functions of our website."
     },
     "rights": "Your rights: Pursuant to Art. 15 GDPR, you have the right to request information about your personal data processed by us; Pursuant to Art. 16 GDPR, you have the right to request the correction or completion of your personal data stored by us; Pursuant to Art. 17 GDPR, you have the right to request the deletion of your personal data stored by us, unless the processing is necessary to comply with a legal obligation; Pursuant to Art. 18 GDPR, you have the right to request the restriction of processing your personal data; Pursuant to Art. 20 GDPR, you have the right to receive your personal data that you have provided to us in a structured, commonly used, and machine-readable format or to request its transfer to another controller; Pursuant to Art. 7 para. 3 GDPR, you have the right to revoke your consent at any time; Pursuant to Art. 77 GDPR, you have the right to lodge a complaint with a supervisory authority."
-  }
+  },
+  "privacyData": {
+    "title": "Privacy Policy",
+    "responsible": "Zelkulon UG (haftungsbeschränkt), Wermuthweg 7, 0176-22812332, hdastekin@gmail.com",
+    "data_usage": {
+      "app_usage": "When using the app, data such as device information, usage data, and advertising IDs are automatically collected.",
+      "admob": "DestiWishWheel uses Google AdMob to display advertisements. AdMob may collect data such as device ID, IP address, and advertising ID...",
+      "website_visit": "When visiting our website, certain information is automatically sent to the server and temporarily stored...",
+      "contact": "If you contact us via email, we store your request and contact details...",
+      "cookies": "Our app may use cookies or similar technologies..."
+    },
+    "rights": "Your rights include, among others, the right to access, rectify, delete, and object to processing in accordance with GDPR."
+  },
+  "responsibel": "Person responsible",
+  "data_usage": "Data processing",
+  "rights": "Rights"
+
 }
 
 
