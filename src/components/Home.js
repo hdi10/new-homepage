@@ -34,6 +34,7 @@ function Home() {
             setBlogs(response.data);
             setError(null);
         } catch (err) {
+            console.log("DB-Log! Fehler")
             setError('Fehler beim Abrufen der Blogs: ' + err.message); // Fehlerstatus setzen
         }
     };
@@ -56,6 +57,8 @@ function Home() {
                 <meta name="description" content={t('home.description')} />
             </Helmet>
 
+                ///////////////////////////////////////////////////////////////////
+                //////////////////////////////////////////////////////////////////
             {/* Cookie-Banner */}
             {showCookieBanner && (
                 <div
@@ -107,7 +110,8 @@ function Home() {
                     </div>
                 </div>
             )}
-
+            ///////////////////////////////////////////////////////////////////
+            //////////////////////////////////////////////////////////////////
             <section id="home" style={{ padding: '2rem', textAlign: 'center', backgroundColor:"tan" }}>
                 <div data-aos="zoom-in">
                     <h2>{t('home.welcome')}</h2>
@@ -120,15 +124,16 @@ function Home() {
                         <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: 'whitesmoke' }}>
                             {t('home.services')}
 
-
-
                             <p className={'blogCards'}>{t('home.service1.title')}</p>
 
-
                             <p className={'blogCards'}>{t('home.service2.title')}</p>
+
                             <p className={'blogCards'}>{t('home.service3.title')}</p>
+
                             <p className={'blogCards'}>{t('home.service4.title')}</p>
+
                             <p className={'blogCards'}>{t('home.service5.title')}</p>
+
                         </div>
                         <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: 'whitesmoke' }}>
                             {t('home.blog')}
@@ -159,7 +164,9 @@ function Home() {
                 </button>
 
                 {error && <p style={{ color: 'red' }}>{error}</p>}
-
+                ////////////////////////////////////////////////////////////////////
+                ///////////////////////////////////////////////////////////////////
+                //////////////////////////////////////////////////////////////////
                 {blogs.length > 0 ? (
                     <div style={{ marginTop: '20px' }}>
                         {blogs.map((blog) => (
@@ -178,6 +185,9 @@ function Home() {
                 ) : (
                     <p style={{ marginTop: '20px' }}>{t('home.noBlogs')}</p>
                 )}
+                ////////////////////////////////////////////////////////////////////
+                ///////////////////////////////////////////////////////////////////
+                //////////////////////////////////////////////////////////////////
             </section>
         </>
     );
