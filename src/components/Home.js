@@ -2,13 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import axios from 'axios'; // Axios importieren
+import BlogGrid from '../components/BlogGrid';
 
 function Home() {
     const { t } = useTranslation();
     const [showCookieBanner, setShowCookieBanner] = useState(false);
-    const [blogs, setBlogs] = useState([]); // Blogs-Status hinzufügen
-    const [error, setError] = useState(null); // Fehlerstatus
 
     useEffect(() => {
         // Überprüfe, ob die Cookie-Einwilligung bereits vorhanden ist
@@ -28,28 +26,6 @@ function Home() {
         setShowCookieBanner(false);
     };
 
-    const fetchBlogs = async () => {
-        try {
-            const response = await axios.get('https://zelkulonmicroservice-myproject-1df345e27274.herokuapp.com/blogs'); // Heroku URL
-            setBlogs(response.data);
-            setError(null);
-        } catch (err) {
-            console.log("DB-Log! Fehler")
-            setError('Fehler beim Abrufen der Blogs: ' + err.message); // Fehlerstatus setzen
-        }
-    };
-
-
-/*    const fetchBlogByID = async () => {
-        try {
-            const response = await axios.get('https://zelkulonmicroservice-myproject-1df345e27274.herokuapp.com/blogs/1'); // Heroku URL
-            setBlogs(response.data);
-            setError(null);
-        } catch (err) {
-            setError('Fehler beim Abrufen der Blogs: ' + err.message); // Fehlerstatus setzen
-        }
-    };*/
-
     return (
         <>
             <Helmet>
@@ -57,8 +33,6 @@ function Home() {
                 <meta name="description" content={t('home.description')} />
             </Helmet>
 
-                ///////////////////////////////////////////////////////////////////
-                //////////////////////////////////////////////////////////////////
             {/* Cookie-Banner */}
             {showCookieBanner && (
                 <div
@@ -110,9 +84,8 @@ function Home() {
                     </div>
                 </div>
             )}
-            ///////////////////////////////////////////////////////////////////
-            //////////////////////////////////////////////////////////////////
-            <section id="home" style={{ padding: '2rem', textAlign: 'center', backgroundColor:"tan" }}>
+
+            <section id="home" style={{ padding: '2rem', textAlign: 'center', backgroundColor: "tan" }}>
                 <div data-aos="zoom-in">
                     <h2>{t('home.welcome')}</h2>
                     <motion.div
@@ -123,17 +96,11 @@ function Home() {
                     >
                         <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: 'whitesmoke' }}>
                             {t('home.services')}
-
                             <p className={'blogCards'}>{t('home.service1.title')}</p>
-
                             <p className={'blogCards'}>{t('home.service2.title')}</p>
-
                             <p className={'blogCards'}>{t('home.service3.title')}</p>
-
                             <p className={'blogCards'}>{t('home.service4.title')}</p>
-
                             <p className={'blogCards'}>{t('home.service5.title')}</p>
-
                         </div>
                         <div style={{ border: '1px solid #ddd', padding: '1rem', width: '200px', background: 'whitesmoke' }}>
                             {t('home.blog')}
@@ -147,47 +114,10 @@ function Home() {
                 </div>
             </section>
 
-            {/* Button und Blog-Anzeige */}
+            {/* BlogGrid für dynamische Blog-Anzeige */}
             <section id="blogs" style={{ padding: '2rem', textAlign: 'center' }}>
-                <button
-                    onClick={fetchBlogs}
-                    style={{
-                        padding: '0.5rem 1rem',
-                        background: '#007bff',
-                        color: '#fff',
-                        border: 'none',
-                        borderRadius: '5px',
-                        cursor: 'pointer',
-                    }}
-                >
-                    {t('home.fetchBlogs')}
-                </button>
-
-                {error && <p style={{ color: 'red' }}>{error}</p>}
-                ////////////////////////////////////////////////////////////////////
-                ///////////////////////////////////////////////////////////////////
-                //////////////////////////////////////////////////////////////////
-                {blogs.length > 0 ? (
-                    <div style={{ marginTop: '20px' }}>
-                        {blogs.map((blog) => (
-                            <div key={blog.id} style={{border: '1px solid #ddd', margin: '10px', padding: '10px'}}>
-                                <h3>{blog.title}</h3>
-                                <p>{blog.id}</p>
-
-                                <p>{blog.artist}</p>
-                                <p>{blog.location}</p>
-                                <p>{blog.timestamp}</p>
-
-
-                            </div>
-                        ))}
-                    </div>
-                ) : (
-                    <p style={{ marginTop: '20px' }}>{t('home.noBlogs')}</p>
-                )}
-                ////////////////////////////////////////////////////////////////////
-                ///////////////////////////////////////////////////////////////////
-                //////////////////////////////////////////////////////////////////
+                <h2>{t('home.blog')}</h2>
+                <BlogGrid />
             </section>
         </>
     );
