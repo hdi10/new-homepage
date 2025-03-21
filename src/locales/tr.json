@@ -19,45 +19,45 @@
     "welcome": "Hizmetlerimiz",
     "services": "Hizmetler",
     "service1": {
-      "title": "Yazılım uygulaması geliştirme",
-      "description": ""
+      "title": "Yazılım Uygulaması Geliştirme",
+      "description": "Web, Android ve iOS için özelleştirilmiş yazılım çözümleri geliştiriyoruz. Odak noktamız kullanıcı dostu olma, performans ve ölçeklenebilirliktir. İster basit uygulamalar ister karmaşık sistemler olsun - fikir aşamasından sürüm aşamasına kadar size eşlik ediyoruz."
     },
     "service2": {
-      "title": "ISTQB standardına göre test",
-      "description": ""
+      "title": "Testing according to ISTQB standard",
+      "description": "Test prosedürlerimiz uluslararası kabul görmüş ISTQB standardına dayanmaktadır. Planlama ve yürütmeden dokümantasyona kadar yazılımınızın kalitesini sağlamak için manuel ve otomatik testler sunuyoruz."
     },
     "service3": {
-      "title": "Apple App Store ve Google Play Store için Satış ve Geliştirme",
-      "description": ""
+      "title": "Apple App Store ve Google Play Store için satış ve geliştirme",
+      "description": "Tasarım, geliştirme, test, mağaza optimizasyonu ve yayın dahil olmak üzere uygulama fikrinizin tüm uygulamasıyla ilgileniyoruz. Her iki platform için de yönergeleri, hedef grupları ve pazarlama stratejilerini dikkate alıyoruz."
     },
     "service4": {
       "title": "BT danışmanlığı ve kalite güvencesi",
-      "description": ""
+      "description": "BT projeleri konusunda size tavsiyelerde bulunuyor, sürdürülebilir ve verimli çözümlere özel önem veriyoruz. Kalite güvencemiz, yazılımınızın istikrarlı, güvenli ve geleceğe dönük kalmasını sağlar."
     },
     "service5": {
-      "title": "BT ve yazılım alanlarında eğitim kursları, atölye çalışmaları ve seminerler",
-      "description": ""
+      "title": "IT ve yazılım alanlarında eğitim kursları, atölye çalışmaları ve seminerler",
+      "description": "Yeni başlayanlardan ileri düzey kullanıcılara kadar pratik eğitim kursları sunuyoruz. Programlama, test, uygulama geliştirme veya bireysel BT konuları olsun - formatlarımız esnektir ve ihtiyaçlarınıza göre uyarlanır."
     },
     "blog": "Blog",
     "blog1": {
-      "title": "Pano görselleştirme Esp32-CAM",
-      "description": ""
+      "title": "Dashboard visualisation Esp32-CAM",
+      "description": "ESP32-CAM modülü ile Grafana panosuna canlı görüntüler nasıl getirilir - veri entegrasyonu, Node-RED bağlantısı ve bina gözetimi veya ev otomasyonundaki uygulama senaryoları dahil."
     },
     "blog2": {
-      "title": "Spotify canlı izleme ve oynatmalarınızın Spotify arşivlemesi.",
-      "description": ""
+      "title": "Spotify canlı izleme ve Spotify arşivleme.",
+      "description": "Spotify dinleme alışkanlıklarınızı gerçek zamanlı olarak izleyen, analiz eden ve arşivleyen bir sistem. Kendi akış davranışları hakkında daha fazla bilgi edinmek isteyen müzik severler için ideal."
     },
     "blog3": {
-      "title": "Çarkıfelek Simülasyonu --> Tim Tool tarafından hazırlanan Everyydaytooltip.",
-      "description": ""
+      "title": "Çarkıfelek Simülasyonu --&gt;Tim Tool'dan Everydaytooltip.",
+      "description": "Etkileşimli öğeler içeren mizahi bir çarkıfelek simülasyonu. 'Tim Tool' gibi günlük bilgelik ve karar verme yardımcıları içeren araç ipucu uzantısı dahil."
     },
     "blog4": {
-      "title": "Haritalar Uygulaması En son nerede yürüdüm",
-      "description": ""
+      "title": "Map app Where did I run last time",
+      "description": "Rotalarınızı bir harita üzerinde görselleştirmek için takip uygulaması. Yürüyüş, koşu veya günlük hayattaki hareketlerinizi takip etmek için idealdir."
     },
     "blog5": {
-      "title": "SafetyButton uygulaması veya haftalık planlayıcı uygulaması olarak zaman takibi --> ERP tabanlı?",
-      "description": ""
+      "title": "SafetyButton uygulaması veya haftalık planlayıcı uygulaması olarak zaman takibi --&gt; ERP tabanlı?",
+      "description": "Günlük yaşamda dijital bir arkadaş olarak hizmet veren bir uygulama: zaman takibi, haftalık planlama ve acil durumlar için bir güvenlik düğmesi. Serbest çalışanlar ve küçük ekipler için ERP benzeri işlevsellik ile tasarlanmıştır."
     }
   },
   "portfolio": {

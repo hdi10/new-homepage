@@ -19,45 +19,45 @@
     "welcome": "Our services",
     "services": "Services",
     "service1": {
-      "title": "Software app development",
-      "description": ""
+      "title": "Software App Development",
+      "description": "We develop customised software solutions for web, Android and iOS. Our focus is on user-friendliness, performance and scalability. Whether simple applications or complex systems - we accompany you from the idea to the release."
     },
     "service2": {
-      "title": "Distribution and development for Apple App Store and Google Play Store",
-      "description": ""
+      "title": "Testing according to ISTQB standard",
+      "description": "Our test procedures are based on the internationally recognised ISTQB standard. We offer manual and automated tests to ensure the quality of your software - from planning and execution to documentation."
     },
     "service3": {
-      "title": "Testing to ISTQB standard",
-      "description": ""
+      "title": "Sales and development for Apple App Store and Google Play Store",
+      "description": "We take care of the entire implementation of your app idea - including design, development, testing, store optimisation and publication. We take into account guidelines, target groups and marketing strategies for both platforms."
     },
     "service4": {
       "title": "IT consulting and quality assurance",
-      "description": ""
+      "description": "We advise you on IT projects and attach particular importance to sustainable and efficient solutions. Our quality assurance ensures that your software remains stable, secure and future-proof."
     },
     "service5": {
       "title": "Training courses, workshops and seminars in the areas of IT and software",
-      "description": ""
+      "description": "We offer practical training courses for beginners to advanced users. Whether programming, testing, app development or individual IT topics - our formats are flexible and tailored to your needs."
     },
     "blog": "Blog",
     "blog1": {
-      "title": "Dashboard visualization Esp32-CAM",
-      "description": ""
+      "title": "Dashboard Visualization Esp32-CAM",
+      "description": "How to bring live images to a Grafana dashboard with an ESP32-CAM module - including data integration, Node-RED connection and application scenarios in building surveillance or home automation."
     },
     "blog2": {
-      "title": "Spotify live tracking and Spotify archiving of your playback",
-      "description": ""
+      "title": "Spotify live tracking and Spotify archiving of your playback.",
+      "description": "A system that tracks, analyzes and archives your Spotify listening habits in real time. Ideal for music lovers who want to learn more about their own streaming behavior."
     },
     "blog3": {
-      "title": "Wheel of Fortune Simulation -->Everydaytooltip by Tim Tool.",
-      "description": ""
+      "title": "Wheel of Fortune Simulation --&gt;Everydaytooltip by Tim Tool.",
+      "description": "A humorous simulation of a wheel of fortune with interactive elements. Including tooltip extension with everyday wisdom and decision-making aids à la 'Tim Tool'."
     },
     "blog4": {
-      "title": "Maps App Where did I walk last time",
-      "description": ""
+      "title": "Map app Where did I run last time",
+      "description": "Tracking app to visualize your routes on a map. Ideal for walking, jogging or for keeping track of your movement in everyday life."
     },
     "blog5": {
-      "title": "TSafetyButton app or time tracking as weekly planner app --> ERP based?",
-      "description": ""
+      "title": "SafetyButton app or time tracking as a weekly planner app --&gt; ERP based?",
+      "description": "An app that serves as a digital companion in everyday life: time tracking, weekly planning and a safety button for emergencies. Designed with ERP-like functionality for freelancers and small teams."
     }
   },
   "portfolio": {

@@ -20,44 +20,44 @@
     "services": "Dienstleistungen",
     "service1": {
       "title": "Software App-Entwicklung",
-      "description": ""
+      "description": "Wir entwickeln maßgeschneiderte Softwarelösungen für Web, Android und iOS. Unser Fokus liegt auf Benutzerfreundlichkeit, Performance und Skalierbarkeit. Ob einfache Anwendungen oder komplexe Systeme – wir begleiten Sie von der Idee bis zur Veröffentlichung."
     },
     "service2": {
       "title": "Testing nach ISTQB-Standard",
-      "description": ""
+      "description": "Unsere Testverfahren basieren auf dem international anerkannten ISTQB-Standard. Wir bieten manuelle sowie automatisierte Tests, um die Qualität Ihrer Software sicherzustellen – von der Planung über die Durchführung bis zur Dokumentation."
     },
     "service3": {
       "title": "Vertrieb und Entwicklung für Apple App Store und Google Play Store",
-      "description": ""
+      "description": "Wir kümmern uns um die gesamte Umsetzung Ihrer App-Idee – inklusive Design, Entwicklung, Testing, Store-Optimierung und Veröffentlichung. Dabei berücksichtigen wir Richtlinien, Zielgruppen und Marketingstrategien für beide Plattformen."
     },
     "service4": {
       "title": "IT-Beratung und Qualitätssicherung",
-      "description": ""
+      "description": "Wir beraten Sie bei IT-Projekten und legen besonderen Wert auf nachhaltige und effiziente Lösungen. Unsere Qualitätssicherung stellt sicher, dass Ihre Software stabil, sicher und zukunftsfähig bleibt."
     },
     "service5": {
       "title": "Schulungen, Workshops und Seminare in den Bereichen IT- und Software",
-      "description": ""
+      "description": "Wir bieten praxisnahe Schulungen für Anfänger bis Fortgeschrittene. Ob Programmierung, Testing, App-Entwicklung oder individuelle IT-Themen – unsere Formate sind flexibel und auf Ihre Bedürfnisse abgestimmt."
     },
     "blog": "Blog",
     "blog1": {
       "title": "Dashboard Visualisierung Esp32-CAM",
-      "description": ""
+      "description": "Wie man mit einem ESP32-CAM Modul Livebilder auf ein Grafana-Dashboard bringt – inklusive Datenintegration, Node-RED-Anbindung und Anwendungsszenarien in der Gebäudeüberwachung oder Heimautomatisierung."
     },
     "blog2": {
       "title": "Spotify-Live-Tracking und Spotify-Archivierung Ihrer Wiedergabe.",
-      "description": ""
+      "description": "Ein System, das Ihre Spotify-Hörgewohnheiten in Echtzeit verfolgt, analysiert und archiviert. Ideal für Musikliebhaber, die mehr über ihr eigenes Streamingverhalten erfahren möchten."
     },
     "blog3": {
       "title": "Glücksrad-Simulation -->Everydaytooltip von Tim Tool.",
-      "description": ""
+      "description": "Eine humorvolle Simulation eines Glücksrads mit interaktiven Elementen. Inklusive Tooltip-Erweiterung mit Alltagsweisheiten und Entscheidungshilfen à la 'Tim Tool'."
     },
     "blog4": {
       "title": "Karten App Wo lang bin ich das letztemal gelaufen",
-      "description": ""
+      "description": "Tracking-App zur Visualisierung deiner zurückgelegten Routen auf einer Karte. Ideal zum Spazierengehen, Joggen oder für den Überblick über deine Bewegung im Alltag."
     },
     "blog5": {
       "title": "SafetyButton App oder Zeiterfassungs- als Wochenplaner-App --> ERP angelehnt?",
-      "description": ""
+      "description": "Eine App, die als digitaler Begleiter im Alltag dient: Zeiterfassung, Wochenplanung und ein Sicherheitsknopf für Notfälle. Konzipiert mit ERP-ähnlicher Funktionalität für Selbstständige und kleine Teams."
     }
   },
   "portfolio": {
