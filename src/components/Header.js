@@ -1,45 +1,37 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import {toast} from "react-toastify";
-
-// Importiere das Bild
-// import japaneseMatrix from '../assets/japaneseMatrix.jpeg';
-
-window.addEventListener('scroll', () => {
-    const header = document.querySelector('header');
-    if (window.scrollY > 50) {
-        header.classList.add('scrolled');
-    } else {
-        header.classList.remove('scrolled');
-    }
-});
+import { toast } from "react-toastify";
 
 function Header() {
     const { t, i18n } = useTranslation();
     const [isHidden, setIsHidden] = useState(false);
-    const [lastScrollY, setLastScrollY] = useState(0);
+    const [isAtTop, setIsAtTop] = useState(true);
+    const lastScrollY = useRef(0);
 
     useEffect(() => {
         const handleScroll = () => {
             const currentScrollY = window.scrollY;
 
-            if (currentScrollY > lastScrollY && currentScrollY > 50) {
-                setIsHidden(true); // Header verstecken, wenn nach unten gescrollt wird
+            if (currentScrollY <= 10) {
+                setIsHidden(false);  // Ganz oben => Header komplett einblenden
+                setIsAtTop(true);
             } else {
-                setIsHidden(false); // Header anzeigen, wenn nach oben gescrollt wird
+                setIsAtTop(false);
+
+                if (currentScrollY > lastScrollY.current) {
+                    setIsHidden(true); // Runter scrollen => Header ausblenden
+                }
             }
 
-            setLastScrollY(currentScrollY);
+            lastScrollY.current = currentScrollY;
         };
+
         window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, [lastScrollY]);
-
-        const switchLanguage = (lang) => {
+    const switchLanguage = (lang) => {
         i18n.changeLanguage(lang)
             .then(() => {
                 toast.success(`Language changed to ${lang.toUpperCase()}!`, {
@@ -67,28 +59,15 @@ function Header() {
     };
 
     return (
-        <header
-            className={isHidden ? 'hidden' : ''}
-            style={{
-                // background: `url(${japaneseMatrix}) center/cover no-repeat`,
-                backgroundColor: '#A67B5B',
-                color: '#fff',
-                padding: '1rem',
-                textAlign: 'center',
-                position: 'sticky',
-                top: 0,
-                zIndex: 1000,
-                transition: 'all 0.3s ease-in-out',
-            }}
-        >
-          <h2 className="header-title">Zelkulon</h2>
+        <header className={`${isHidden ? 'hidden' : ''} ${!isAtTop ? 'scrolled' : ''}`}>
+            <h2 className="header-title">Zelkulon</h2>
             <nav>
-                <Link to="/" style={{ margin: '0 10px', color: '#fff' }}>{t('header.home')}</Link>
-                <Link to="/Portfolio" style={{ margin: '0 10px', color: '#fff' }}>{t('header.portfolio')}</Link>
-                <Link to="/Contact" style={{ margin: '0 10px', color: '#fff' }}>{t('header.contact')}</Link>
-                <Link to="/About" style={{ margin: '0 10px', color: '#fff' }}>{t('header.about')}</Link>
-                <Link to="/DataProtection" style={{ margin: "0 10px", color: '#fff' }}>{t("header.data_protection")}</Link>
-                <Link to="/Dashboard" style={{ margin: '0 10px', color: '#fff' }}>{t("header.dashboard")}</Link>
+                <Link to="/" className="nav-link">{t('header.home')}</Link>
+                <Link to="/Portfolio" className="nav-link">{t('header.portfolio')}</Link>
+                <Link to="/Contact" className="nav-link">{t('header.contact')}</Link>
+                <Link to="/About" className="nav-link">{t('header.about')}</Link>
+                <Link to="/DataProtection" className="nav-link">{t("header.data_protection")}</Link>
+                <Link to="/Dashboard" className="nav-link">{t("header.dashboard")}</Link>
             </nav>
             <div className="language-switcher">
                 <button onClick={() => switchLanguage('en')}>EN</button>

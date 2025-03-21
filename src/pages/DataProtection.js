@@ -40,9 +40,9 @@ function DataProtection() {
                 >
 
                     <section style={contentStyle}>
-                        <header style={contentStyle}>
+                        <header1 style={contentStyle}>
                             <h1>{t('imprint.contact.name')}</h1>
-                        </header>
+                        </header1>
                         <address>
                             <p>{t('imprint.contact.address')}</p>
                             <p>{t('imprint.contact.phone')}</p>
@@ -66,9 +66,9 @@ function DataProtection() {
                         </section>
                     </section>
                     <section style={contentStyle}>
-                        <header style={contentStyle}>
+                        <p style={contentStyle}>
                             <h1>{t('data_protection.responsible')}</h1>
-                        </header>
+                        </p>
                         <article>
                             <p>{t('data_protection.data_usage.website_visit')}</p>
                             <p>{t('data_protection.data_usage.contact')}</p>
@@ -78,9 +78,9 @@ function DataProtection() {
                     </section>
 
                     <section style={contentStyle}>
-                        <header style={contentStyle}>
+                        <header2 style={contentStyle}>
                             <h1>{t('privacyData.title')}</h1>
-                        </header>
+                        </header2>
                         <article>
                             <h2>{t('responsibel')}</h2>
                             <p>{t('privacyData.responsible')}</p>
@@ -97,14 +97,14 @@ function DataProtection() {
                         </article>
                     </section>
 
-                    {/*<div style={contentStyle}>
-                        <h1>{t('data_protection.blog')}</h1>
+                    <div style={contentStyle}>
+                        <h1>Algemeines Impressum</h1>
                         <p>
                             <h2>Impressum</h2>
 
                             <h3> Angaben gemäß § 5 TMG:</h3>
                             <address>
-                                Written by <a href="mailto:hdastekin@gmail.com">Harun Dastekin</a>.<br/>
+                                Written by <a href="mailto:harun@zelkulon.cpm">Harun Dastekin</a>.<br/>
                                 <h1>Kontaktieren Sie uns:<br/></h1>
                                 Zelkulon UG(haftungsbeschränkt)<br/>
                                 Wermuthweg 7, 12353
@@ -121,7 +121,7 @@ function DataProtection() {
                             <p>Harun Dastekin</p>
                             <address>
                                 Telefon: 0176-22812332<br/>
-                                E-Mail: hdastekin@gmail.com<br/>
+                                E-Mail: harun@zelkulon.com<br/>
                                 Website: <a href={"https://www.dastekin.de"}>https://www.dastekin.de</a>
                             </address>
                             </p>
@@ -190,7 +190,7 @@ function DataProtection() {
                     </div>
                     <div style={contentStyle}>
                         <p>
-                        <h1>{t('data_protection.services')}</h1>
+                        <h1>Algemeiner Datenschutz</h1>
                         <p>
                             <h2> Datenschutz</h2>
                         </p>
@@ -205,7 +205,7 @@ function DataProtection() {
                             Zelkulon UG(haftungsbeschränkt)<br/>
                             Wermuthweg 7<br/>
                             0176-22812332<br/>
-                            hdastekin@gmail.com<br/>
+                            harun@zelkulon.com<br/>
                         </div>
                         <p>
                         <h3> Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck der
@@ -391,7 +391,7 @@ function DataProtection() {
 
                                 </p>
                         </p>
-                    </div>*/}
+                    </div>
                 </motion.div>
             </motion.div>
         </section>
