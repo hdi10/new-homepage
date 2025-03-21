@@ -116,18 +116,18 @@ function Contact() {
                 {() => (
                     <Form>
                         <div>
-                            <Field name="name" placeholder="Your Name" />
+                            <Field name="name" placeholder="Your Name" data-cy="contact-name"/>
                             <ErrorMessage name="name" component="div" />
                         </div>
                         <div>
-                            <Field name="email" type="email" placeholder="Your Email" />
+                            <Field name="email" type="email" placeholder="Your Email" data-cy="contact-email" />
                             <ErrorMessage name="email" component="div" />
                         </div>
                         <div>
-                            <Field name="message" as="textarea" placeholder="Your Message" />
+                            <Field name="message" as="textarea" placeholder="Your Message" data-cy="contact-message"/>
                             <ErrorMessage name="message" component="div" />
                         </div>
-                        <Button type="submit" variant="contained" color="primary">
+                        <Button type="submit" variant="contained" color="primary" >
                             Send
                         </Button>
                     </Form>

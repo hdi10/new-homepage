@@ -22,7 +22,7 @@ function Dashboard() {
     if (error) return <p style={{ color: 'red', textAlign: 'center' }}>{error}</p>;
 
     return (
-        <section className="p-8" style={ {padding: '2rem', textAlign: 'center', backgroundColor:'tan'}}>
+        <section   className="p-8" style={ {padding: '2rem', textAlign: 'center', backgroundColor:'tan'}}>
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -30,7 +30,7 @@ function Dashboard() {
                 className="container mx-auto"
             >
                 <h2 className="text-3xl font-semibold text-center mb-8">Blog Dashboard</h2>
-                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', padding: '20px' }}>
+                <div data-cy="data-blog-grid" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', padding: '20px' }}>
                     {blogs.map(blog => (
                         <motion.div
                             key={blog.id}

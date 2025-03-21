@@ -21,7 +21,7 @@ const LoginForm = ({ setToken }) => {
             localStorage.setItem('token', data.token);
 
             // Erfolgreiche Weiterleitung
-            navigate('/dashboard'); // Zielseite nach Login
+            navigate('/Dashboard'); // Zielseite nach Login
 
         } catch (err) {
             console.error(err);
@@ -33,7 +33,7 @@ const LoginForm = ({ setToken }) => {
         <form onSubmit={handleSubmit}>
             <h2>Login</h2>
             {/* Fehlermeldung anzeigen */}
-            {error && <p style={{ color: 'red' }}>{error}</p>}
+            {error && <p data-cy="login-error" style={{ color: 'red' }}>{error}</p>}
             <div>
                 <label>Username:</label>
                 <input
@@ -41,6 +41,7 @@ const LoginForm = ({ setToken }) => {
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     required
+                    data-cy="login-username"
                 />
             </div>
             <div>
@@ -50,9 +51,10 @@ const LoginForm = ({ setToken }) => {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required
+                    data-cy="login-password"
                 />
             </div>
-            <button type="submit">Login</button>
+            <button type="submit" data-cy="login-submit">Login</button>
         </form>
     );
 };
