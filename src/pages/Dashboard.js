@@ -22,7 +22,7 @@ function Dashboard() {
     if (error) return <p style={{ color: 'red', textAlign: 'center' }}>{error}</p>;
 
     return (
-        <section className="p-8">
+        <section className="p-8" style={ {padding: '2rem', textAlign: 'center', backgroundColor:'tan'}}>
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
