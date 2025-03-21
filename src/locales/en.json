@@ -5,7 +5,8 @@
     "portfolio": "Portfolio",
     "about": "About Us",
     "contact": "Contact",
-    "data_protection": "Privacy Policy"
+    "data_protection": "Privacy Policy",
+    "dashboard": "Dashboard"
   },
   "cookie": {
     "accept": "Accept cookies",

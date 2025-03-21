@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import BlogGrid from '../components/BlogGrid';
+
 
 function Home() {
     const { t } = useTranslation();
@@ -114,11 +114,11 @@ function Home() {
                 </div>
             </section>
 
-            {/* BlogGrid für dynamische Blog-Anzeige */}
-            <section id="blogs" style={{ padding: '2rem', textAlign: 'center' }}>
-                <h2>{t('home.blog')}</h2>
-                <BlogGrid />
-            </section>
+            {/*/!* BlogGrid für dynamische Blog-Anzeige *!/*/}
+            {/*<section id="blogs" style={{ padding: '2rem', textAlign: 'center' }}>*/}
+            {/*    <h2>{t('home.blog')}</h2>*/}
+            {/*    <BlogGrid />*/}
+            {/*</section>*/}
         </>
     );
 }

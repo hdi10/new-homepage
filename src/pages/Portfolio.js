@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faLaptopCode, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faGooglePlay } from "@fortawesome/free-brands-svg-icons";
 import { useTranslation } from 'react-i18next';
 
 const projects = [
@@ -19,7 +20,7 @@ const projects = [
         icon: faLaptopCode,
         titleKey: 'portfolio.project2.title',
         descriptionKey: 'portfolio.project2.description',
-        repoLink: 'https://github.com/hdi10/TimeZelkulon',
+        repoLink: 'https://play.google.com/store/apps/details?id=de.dastekin.destiwishwheel',
         image1: "images/DestiWish/homescreen_desti.png",
         image2: "images/DestiWish/wheel2.png",
         image3: "images/DestiWish/endwheel.png"
@@ -184,6 +185,26 @@ function Portfolio() {
                                     <FontAwesomeIcon icon={project.icon} size="3x"/>
                                     <h3>{t(project.titleKey)}</h3>
                                     <p>{t(project.descriptionKey)}</p>
+
+                                    {/* Google Play Store Link */}
+                                    <a href={t(project.repoLink)} target="_blank" rel="noopener noreferrer"
+                                       style={{
+                                           display: 'inline-block',
+                                           backgroundColor: '#3DDC84',
+                                           color: '#fff',
+                                           padding: '10px 20px',
+                                           borderRadius: '5px',
+                                           textDecoration: 'none',
+                                           fontWeight: 'bold',
+                                           marginTop: '10px'
+                                       }}>
+
+
+                                        <FontAwesomeIcon icon={faGooglePlay} style={{ marginRight: '8px' }} />
+                                        {t("Download on Google Play")}
+                                    </a>
+
+
                                 </div>
                             </div>
                         ))}
