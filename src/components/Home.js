@@ -164,13 +164,18 @@ function Home() {
 
                         </div>
 
-                        <div style={{ border: '1px solid #ddd',
+                        <div style={{ display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            justifyContent: 'flex-start',
+                            border: '1px solid #ddd',
                             padding: '1rem',
                             width: '100%',
-                            maxWidth: '220px',
+                            maxWidth: '360px',
                             background: 'whitesmoke',
                             borderRadius: '8px',
-                            boxShadow: '0 2px 5px rgba(0,0,0,0.05)'
+                            boxShadow: '0 2px 5px rgba(0,0,0,0.05)',
+                            margin: '0 auto'
                         }}>
 
 
@@ -190,13 +195,18 @@ function Home() {
 
                         </div>
 
-                        <div style={{ border: '1px solid #ddd',
+                        <div style={{  display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            justifyContent: 'flex-start',
+                            border: '1px solid #ddd',
                             padding: '1rem',
                             width: '100%',
-                            maxWidth: '220px',
+                            maxWidth: '360px',
                             background: 'whitesmoke',
                             borderRadius: '8px',
-                            boxShadow: '0 2px 5px rgba(0,0,0,0.05)'
+                            boxShadow: '0 2px 5px rgba(0,0,0,0.05)',
+                            margin: '0 auto'
                         }}>
 
 
@@ -285,13 +295,18 @@ function Home() {
 
 
 
-                        <div style={{ border: '1px solid #ddd',
+                        <div style={{  display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            justifyContent: 'flex-start',
+                            border: '1px solid #ddd',
                             padding: '1rem',
                             width: '100%',
-                            maxWidth: '220px',
+                            maxWidth: '360px',
                             background: 'whitesmoke',
                             borderRadius: '8px',
-                            boxShadow: '0 2px 5px rgba(0,0,0,0.05)'
+                            boxShadow: '0 2px 5px rgba(0,0,0,0.05)',
+                            margin: '0 auto'
                         }}>
 
                             <p className={'blogCards'}>{t('home.service3.title')}</p>
@@ -314,34 +329,68 @@ function Home() {
 
                         </div>
 
-                        <div style={{ border: '1px solid #ddd',
+                        <div style={{  display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            justifyContent: 'flex-start',
+                            border: '1px solid #ddd',
                             padding: '1rem',
                             width: '100%',
-                            maxWidth: '220px',
+                            maxWidth: '360px',
                             background: 'whitesmoke',
                             borderRadius: '8px',
-                            boxShadow: '0 2px 5px rgba(0,0,0,0.05)'
+                            boxShadow: '0 2px 5px rgba(0,0,0,0.05)',
+                            margin: '0 auto'
                         }}>
 
 
                             <p className={'blogCards'}>{t('home.service4.title')}</p>
+
+                            <img
+                                src="/images/ITBeratung.gif"
+                                alt="Preview"
+                                style={{
+                                    width: '100%',
+                                    maxHeight: '200px',
+                                    objectFit: 'cover',
+                                    borderRadius: '4px',
+                                    marginBottom: '1rem'
+                                }}
+                            />
 
                             <p className={'blogCards'}>{t('home.service4.description')}</p>
 
 
                         </div>
 
-                        <div style={{ border: '1px solid #ddd',
+                        <div style={{  display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            justifyContent: 'flex-start',
+                            border: '1px solid #ddd',
                             padding: '1rem',
                             width: '100%',
-                            maxWidth: '220px',
+                            maxWidth: '360px',
                             background: 'whitesmoke',
                             borderRadius: '8px',
-                            boxShadow: '0 2px 5px rgba(0,0,0,0.05)'
+                            boxShadow: '0 2px 5px rgba(0,0,0,0.05)',
+                            margin: '0 auto'
                         }}>
 
 
                             <p className={'blogCards'}>{t('home.service5.title')}</p>
+
+                            <img
+                                src="/images/ITWorkshop.gif"
+                                alt="Preview"
+                                style={{
+                                    width: '100%',
+                                    maxHeight: '200px',
+                                    objectFit: 'cover',
+                                    borderRadius: '4px',
+                                    marginBottom: '1rem'
+                                }}
+                            />
 
                             <p className={'blogCards'}>{t('home.service5.description')}</p>
 
