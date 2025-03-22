@@ -175,7 +175,17 @@ function Home() {
 
 
                             <p className={'blogCards'}>{t('home.blog3.title')}</p>
-
+                            <img
+                                src="/images/DestiWishWheel.gif"
+                                alt="Preview"
+                                style={{
+                                    width: '100%',
+                                    maxHeight: '200px',
+                                    objectFit: 'cover',
+                                    borderRadius: '4px',
+                                    marginBottom: '1rem'
+                                }}
+                            />
                             <p className={'blogCards'}>{t('home.blog3.description')}</p>
 
                         </div>
@@ -191,7 +201,17 @@ function Home() {
 
 
                             <p className={'blogCards'}>{t('home.blog4.title')}</p>
-
+                            <img
+                                src="/images/AntZelPathFinder.gif"
+                                alt="Preview"
+                                style={{
+                                    width: '100%',
+                                    maxHeight: '200px',
+                                    objectFit: 'cover',
+                                    borderRadius: '4px',
+                                    marginBottom: '1rem'
+                                }}
+                            />
                             <p className={'blogCards'}>{t('home.blog4.description')}</p>
 
                         </div>
@@ -275,6 +295,18 @@ function Home() {
                         }}>
 
                             <p className={'blogCards'}>{t('home.service3.title')}</p>
+
+                            <img
+                                src="/images/Playstoreready.gif"
+                                alt="Preview"
+                                style={{
+                                    width: '100%',
+                                    maxHeight: '200px',
+                                    objectFit: 'cover',
+                                    borderRadius: '4px',
+                                    marginBottom: '1rem'
+                                }}
+                            />
 
                             <p className={'blogCards'}>{t('home.service3.description')}</p>
 
