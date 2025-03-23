@@ -86,6 +86,29 @@
       "image": "./myWebsite.png"
     }
   },
+
+  "pricing": {
+
+      "heading": "Bağlayıcı olmayan fiyat sorgusu",
+      "description": "Yazılım projenize en uygun fiyat kategorisini seçin. İlk değerlendirme ve olası uygulama fikirleri ile size hemen geri döneceğiz.",
+      "toggle1": {
+        "title": "Küçük standart uygulamalar - 500 €’dan başlayan fiyatlarla",
+        "desc": "Basit araçlar, web uygulamaları veya açıkça tanımlanmış işlevlere sahip otomasyonlar için idealdir. Yeni başlayanlar veya ilk MVP'ler için mükemmeldir."
+      },
+      "toggle2": {
+        "title": "Kompakt yazılım çözümleri - 1.000 €’ya kadar",
+        "desc": "Bireysel gereksinimleri olan daha küçük projeler için, örneğin formlar, gösterge tabloları veya mini platformlar."
+      },
+      "toggle3": {
+        "title": "Özelleştirilmiş uygulamalar - 3.400 €’ya kadar",
+        "desc": "Veritabanı bağlantısı, kullanıcı yönetimi ve modern UI/UX ile özelleştirilmiş yazılımlar için uygundur."
+      },
+      "toggle0": {
+        "title": "Karmaşık yazılım projeleri - 4.900 €’dan başlayan fiyatlarla",
+        "desc": "Kapsamlı platformlar, API'ler, ölçeklenebilir arka uçlar, mobil uygulamalar için. Test ve kalite güvencesi dahil."
+      }
+
+  },
   "about": {
     "title": "Hakkımızda",
     "description": "Mikro servisler, mobil uygulamalar ve IoT çözümlerine odaklanan bir yazılım geliştirme şirketiyiz. Misyonumuz, yenilikçi ve yüksek kaliteli yazılım çözümleri sunmaktır.",
