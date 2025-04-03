@@ -12,6 +12,7 @@ import DataProtection from "./pages/DataProtection";
 import LoginForm from "./components/LoginForm";
 
 import Dashboard from "./pages/Dashboard";
+import Pricing from "./pages/Pricing";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path='/Pricing' element={<Pricing/>} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/DataProtection" element={<DataProtection/>}/>

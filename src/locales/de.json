@@ -3,6 +3,7 @@
     "title": "Unser Portfolio",
     "home": "Startseite",
     "portfolio": "Portfolio",
+    "pricing": "Preise",
     "about": "Über uns",
     "contact": "Kontakt",
     "data_protection": "Datenschutz",
@@ -85,6 +86,28 @@
       "description": "Eine responsive, mehrsprachige Website.",
       "image": "./myWebsite.png"
     }
+  },
+  "pricing": {
+
+      "heading": "Unverbindliche Preisanfrage",
+      "description": "Wählen Sie die Preiskategorie aus, die am besten zu Ihrem Softwareprojekt passt. Wir melden uns zeitnah mit einer ersten Einschätzung und möglichen Umsetzungsideen.",
+      "toggle1": {
+        "title": "Kleine Standard-Anwendungen – ab 500 €",
+        "desc": "Ideal für einfache Tools, Web-Apps oder Automatisierungen mit klar definiertem Funktionsumfang. Perfekt für Startups oder erste MVPs."
+      },
+      "toggle2": {
+        "title": "Kompakte Softwarelösungen – bis 1.000 €",
+        "desc": "Für kleinere Projekte mit individuellen Anforderungen, z. B. Formulare, Dashboards oder Mini-Plattformen."
+      },
+      "toggle3": {
+        "title": "Individuelle Anwendungen – bis 3.400 €",
+        "desc": "Geeignet für maßgeschneiderte Software mit Datenbankanbindung, Benutzerverwaltung und moderner UI/UX."
+      },
+      "toggle0": {
+        "title": "Komplexe Softwareprojekte – ab 4.900 €",
+        "desc": "Für umfangreiche Plattformen, APIs, skalierbare Backends, mobile Apps. Inklusive Testing und Qualitätssicherung."
+      }
+
   },
   "about": {
     "title": "Über uns",
