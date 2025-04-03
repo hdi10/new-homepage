@@ -32,7 +32,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/DataProtection" element={<DataProtection/>}/>
             <Route path="/auth" element={<LoginForm />} />
-            <Route path="/dashboard" element={<Dashboard/>}/>
+            {/*<Route path="/dashboard" element={<Dashboard/>}/>*/}
           </Routes>
           {/* Toast Container für Benachrichtigungen */}
           <ToastContainer />

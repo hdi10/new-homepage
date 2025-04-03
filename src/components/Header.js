@@ -67,7 +67,7 @@ function Header() {
                 <Link to="/Contact" className="nav-link">{t('header.contact')}</Link>
                 <Link to="/About" className="nav-link">{t('header.about')}</Link>
                 <Link to="/DataProtection" className="nav-link">{t("header.data_protection")}</Link>
-                <Link to="/Dashboard" className="nav-link">{t("header.dashboard")}</Link>
+                {/*<Link to="/Dashboard" className="nav-link">{t("header.dashboard")}</Link>*/}
             </nav>
             <div className="language-switcher">
                 <button onClick={() => switchLanguage('en')}>EN</button>
