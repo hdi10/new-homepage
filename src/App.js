@@ -16,30 +16,30 @@ import Pricing from "./pages/Pricing";
 
 function App() {
   return (
-      <Router>
-        <div>
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>Zelkulon</title>
-            <meta name="description" content="Softwareentwicklung und Testing." />
-            <meta name="keywords" content="Portfolio, Web Development, React, Android, Mobile Apps, Component Based Development" />
-            <meta name="author" content="Zelkulon UG(haftungsbeschränkt)" />
-          </Helmet>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path='/Pricing' element={<Pricing/>} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/DataProtection" element={<DataProtection/>}/>
-            <Route path="/auth" element={<LoginForm />} />
-            {/*<Route path="/dashboard" element={<Dashboard/>}/>*/}
-          </Routes>
-          {/* Toast Container für Benachrichtigungen */}
-          <ToastContainer />
-        </div>
-      </Router>
+    <Router>
+      <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Zelkulon</title>
+          <meta name="description" content="Softwareentwicklung und Testing." />
+          <meta name="keywords" content="Portfolio, Web Development, React, Android, Mobile Apps, Component Based Development" />
+          <meta name="author" content="Zelkulon UG(haftungsbeschränkt)" />
+        </Helmet>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          {/* <Route path='/Pricing' element={<Pricing/>} /> */}
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/DataProtection" element={<DataProtection />} />
+          <Route path="/auth" element={<LoginForm />} />
+          {/*<Route path="/dashboard" element={<Dashboard/>}/>*/}
+        </Routes>
+        {/* Toast Container für Benachrichtigungen */}
+        <ToastContainer />
+      </div>
+    </Router>
   );
 }
 
