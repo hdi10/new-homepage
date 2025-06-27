@@ -69,6 +69,7 @@
     ]
   },
   "devDependencies": {
+    "@playwright/test": "^1.53.1",
     "cypress": "^14.2.0"
   }
 }
