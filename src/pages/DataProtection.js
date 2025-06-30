@@ -47,7 +47,7 @@ function DataProtection() {
                             <p>{t('imprint.contact.address')}</p>
                             <p>{t('imprint.contact.phone')}</p>
                             <p>
-                                <a href={`mailto:${t('imprint.contact.email')}`}>
+                                <a href={`mailto:${t('imprint.contact.email')}`}   data-testid="myMail">
                                     {t('imprint.contact.email')}
                                 </a>
                             </p>
@@ -122,7 +122,7 @@ function DataProtection() {
                             <address>
                                 Telefon: 0176-22812332<br/>
                                 E-Mail: harun@zelkulon.com<br/>
-                                Website: <a href={"https://www.dastekin.de"}>https://www.dastekin.de</a>
+                                Website: <a href={"https://www.dastekin.de"} data-testid="meineHomepage">https://www.dastekin.de</a>
                             </address>
                             </p>
                         <p>
