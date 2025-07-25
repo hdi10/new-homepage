@@ -1,0 +1,20 @@
+name: ESLint Check & Fix
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - run: npm ci
+
+      - run: npm install eslint@latest @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
+
+      - run: npx eslint . --ext .js,.ts --fix
+
